@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "last": "Buja",
+    "first": "Andreas",
+    "ins": "University of Pennsylvania",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 2,
+    "last": "Clyde",
+    "first": "Merlise",
+    "ins": "Duke University",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 3,
+    "last": "Dawid",
+    "first": "Philip",
+    "ins": "University of Cambridge",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 4,
+    "last": "Diebold",
+    "first": "Frank",
+    "ins": "University of Pennsylvania",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 5,
+    "last": "Donoho",
+    "first": "David",
+    "ins": "Stanford University",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 6,
+    "last": "Foster",
+    "first": "Dean",
+    "ins": "Amazon",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 7,
+    "last": "Johnstone",
+    "first": "Iain",
+    "ins": "Stanford University",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 8,
+    "last": "Reid",
+    "first": "Nancy",
+    "ins": "University of Toronto",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 9,
+    "last": "Robert",
+    "first": "Chris",
+    "ins": "Université Paris-Dauphine",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 10,
+    "last": "Rockova",
+    "first": "Veronika",
+    "ins": "University of Chicago",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 11,
+    "last": "Rousseau",
+    "first": "Judith",
+    "ins": "University of Oxford",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 12,
+    "last": "Samworth",
+    "first": "Richard",
+    "ins": "University of Cambridge",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 13,
+    "last": "Strawderman",
+    "first": "Bill",
+    "ins": "Rutgers University",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 14,
+    "last": "van der Vaart",
+    "first": "Aad",
+    "ins": "Leiden University",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 15,
+    "last": "Wasserman",
+    "first": "Larry",
+    "ins": "Carnegie Mellon University",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  },
+  {
+    "id": 16,
+    "last": "Xu",
+    "first": "Xinyi",
+    "ins": "Ohio State University",
+    "time": "",
+    "title": "",
+    "abstract": ""
+  }
+]
