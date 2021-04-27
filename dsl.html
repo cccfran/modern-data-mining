@@ -55,7 +55,7 @@ keywords: helium, jekyll, bootstrap, UI, kit
                   </div>
                   <div class="mb-60"></div>
                   <div class="row justify-content-center">
-                    <div class="col-4 col-md-6">
+                    <div class="col-10 col-md-6">
                       <h4 class="header-title animated fadeIn">5-7 pm</h4>
                       <h4 class="header-title animated fadeIn" style="margin-top:-5px">April 30 (Friday) 2021</h4>
                     </div>
@@ -78,13 +78,15 @@ keywords: helium, jekyll, bootstrap, UI, kit
 
     <div class="header-style-3">
         <div class="container">
-          <div class="row d-flex flex-wrap align-items-center">
-            <div class="col-xs-8 col-sm-4">
+          <div class="row d-flex flex-wrap justify-content-center">
+            <div class="col-10 col-sm-10 col-md-4">
+              <div class="hero-content-v2">
               <figure>
                 <img src="{{ BASE_PATH }}/assets/images/headshots/juan.png" alt="">
               </figure>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-8">
+            <div class="col-12 col-sm-12 col-md-8">
               <div class="hero-content-v2">
                 <h3>Keynote Speaker <strong>Juan M. Bear</strong></h3>
                 <p>
@@ -139,7 +141,7 @@ keywords: helium, jekyll, bootstrap, UI, kit
                         <div class="row">
                           <!-- Team Item Starts -->
                             {% for ppl in sp.speakers %}
-                          <div class="col-sm-2 col-md-2">
+                          <div class="col-4 col-sm-4 col-md-2">
                             <figure>
                               {% if ppl.pic == null %}
                               <img src="{{ BASE_PATH }}/assets/images/headshots/heart-pixel.png" alt="">
