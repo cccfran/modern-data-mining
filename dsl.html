@@ -1,11 +1,10 @@
 ---
 layout: index
-title: Modern Data Mining
-tagline: Modern Data Mining
+title: DSL
+tagline: Data Science Live
 css: 
 js: sliders.js
 keywords: helium, jekyll, bootstrap, UI, kit
-canonical: https://heliumjk.github.io
 ---
 {% include JB/setup %}
 <!-- Content Area Start -->
@@ -57,8 +56,8 @@ canonical: https://heliumjk.github.io
                   <div class="mb-60"></div>
                   <div class="row justify-content-center">
                     <div class="col-4 col-md-6">
-                      <h4 class="header-title animated fadeIn">5-7pm</h4>
-                      <h4 class="header-title animated fadeIn" style="margin-top:-5px">April 30, Friday, 2021</h4>
+                      <h4 class="header-title animated fadeIn">5-7 pm</h4>
+                      <h4 class="header-title animated fadeIn" style="margin-top:-5px">April 30 (Friday) 2021</h4>
                     </div>
                   </div>
                   <div class="mb-100"></div>
@@ -101,6 +100,7 @@ canonical: https://heliumjk.github.io
                   <li>Analysis: multiple analyses to inform product decisions using techniques such as factorial experimental design, clustering, change-point analysis, logistic regression, generalized additive models, Hidden Markov Models, synthetic label generation, attribution models, and transition probability matrices.</li>
                   <li>Privacy: Customer privacy is of utmost importance to Microsoft, that's why every data stored, analysis, and model complies with the latest privacy regulations such as GDPR.</li>
                 </ul>
+                <br>
                 <p>Juan lives in Washington with his wife, Maria, newborn daughter, Bernadette, and dog, Kiba.</p>
                 <br>
                 <div class="mb-100"></div>
@@ -121,7 +121,8 @@ canonical: https://heliumjk.github.io
         <div class="row justify-content-center">
           <div class="col-sm-10">
               <h4 class="title">&nbsp;</h4>
-              {% for sp in site.data.speakers %}
+              {% assign speakers = site.data.speakers | sort: 'id' %}
+              {% for sp in speakers %}
               <div class="panel-group">
                 <div class="panel">
                   <div class="panel-heading">
