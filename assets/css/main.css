@@ -249,6 +249,14 @@ strong {
 	margin-bottom: 100px
 }
 
+.mb-200 {
+	margin-bottom: 200px
+}
+
+.mb-300 {
+	margin-bottom: 300px
+}
+
 .space-right {
 	margin-right: 25px
 }
@@ -336,7 +344,7 @@ a:focus {
 
 
 #header-style-1 {
-	background-image: url(https://cccfran.github.io/modern-data-mining/assets/images/bg/dsl2021.jpg);
+	background-image: url(https://raw.githubusercontent.com/cccfran/modern-data-mining/main/assets/images/bg/dsl2021.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
