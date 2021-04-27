@@ -51,19 +51,20 @@
     "id": 3,
     "speakers": [
       {
-        "name": "Alex Coble",
-        "class": "PhD",
+        "name": "Joe Moran",
+        "class": "PhD Acct 25",
         "pic": null,
-        "linkedin" : ""
+        "linkedin" : "https://www.linkedin.com/in/alex-coble-b42000122/"
       },
       {
-        "name": "Joe Moran",
-        "class": "PhD",
-        "pic": null
+        "name": "Alex Coble",
+        "class": "PhD Acct 25",
+        "pic": null,
+        "linkedin" : "https://www.linkedin.com/in/joe-moran-cpa-86916677/"
       }
     ],
     "time": "",
-    "title": "Real Effects of Disclosure: Evidence from Universities’ COVID-19 Dashboard",
+    "title": "Impact of Universities’ Online Covid-19 Dashboards on County Covid Cases",
     "abstract": "An important issue in accounting research is whether firms’ disclosures, or more broadly, information dissemination, have an impact on individuals’ behavior. One important source of information for college students during the COVID-19 pandemic has been their schools’ COVID-19 dashboards. It is common for schools to provide a live tracker containing information about case rates, testing, vaccinations, policies, etc. (Penn’s dashboard is linked here); these trackers are considered disclosures in the accounting field as they provide information to stakeholders about schools’ performance in fighting the pandemic. The question we seek to answer is: do schools’ disclosures via their COVID-19 dashboards have a real impact on COVID transmission rates?\n\nUsing HTML data scraped from schools’ COVID-19 dashboards over the Fall 2020 semester using the Wayback Machine, we will analyze changes in COVID transmission rates  (“case rates”) in schools’ counties during the week(s) following schools’ disclosures via their dashboards. We intend to use the rvest and xml2 packages to download and parse dashboards to generate measures of their content (e.g., number of words, number of HTML formatting tags, presence of multimedia, etc.); we will then predict changes in county-level case rate growth using changes in dashboard content. While we note our study will not have a causal interpretation, we intend to provide evidence supporting the hypothesis that schools’ disclosures have real effects by using a difference-in-differences design comparing counties with disclosing schools vs. counties without them, investigating cross-sectional differences in schools’ dashboard quality and their effect on case rate growth, and investigating schools’ change in disclosure behavior after receiving a dashboard rating from an external party and its effect on case growth."
   },
   {
