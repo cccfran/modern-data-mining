@@ -30,7 +30,7 @@
         "name": "Shaolong Wu",
         "class": "",
         "pic": null,
-        "linkedin" : ""
+        "linkedin" : null
       },
       {
         "name": "Yuzhou Lin",
@@ -98,18 +98,18 @@
     "id": 6,
     "speakers": [
       {
-        "name": "Jonathan Sun",
+        "name": "Ying Dai",
         "class": "",
         "pic": null,
         "linkedin" : ""
       },
       {
-        "name": "",
+        "name": "Jonathan Sun",
         "class": "",
         "pic": null
       },
       {
-        "name": "",
+        "name": "Jiayi Zhang",
         "class": "",
         "pic": null
       }
@@ -122,18 +122,13 @@
     "id": 7,
     "speakers": [
       {
-        "name": "Caroline",
+        "name": "Caroline Harrison",
         "class": "",
         "pic": null,
         "linkedin" : ""
       },
       {
         "name": "Yiran Chen",
-        "class": "",
-        "pic": null
-      },
-      {
-        "name": "",
         "class": "",
         "pic": null
       }
