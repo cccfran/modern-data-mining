@@ -245,6 +245,10 @@ strong {
 	margin-bottom: 60px
 }
 
+.mb-100 {
+	margin-bottom: 100px
+}
+
 .space-right {
 	margin-right: 25px
 }
@@ -332,7 +336,7 @@ a:focus {
 
 
 #header-style-1 {
-	background-image: url(https://cccfran.github.io/edgeorge70/assets/images/bg/hero-1-bg.jpg);
+	background-image: url(/assets/images/bg/hero-1-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -390,7 +394,8 @@ a:focus {
 .header-style-3 {
 	background: url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
 	background-size: cover;
-	padding-top: 80px
+	padding-top: 0px
+	padding-bottom: 100px
 }
 
 .header-style-3 .hero-content-v2 h3 {
@@ -398,7 +403,25 @@ a:focus {
 }
 
 .header-style-3 .hero-content-v2 p {
-	color: #fff
+	color: #fff;
+	text-align: justify;
+}
+
+.header-style-3 .hero-content-v2 li {
+	color: #fff;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0px;
+}
+
+.header-style-3 img {
+	height: auto;
+    width: 100%;
+}
+
+.header-style-3 figure {
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .section {
@@ -1865,7 +1888,28 @@ nav#menu span.fa.fa-bars:hover {
 
 .team-members-tow figure {
 	position: relative;
-	cursor: pointer
+	cursor: pointer;
+}
+
+.team-round img {
+ 	border-radius: 50%;
+}
+
+.team-members-tow .overlay-text .info-text-round strong {
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	margin-bottom: -5px
+}
+
+.team-members-tow .overlay-text .info-text-round span {
+	font-size: 12px;
+	font-weight: 400;
+	font-style: italic
+}
+
+.team-members-tow .overlay-text .small-divider-round {
+	margin-bottom: 0px;
 }
 
 .team-members-tow figure:hover .image-overlay {
@@ -1892,7 +1936,9 @@ nav#menu span.fa.fa-bars:hover {
 	transition: all 0.3s ease-in-out 0s;
 	-moz-transition: all 0.3s ease-in-out 0s;
 	-webkit-transition: all 0.3s ease-in-out 0s;
-	-o-transition: all 0.3s ease-in-out 0s
+	-o-transition: all 0.3s ease-in-out 0s;
+	  border-radius: 50%;
+
 }
 
 .team-members-tow .overlay-text {
@@ -2063,7 +2109,8 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .single-testimonial-area {
-	background-image: url(/assets/images/about/testimonial-bg.jpg);
+	/*background-image: url(/assets/images/about/testimonial-bg.jpg);*/
+	background-color: black;
 	background-size: cover;
 	padding: 60px 0
 }
