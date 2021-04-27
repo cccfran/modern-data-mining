@@ -336,7 +336,7 @@ a:focus {
 
 
 #header-style-1 {
-	background-image: url(/assets/images/bg/hero-1-bg.jpg);
+	background-image: url(https://cccfran.github.io/modern-data-mining/assets/images/bg/hero-1-bg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -392,7 +392,8 @@ a:focus {
 }
 
 .header-style-3 {
-	background: url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
+	/*background: url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;*/
+	background-color: #004785;
 	background-size: cover;
 	padding-top: 0px
 	padding-bottom: 100px
@@ -1899,7 +1900,7 @@ nav#menu span.fa.fa-bars:hover {
 	display: block;
 	font-size: 14px;
 	font-weight: 700;
-	margin-bottom: -5px
+	margin-bottom: -5px;
 }
 
 .team-members-tow .overlay-text .info-text-round span {
@@ -4119,13 +4120,18 @@ ul.nav-tabs li a {
 
 .panel-group .panel-heading {
 	padding: 15px;
-	background: #4da5e2
+	background: #a90533
 }
 
 .panel-group .panel-title {
 	font-size: 16px;
 	color: #fff;
 	font-weight: 700
+}
+
+.panel-group .panel-subtitle {
+	font-size: 16px;
+	color: #fff
 }
 
 .panel-group .panel-heading+.panel-collapse>.list-group,
