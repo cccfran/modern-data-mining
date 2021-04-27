@@ -120,15 +120,15 @@ canonical: https://heliumjk.github.io
       <!-- End facts 4 col -->
 
       <!-- testimonials slider -->
-    <div class="container">
+<!--     <div class="container">
       <h4 class="sub-title">Reviews</h4>
     </div>
 
     <div class="single-testimonial-area">
       <div class="container">
-        <div id="single-testimonial-item" class="owl-carousel">
+        <div id="single-testimonial-item" class="owl-carousel"> -->
           <!-- Single testimonial Item -->
-          <div class="item">
+          <!-- <div class="item">
             <div class="row justify-content-md-center">
               <div class="col-md-8 col-xs-12 col-md-auto">
                 <div class="testimonial-inner text-md-center">
@@ -149,104 +149,8 @@ canonical: https://heliumjk.github.io
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- end -->
-    <div class="header-style-3">
-        <div class="container">
-          <div class="row d-flex flex-wrap align-items-center">
-            <div class="col-xs-12 col-sm-4">
-              <figure>
-                <img src="{{ BASE_PATH }}/assets/images/headshots/juan.png" alt="">
-              </figure>
-            </div>
-            <div class="col-xs-12 col-sm-8">
-              <div class="hero-content-v2">
-                <h3>Keynote Speaker <strong>Juan M. Bear</strong></h3>
-                <p>
-                  Juan M. Bear is a Wharton MBA 2018 who majored in statistics and currently works as a Data Scientist in the Edge Team at Microsoft. Prior to Microsoft, Juan was a serial entrepreneur who co-founded technology companies in the telecom sector. He also worked as a banking analyst for Citigroup. Juan holds an Economics degree from Stanford.
-                </p>
-                <p>
-                  Microsoft Edge is the second largest Internet browser by market share. At Edge, Juan has worked on multiple analytics, data science, and machine learning projects to improve product quality and create great experiences for Edge's customers. Some of Juan's projects:
-                </p>
-                <ul>
-                  <li>Edge Collections: labeling pipeline and scoring for the machine learning algorithm that powers the feature.</li>
-                  <li>Product Quality: statistical process control and analysis on product attributes.</li>
-                  <li>Retention: data pipeline and labels for retention analysis.</li>
-                  <li>Analysis: multiple analyses to inform product decisions using techniques such as factorial experimental design, clustering, change-point analysis, logistic regression, generalized additive models, Hidden Markov Models, synthetic label generation, attribution models, and transition probability matrices.</li>
-                  <li>Privacy: Customer privacy is of utmost importance to Microsoft, that's why every data stored, analysis, and model complies with the latest privacy regulations such as GDPR.</li>
-                </ul>
-                <p>Juan lives in Washington with his wife, Maria, newborn daughter, Bernadette, and dog, Kiba.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- accordions -->
-      <div class="mb-60"></div>
-      <div class="container">
-      <h4 class="sub-title">Schedule</h4>
-      </div>
-      <div id="schedule" class="container">
-
-      <div class="col-sm-10">
-              <h4 class="sub-title">&nbsp;</h4>
-              {% for sp in site.data.speakers %}
-              <div class="panel-group tabbed">
-                <div class="panel">
-                  <div class="panel-heading">
-                    <a class="panel-title collapsed" data-toggle="collapse" href="#panel{{ sp.id }}">{{ sp.title }}</a>
-                    {% assign names = "" | split: ", " %}
-                    {% for ppl in sp.speakers %}
-                       {% assign names = names | push: ppl.name %}
-                    {% endfor %}
-                     <p>{{ names | array_to_sentence_string: '' }}</p>
-                  </div>
-                  <div id="panel{{ sp.id }}" class="panel-collapse">
-                    <div class="panel-body text-gray">
-                      <div class="team-members-tow team-round mtb-40">
-                        <div class="row">
-                          <!-- Team Item Starts -->
-                            {% for ppl in sp.speakers %}
-                          <div class="col-sm-2 col-md-2">
-                            <figure>
-                              {% if ppl.pic == null %}
-                              <img src="{{ BASE_PATH }}/assets/images/headshots/heart-pixel.png" alt="">
-                              {% else %}
-                              <img src="{{ BASE_PATH }}/assets/images/headshots/{{ ppl.pic }}" alt="">
-                              {% endif %}
-                              <div class="image-overlay">
-                                <div class="overlay-text text-center">
-                                  <div class="info-text-round">
-                                    <strong>{{ ppl.name }} </strong>
-                                    <span>{{ ppl.class }} </span>
-                                  </div>
-                                  <!-- <hr class="small-divider-round border-white"> -->
-                                  <ul class="social-icons">
-                                    <li><a href="{{ ppl.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </figure>
-                          </div>
-                          {% endfor %}
-                            <!-- Team Item Ends -->
-                        </div>
-                      </div>
-                      {{ sp.abstract | newline_to_br }}
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {% endfor %}
-            </div>
-          </div>
-
-    </div>
-
-      <!-- accordions end -->
-
       
     
 <!-- Content area end -->
