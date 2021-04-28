@@ -348,7 +348,7 @@ a:focus {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-position: contain
+	background-position: center
 }
 
 #header-style-1 .header-title {
@@ -4240,7 +4240,7 @@ ul.nav-tabs li a {
 		margin: 0px
 	}
 	.hero-content-v2 {
-		margin-top: 0
+		margin-top: 100px
 	}
 	.list-title {
 		font-size: 20px
@@ -4323,7 +4323,7 @@ ul.nav-tabs li a {
 		padding: 8px 3px
 	}
 	.hero-content-v2 {
-		margin-top: 0
+		margin-top: 50px
 	}
 	.hero-content-v2 h3 {
 		font-size: 22px
@@ -4427,7 +4427,7 @@ ul.nav-tabs li a {
 		font-size: 18px
 	}
 	.hero-content-v2 {
-		margin-top: 0
+		margin-top: 50px;
 	}
 	.hero-content-v2 h3 {
 		font-size: 22px
