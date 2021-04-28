@@ -21,7 +21,7 @@
     ],
     "time": "",
     "title": "Who's watching you? An analysis of mobile app trackers",
-    "abstract": "Over the years, the number of third party trackers embedded in mobile applications (App store/Google Play store) has exploded. These trackers not only track users' online activity and behavior, but also offline movements and activity. The goal of our project is to identify categories of apps that collect an unnecessary amount of data on users. Our hope is that this work will allow privacy-conscious smartphone users to make more informed app choices and that it may enlighten future policy decisions.\n\nFirst, we will analyze the volume and type of trackers installed across several app categories. (Our project builds on analysis conducted by Oxford researchers, who have made tracker data by app category publicly available for >1 million applications.) Next, we will categorize the trackers' range of activity using a previously established mapping. We will then create a framework to define the range of acceptable tracking activity for each app category, paying particular attention to data deemed sensitive by Google and/or not within the scope of the app's core functionality. We will then apply this framework to determine which app categories collect more data on users than necessary."
+    "abstract": "Over the years, the number of third party trackers embedded in mobile applications (App store/Google Play store) has exploded. These trackers not only track users' online activity and behavior, but also offline movements and activity. The goal of our project is to create a framework and identify categories of apps that collect an unnecessary amount of data on users. Our hope is that this work will allow privacy-conscious smartphone users to make more informed app choices and that it may enlighten future policy decisions."
   },
   {
     "id": 2,
@@ -53,19 +53,19 @@
       {
         "name": "Joe Moran",
         "class": "PhD Acct 25",
-        "pic": null,
+        "pic": "Alex_Coble.jpg",
         "linkedin" : "https://www.linkedin.com/in/alex-coble-b42000122/"
       },
       {
         "name": "Alex Coble",
         "class": "PhD Acct 25",
-        "pic": null,
+        "pic": "Joe_Moran.jpg",
         "linkedin" : "https://www.linkedin.com/in/joe-moran-cpa-86916677/"
       }
     ],
     "time": "",
     "title": "Impact of Universities’ Online Covid-19 Dashboards on County Covid Cases",
-    "abstract": "An important issue in accounting research is whether firms’ disclosures, or more broadly, information dissemination, have an impact on individuals’ behavior. One important source of information for college students during the COVID-19 pandemic has been their schools’ COVID-19 dashboards. It is common for schools to provide a live tracker containing information about case rates, testing, vaccinations, policies, etc. (Penn’s dashboard is linked here); these trackers are considered disclosures in the accounting field as they provide information to stakeholders about schools’ performance in fighting the pandemic. The question we seek to answer is: do schools’ disclosures via their COVID-19 dashboards have a real impact on COVID transmission rates?\n\nUsing HTML data scraped from schools’ COVID-19 dashboards over the Fall 2020 semester using the Wayback Machine, we will analyze changes in COVID transmission rates  (“case rates”) in schools’ counties during the week(s) following schools’ disclosures via their dashboards. We intend to use the rvest and xml2 packages to download and parse dashboards to generate measures of their content (e.g., number of words, number of HTML formatting tags, presence of multimedia, etc.); we will then predict changes in county-level case rate growth using changes in dashboard content. While we note our study will not have a causal interpretation, we intend to provide evidence supporting the hypothesis that schools’ disclosures have real effects by using a difference-in-differences design comparing counties with disclosing schools vs. counties without them, investigating cross-sectional differences in schools’ dashboard quality and their effect on case rate growth, and investigating schools’ change in disclosure behavior after receiving a dashboard rating from an external party and its effect on case growth."
+    "abstract": "An important issue in accounting research is whether firms’ disclosures, or more broadly, information dissemination, have an impact on individuals’ behavior. One important source of information for college students during the COVID-19 pandemic has been their schools’ COVID-19 dashboards. It is common for schools to provide a live tracker containing information about case rates, testing, vaccinations, policies, etc.; these trackers are considered disclosures in the accounting field as they provide information to stakeholders about schools’ performance in fighting the pandemic. The question we seek to answer is: do schools’ disclosures via their COVID-19 dashboards have a real impact on COVID transmission rates? Using HTML data scraped from schools’ COVID-19 dashboards over the Fall 2020 semester using the Wayback Machine, we will analyze changes in COVID transmission rates in schools’ counties during the week(s) following schools’ disclosures via their dashboards. We will then predict changes in county-level case rate growth using changes in dashboard content, both using a difference-in-differences and an event study design."
   },
   {
     "id": 4,
@@ -79,44 +79,57 @@
     ],
     "time": "",
     "title": "Predicting educational opportunity: a methods comparison using population data",
-    "abstract": "Reardon (2019) argues that the average standardized test score in a school or district “can be thought of as reflecting the average cumulative set of educational opportunities children in a community have had up to the time when they take a test” (p. 41). The following analysis identifies predictors of average achievement for the population of public elementary and middle schools in the United States. Statistical methods that predict school-level achievement as a binary outcome (above/below the national average), an ordinal outcome (quartiles of achievement relative to a national average), and a continuous outcome (standard deviation units, referenced to a nationwide average) are compared. The goal is to describe methods well-suited to investigating hypotheses about educational opportunity using data that are population level, public use, and aggregate. Data come from the Stanford Education Data Archive (SEDA), which computes a single, pooled achievement estimate across tested grades (3-8), tested subjects (reading and math), and time (10 years, academic years 2008-09 to 2017-18), and places it on a nationally comparable scale, for elementary and middle schools in every public school district in the United States. Candidate predictor variables come from public-use datasets collected by the federal government: the US Census; the American Community Survey; the Civil Rights Data Collection; the School Attendance Boundary Information System, and more, and measure characteristics of schools’ students, teachers, finances, opportunities to learn, discipline practices, neighborhoods, and communities.\n\nReferences: Reardon, S. (2019). Educational opportunity in early and middle childhood: Using full population administrative data to study variation by place and age. <em>RSF: The Russell Sage Foundation Journal of the Social Sciences</em> 5(2), pp. 40-68."
+    "abstract": "Reardon (2019) argues that the average standardized test score in a school or district “can be thought of as reflecting the average cumulative set of educational opportunities children in a community have had up to the time when they take a test” (p. 41). The following analysis identifies predictors of average achievement for the population of public elementary and middle schools in the United States. Statistical methods that predict school-level achievement as a binary outcome (above/below the national average), an ordinal outcome (quartiles of achievement relative to a national average), and a continuous outcome (standard deviation units, referenced to a nationwide average) are compared. The goal is to describe methods well-suited to investigating hypotheses about educational opportunity using data that are population level, public use, and aggregate. Data come from the Stanford Education Data Archive (SEDA), which computes a single, pooled achievement estimate across tested grades (3-8), tested subjects (reading and math), and time (10 years, academic years 2008-09 to 2017-18), and places it on a nationally comparable scale, for elementary and middle schools in every public school district in the United States. Candidate predictor variables come from public-use datasets collected by the federal government: the US Census; the American Community Survey; the Civil Rights Data Collection; the School Attendance Boundary Information System, and more, and measure characteristics of schools’ students, teachers, finances, opportunities to learn, discipline practices, neighborhoods, and communities."
   },
   {
     "id": 5,
     "speakers": [
       {
         "name": "Keana Richards",
-        "class": "",
-        "pic": null,
-        "linkedin" : ""
+        "class": "PhD",
+        "pic": "Keana_Richards.jpg",
+        "linkedin" : "https://linkedin.com/in/keana-richards/"
+      },
+      {
+        "name": "Jeesung Ahn",
+        "class": "PhD",
+        "pic": "Jeesung_Ahn.jpeg",
+        "linkedin" : "linkedin.com/in/jeesung-ahn-025738150"
+      },
+      {
+        "name": "Tonatiuh Salas Ortiz",
+        "class": "W21",
+        "pic": "Tonatiuh_Salas_Ortiz.PNG",
+        "linkedin" : "https://www.linkedin.com/in/tonatiuh-salas-ortiz-b6bb72135/"
       }
     ],
     "time": "",
-    "title": "Eat Healthy",
-    "abstract": "<strong>Background</strong><br>Healthy eating is fundamental to good health at every stage of life. Many countries around the world are providing nationwide dietary guidelines to the public and requiring nutrition facts labels on food products to help people make informed choices about foods and drinks that contain nutrients that they may want more or less of. Every individual, however, has different nutrition needs and preferences according to their age, sex, ethnicity, height, weight, physical activity level, and so on and may benefit from more personalized dietary recommendations.<br><strong> Goals of the Study</strong><br>Our goal is therefore to provide the basis for an algorithm that identifies which group of foods one should consume solely based on their nutrition needs. If we could classify foods into groups that share similar nutrient profiles, it will allow people to customize and plan out everyday meals according to individual nutrition needs and preferences.<br><strong>Data description</strong><br>Data will be pulled from the Canadian Nutrition File. The datasets contain variables related to three main categories: food characteristics, nutrients, and metrics. The food characteristics variable include an ID code for a specific food item, food group, description and source. Nutrients include an ID code for each type of nutrient, the type of nutrients contained and a measure of each component in a food item. Finally, metrics includes data such as portion size conversion factors, percentage of inedible portion and cooking loses by food item. We will combine these datasets into a single one to serve as the basis for our algorithm.<br><strong>Analytic Plans</strong><br>First, we will run spectrum clustering to see which foods are grouped together based on their nutrient profile. In doing so, we want to find out whether we can find clear-cut clusters of foods based on nutrition profile regardless of actual food group assignment. Our grouping results can be used to find the list of foods that contain the best combination of nutrients based on a person’s dietary needs. This improves upon diets that try to rely on the actual food grouping, since our grouping result will be a better representation of the nutrient profile of a set of foods than the food group label, which may be determined arbitrarily.<br>Second, we will test whether actual food groups do share a similar nutrient profile. In other words, we will investigate how well we can predict the group that a certain food actually falls into, given its nutrient profile. We are going to focus on the two largest food groups and choose a subset of foods that fall into either of the two groups. The subsetted data will be split into training and validation data. We will run LASSO using the training data to identify the most important nutrients in predicting food groups and then run logistic regression with food group as the dependent variable. We will then use the validation data to test the robustness of the logistic regression model in predicting food group."
+    "title": "Recommendations for an intelligent diet",
+    "abstract": "Many countries around the world provide nationwide dietary guidelines to the public and require nutrition labels on food products to help people make informed choices about foods and drinks they consume. Every individual, however, has different nutrition needs and preferences according to their age, sex, ethnicity, height, weight, and physical activity level, among many other factors. Therefore, people may benefit from more personalized dietary recommendations. Our goal is to provide the basis for an algorithm that recommends foods a person should consume based on their nutrition needs. To this end, we will compare different approaches to grouping foods based on their nutrient profiles (i.e., spectrum clustering vs. k-means clustering) and demonstrate how others can use our data-driven food groupings to meet their dietary needs. "
   },
   {
     "id": 6,
     "speakers": [
       {
-        "name": "Ying Dai",
-        "class": "",
-        "pic": null,
-        "linkedin" : ""
+        "name": "Jonathan Sun",
+        "class": "PhD GSE",
+        "pic": "Jonathon_Sun.jpg",
+        "linkedin" : "https://www.linkedin.com/in/jonathon-sun-2b568640/"
       },
       {
-        "name": "Jonathan Sun",
-        "class": "",
-        "pic": null
+        "name": "Ying Dai",
+        "class": "PhD Nursing",
+        "pic": "Ying_Dai.jpg"
       },
       {
         "name": "Jiayi Zhang",
-        "class": "",
-        "pic": null
+        "class": "PhD GSE",
+        "pic": "Jiayi_Zhang.png",
+        "linkedin": "https://www.linkedin.com/in/jzhang7718/"
       }
     ],
     "time": "",
-    "title": "#StopAsianHate",
+    "title": "#StopAsianHate: Sentiment Analysis of Asian American Tweets During the COVID-19 Pandemic and the Surge of Asian-American Hate Crimes",
     "abstract": "Asian American hate crimes has been on the rise since the beginning of covid-19 with rhetoric such as Kung-flu and the China virus. Due to the current social climate, twitter data using the search term Asian American is more crucial than ever to understand how Asian Americans are framed within the broader racial context of the United States. As such, the purposes of our final project are to 1) explore how Asian Americans are framed and described in social media during the COVID-19 pandemic; and 2) predict what common words are most likely to increase the likelihood of a tweet going viral on the topics around Asian Americans. Using data from Asian-American related tweets over the past five-months Twitter data between November 30th, 2020 to April 1st, 2021 were collected using a tool called “ If This, Then That (IFTTT)” (https://ifttt.com/). We propose to use text mining, lasso, logistic regression, and random forest to conduct our analysis. Specifically using LASSO and logistic regression to build a “best” model to predict a tweet gets viral and builds a separate model using random forest and other approaches to compare which approach works best."
   },
   {
@@ -155,7 +168,8 @@
       {
         "name": "Peter Zhang",
         "class": "W23",
-        "pic": null
+        "pic": "Peter_Zhang.jpg",
+        "linkedin" : "https://www.linkedin.com/in/peter-zhang-81b529144/"
       }
     ],
     "time": "",
