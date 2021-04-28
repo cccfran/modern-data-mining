@@ -51,16 +51,16 @@
     "id": 3,
     "speakers": [
       {
-        "name": "Joe Moran",
-        "class": "PhD Acct 25",
-        "pic": "Joe_Moran.jpg",
-        "linkedin" : "https://www.linkedin.com/in/alex-coble-b42000122/"
-      },
-      {
         "name": "Alex Coble",
         "class": "PhD Acct 25",
         "pic": "Alex_Coble.jpg",
         "linkedin" : "https://www.linkedin.com/in/joe-moran-cpa-86916677/"
+      },
+      {
+        "name": "Joe Moran",
+        "class": "PhD Acct 25",
+        "pic": "Joe_Moran.jpg",
+        "linkedin" : "https://www.linkedin.com/in/alex-coble-b42000122/"
       }
     ],
     "time": "",
@@ -133,30 +133,6 @@
     "abstract": "Asian American hate crimes has been on the rise since the beginning of covid-19 with rhetoric such as Kung-flu and the China virus. Due to the current social climate, twitter data using the search term Asian American is more crucial than ever to understand how Asian Americans are framed within the broader racial context of the United States. As such, the purposes of our final project are to 1) explore how Asian Americans are framed and described in social media during the COVID-19 pandemic; and 2) predict what common words are most likely to increase the likelihood of a tweet going viral on the topics around Asian Americans. Using data from Asian-American related tweets over the past five-months Twitter data between November 30th, 2020 to April 1st, 2021 were collected using a tool called “ If This, Then That (IFTTT)” (https://ifttt.com/). We propose to use text mining, lasso, logistic regression, and random forest to conduct our analysis. Specifically using LASSO and logistic regression to build a “best” model to predict a tweet gets viral and builds a separate model using random forest and other approaches to compare which approach works best."
   },
   {
-    "id": 7,
-    "speakers": [
-      {
-        "name": "Caroline Harrison",
-        "class": "",
-        "pic": null,
-        "linkedin" : ""
-      },
-      {
-        "name": "Yiran Chen",
-        "class": "",
-        "pic": null
-      },
-      {
-        "name": "Hengguang Mao",
-        "class": "",
-        "pic": null
-      }
-    ],
-    "time": "",
-    "title": "COVID-19 Misinformation",
-    "abstract": "Over the past several years there has been a major shift in where most people read and learn about the news away from trusted news outlets and towards social media platforms, such as Twitter and Facebook. At the same time, the rise and spread of misinformation on those platforms has grown as well, which has created concerns about the impact reading and sharing fake news has on people. The culmination of these two trends at the beginning of the Covid-19 pandemic in March 2020 resulted in the massive spread of misinformation and fake news across social media platforms, which altered the perception of the severity of the pandemic and negatively impacted the public health measures being enacted to try and slow the spread of the disease. The dataset for this project came from a CodaLab competition and contains over 10,000 pre-labeled tweets and social media posts in English that contain real or fake news and information about the covid-19 pandemic. We aim to perform sentiment analysis and build classification models that can correctly identify real and fake tweets and could be used to slow the spread of misinformation about the pandemic on social media, and provide guidance to social media users as to whether a post contains real or fake information."
-  },
-  {
     "id": 8,
     "speakers": [
       {
@@ -185,24 +161,26 @@
     "id": 9,
     "speakers": [
       {
+        "name": "Andrew Yu",
+        "class": "W23",
+        "pic": "andrew_yu.jpg",
+        "linkedin": "https://www.linkedin.com/in/andrewdyu/"
+      },
+      {
         "name": "Norman Chen",
-        "class": "",
-        "pic": null,
-        "linkedin" : ""
+        "class": "C23",
+        "pic": "norman_chen.jpg",
+        "linkedin" : "https://www.linkedin.com/in/naiming-chen/"
       },
       {
         "name": "Cathy Chen",
-        "class": "",
-        "pic": null
-      },
-      {
-        "name": "Andrew Yu",
-        "class": "",
-        "pic": null
+        "class": "ENG23",
+        "pic": "cathy_chen.jpeg",
+        "linkedin": "https://www.linkedin.com/in/cathy-chen-8b5480195/"
       }
     ],
     "time": "",
-    "title": "The Startup Sub Sorter",
-    "abstract": "In the space of content creation, subscribers rule above all else. With the recent wave of venture capital and entrepreneurship-focused content from newsletters to books to podcasts, the startup content creation space is rapidly maturing. Content creators will need to more heavily compete for advertisement deals and sponsorships, and in order to do so, it is imperative that they understand who their subscribers are. However, content delivery platforms like Substack and Anchor aren’t equipped with the right tools to properly break down the audience for entrepreneurship content. This makes it hard for creators to curate good content for their audience, and it’s doubly difficult to secure advertisement deals if they can only guess at their audience base. We hope to build the Startup Sub Sifter: a scalable model that can quickly and accurately categorize subscribers of entrepreneurship-focused content into useful categories (e.g. investors vs startup operators vs students). Ideally, this tool should be (1) cost-free considering that many creators are not yet monetized, (2) relatively accurate and granular, and (3) repeatable OR continuously and automatically updated. "
+    "title": "Strategic Subscriber Segmentation",
+    "abstract": "In the space of content creation, subscribers rule above all else. With the recent wave of venture capital and entrepreneurship-focused content from newsletters to books to podcasts, the startup content creation space is rapidly maturing. Content creators in such niche fields will need to more heavily compete for advertisement deals and sponsorships, and in order to do so, it is imperative that they have a strong grasp of the makeup of their audience. However, most popular content delivery platforms like Substack and Anchor aren’t equipped with the right tools to properly break down the audience in any niche. This makes it hard for creators to curate good content for their audience, and it’s doubly difficult to secure advertisement deals if they can only guess at their audience base. The purpose of this project is to build the foundations for a general model that can bucket subscribers into meaningful groups and demonstrate how content creators can use our model to inform their content and monetization strategy. "
   }
 ]
