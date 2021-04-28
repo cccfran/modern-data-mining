@@ -3,20 +3,22 @@
     "id": 1,
     "speakers": [
       {
+        "name": "Mit Shah",
+        "class": "WG21",
+        "pic": "Mit_Shah.jpg",
+        "linkedin" : "https://www.linkedin.com/in/mit-s-13b7661b/"
+      },
+      {
         "name": "Sarah Mayner",
         "class": "WG21",
         "pic": "Sarah_Mayner.jpg",
         "linkedin" : "https://www.linkedin.com/in/sarah-mayner/"
       },
       {
-        "name": "Mit Shah",
-        "class": "WG21",
-        "pic": "Mit_Shah.jpg"
-      },
-      {
         "name": "Laural Knebel",
         "class": "WG21",
-        "pic": "Laura_Knebel.jpg"
+        "pic": "Laura_Knebel.jpg",
+        "linkedin": "https://www.linkedin.com/in/laura-knebel95/"
       }
     ],
     "time": "",
