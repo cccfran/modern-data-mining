@@ -30,24 +30,26 @@
     "speakers": [
       {
         "name": "Shaolong Wu",
-        "class": "",
-        "pic": null,
-        "linkedin" : null
+        "class": "W23 GEN23",
+        "pic": "Shaolong_Wu.jpeg",
+        "linkedin" : "https://www.linkedin.com/in/shaolong-lorry-wu/"
       },
       {
         "name": "Yuzhou Lin",
-        "class": "",
-        "pic": null
+        "class": "C22 GEN22",
+        "pic": "Yuzhou_Lin.jpg",
+        "linkedin" : "https://www.linkedin.com/in/yuzhou-lin-806b3a174/"
       },
       {
         "name": "Lingqi Zhang",
-        "class": "",
-        "pic": null
+        "class": "PhD SAS",
+        "pic": "Lingqi_Zhang.jpeg",
+        "linkedin" : "https://lingqiz.github.io/"
       }
     ],
     "time": "",
-    "title": "Convolutional Neural Network Decoding from Visual Cortex",
-    "abstract": "Advance in techniques for measuring brain activities, such as functional Magnetic Resonance Imaging (fMRI), has allowed for valuable insight into how neural activities is connected to our behavior. Previously it has been shown, by building forward models of visual cortical responses to natural images [1], researchers can achieve “mind-reading”, identifying the images viewed by human subjects directly from their neural responses.\n\nOur project proposes to extend their original analysis with the recent advances in deep neural networks, which has been the gold standard for image processing related tasks [2]. The specific aims for our projects are the following: \n\n\t1. Use the original data from [1], first perform exploratory data analysis, and use traditional methods, to help us better understand the function and organization of visual cortex. \n\n2.Build and train a convolution neural network that aims to predict the pattern of brain responses, given natural images. With a properly trained and regularized network, we should be able to outperform the original method, which uses hand-designed feature. \n\n3.Our most ambitious goal would be to reconstruct the images viewed by human subjects from their brain activities using a Bayesian algorithm [3], again leveraging recent advances in machine learning techniques, in particular models of natural images [4]. \n\nOur project will help gain additional insight into the mechanism of visual system, which will be important for both build system of computer vision, and cure diseases related to vision. \n\n[1] Kay, K. N., Naselaris, T., Prenger, R. J., & Gallant, J. L. (2008). Identifying natural images from human brain activity. Nature, 452(7185), 352-355.\n[2] Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). Imagenet classification with deep convolutional neural networks. Advances in neural information processing systems, 25.\n [3] Naselaris, T., Prenger, R. J., Kay, K. N., Oliver, M., & Gallant, J. L. (2009). Bayesian reconstruction of natural images from human brain activity. Neuron, 63(6), 902-915.\n[4] Kadkhodaie, Z., & Simoncelli, E. P. (2020). Solving linear inverse problems using the prior implicit in a denoiser. arXiv preprint arXiv:2007.13640."
+    "title": "\"Mind Reading\": Decode Visual Images from Brain Activities",
+    "abstract": "Advance in techniques for measuring brain activities, such as functional Magnetic Resonance Imaging (fMRI), has allowed for valuable insight into how neural activities is connected to our behavior. Previously it has been shown, by building forward models of visual cortical responses to natural images, researchers can achieve “mind-reading”, identifying the images viewed by human subjects directly from their neural responses.\n\nOur project proposes to extend their original analysis with the recent advances in deep neural networks, which has been the gold standard for image processing related tasks. The specific aims for our projects are the following:\n\n1. First perform exploratory data analysis, and use traditional methods, to help us better understand the function and organization of visual cortex.\n\n2.Build and train a convolution neural network that aims to predict the pattern of brain responses, given natural images. With a properly trained and regularized network, we should be able to outperform the original method, which uses hand-designed feature.\n\nOur project will help gain additional insight into the mechanism of visual system, which will be important for both build system of computer vision, and cure diseases related to vision."
   },
   {
     "id": 3,
