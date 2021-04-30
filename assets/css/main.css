@@ -4186,6 +4186,15 @@ ul.nav-tabs li a {
 	border: 1px solid #ddd
 }
 
+.panel-group .panel-body .social-icons {
+	padding: 10px;
+}
+
+.panel-group .panel-body .social-icons a {
+	font-size: 30px;
+	color: #a90533;
+}
+
 .panel-group.tabbed .panel-heading {
 	background: transparent;
 	padding: 15px;

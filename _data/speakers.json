@@ -22,6 +22,7 @@
       }
     ],
     "time": "",
+    "slides": "1_Mayner_Shah_Knebel_STAT701_DSL_Presentation.pdf",
     "title": "Who's watching you? An analysis of mobile app trackers",
     "abstract": "Over the years, the number of third party trackers embedded in mobile applications (App store/Google Play store) has exploded. These trackers not only track users' online activity and behavior, but also offline movements and activity. The goal of our project is to create a framework and identify categories of apps that collect an unnecessary amount of data on users. Our hope is that this work will allow privacy-conscious smartphone users to make more informed app choices and that it may enlighten future policy decisions."
   },
@@ -48,6 +49,7 @@
       }
     ],
     "time": "",
+    "slides": "2_Wu_Lin_Zhang_Cortex.pdf",
     "title": "\"Mind Reading\": Decode Visual Images from Brain Activities",
     "abstract": "Advance in techniques for measuring brain activities, such as functional Magnetic Resonance Imaging (fMRI), has allowed for valuable insight into how neural activities is connected to our behavior. Previously it has been shown, by building forward models of visual cortical responses to natural images, researchers can achieve “mind-reading”, identifying the images viewed by human subjects directly from their neural responses.\n\nOur project proposes to extend their original analysis with the recent advances in deep neural networks, which has been the gold standard for image processing related tasks. The specific aims for our projects are the following:\n\n1. First perform exploratory data analysis, and use traditional methods, to help us better understand the function and organization of visual cortex.\n\n2.Build and train a convolution neural network that aims to predict the pattern of brain responses, given natural images. With a properly trained and regularized network, we should be able to outperform the original method, which uses hand-designed feature.\n\nOur project will help gain additional insight into the mechanism of visual system, which will be important for both build system of computer vision, and cure diseases related to vision."
   },
@@ -68,6 +70,8 @@
       }
     ],
     "time": "",
+    "slides": "3_DSL- Coble_Moran.pdf",
+    "github": "https://github.com/jdmoran17/Coble-Moran_571_Project",
     "title": "Impact of Universities’ Online Covid-19 Dashboards on County Covid Cases",
     "abstract": "An important issue in accounting research is whether firms’ disclosures, or more broadly, information dissemination, have an impact on individuals’ behavior. One important source of information for college students during the COVID-19 pandemic has been their schools’ COVID-19 dashboards. It is common for schools to provide a live tracker containing information about case rates, testing, vaccinations, policies, etc.; these trackers are considered disclosures in the accounting field as they provide information to stakeholders about schools’ performance in fighting the pandemic. The question we seek to answer is: do schools’ disclosures via their COVID-19 dashboards have a real impact on COVID transmission rates? Using HTML data scraped from schools’ COVID-19 dashboards over the Fall 2020 semester using the Wayback Machine, we will analyze changes in COVID transmission rates in schools’ counties during the week(s) following schools’ disclosures via their dashboards. We will then predict changes in county-level case rate growth using changes in dashboard content, both using a difference-in-differences and an event study design."
   },
@@ -82,6 +86,7 @@
       }
     ],
     "time": "",
+    "slides": "4_Claire Allen-Platt_STAT571_DSL_PredictEdOpportunity.pdf",
     "title": "Predicting educational opportunity: a methods comparison using population data",
     "abstract": "Reardon (2019) argues that the average standardized test score in a school or district “can be thought of as reflecting the average cumulative set of educational opportunities children in a community have had up to the time when they take a test” (p. 41). The following analysis identifies predictors of average achievement for the population of public elementary and middle schools in the United States. Statistical methods that predict school-level achievement as a binary outcome (above/below the national average), an ordinal outcome (quartiles of achievement relative to a national average), and a continuous outcome (standard deviation units, referenced to a nationwide average) are compared. The goal is to describe methods well-suited to investigating hypotheses about educational opportunity using data that are population level, public use, and aggregate. Data come from the Stanford Education Data Archive (SEDA), which computes a single, pooled achievement estimate across tested grades (3-8), tested subjects (reading and math), and time (10 years, academic years 2008-09 to 2017-18), and places it on a nationally comparable scale, for elementary and middle schools in every public school district in the United States. Candidate predictor variables come from public-use datasets collected by the federal government: the US Census; the American Community Survey; the Civil Rights Data Collection; the School Attendance Boundary Information System, and more, and measure characteristics of schools’ students, teachers, finances, opportunities to learn, discipline practices, neighborhoods, and communities."
   },
@@ -108,6 +113,7 @@
       }
     ],
     "time": "",
+    "slides": "5_Richards_Ahn_Salas.pdf",
     "title": "Recommendations for an intelligent diet",
     "abstract": "Many countries around the world provide nationwide dietary guidelines to the public and require nutrition labels on food products to help people make informed choices about foods and drinks they consume. Every individual, however, has different nutrition needs and preferences according to their age, sex, ethnicity, height, weight, and physical activity level, among many other factors. Therefore, people may benefit from more personalized dietary recommendations. Our goal is to provide the basis for an algorithm that recommends foods a person should consume based on their nutrition needs. To this end, we will compare different approaches to grouping foods based on their nutrient profiles (i.e., spectrum clustering vs. k-means clustering) and demonstrate how others can use our data-driven food groupings to meet their dietary needs. "
   },
@@ -133,6 +139,7 @@
       }
     ],
     "time": "",
+    "slides": "6_Sun_Dai_Zhang_STAT701.pdf",
     "title": "#StopAsianHate: Sentiment Analysis of Asian American Tweets During the COVID-19 Pandemic and the Surge of Asian-American Hate Crimes",
     "abstract": "Asian American hate crimes has been on the rise since the beginning of covid-19 with rhetoric such as Kung-flu and the China virus. Due to the current social climate, twitter data using the search term Asian American is more crucial than ever to understand how Asian Americans are framed within the broader racial context of the United States. As such, the purposes of our final project are to 1) explore how Asian Americans are framed and described in social media during the COVID-19 pandemic; and 2) predict what common words are most likely to increase the likelihood of a tweet going viral on the topics around Asian Americans. Using data from Asian-American related tweets over the past five-months Twitter data between November 30th, 2020 to April 1st, 2021 were collected using a tool called “ If This, Then That (IFTTT)” (https://ifttt.com/). We propose to use text mining, lasso, logistic regression, and random forest to conduct our analysis. Specifically using LASSO and logistic regression to build a “best” model to predict a tweet gets viral and builds a separate model using random forest and other approaches to compare which approach works best."
   },
@@ -158,6 +165,7 @@
       }
     ],
     "time": "",
+    "slides": "7_Yang_Blank_Zhang_Animal_Crossing.pdf",
     "title": "Welcome to the jungle: Making sense of Animal Crossing Reviews",
     "abstract": "Animal Crossing New Horizons is the latest game in a long standing Nintendo Series. Released near the start of many COVID-19 lockdowns, it offered an outlet for players suddenly stuck indoors and served as a symbol of the video game industry’s continued rise. Even before COVID, the video game industry, worth $60 billion in 2019, had grown over the last 25 years at an annual rate of 9-15% earning while revenues 5x that of the music industry and about the same as the film industry.1 These Animal Crossing players added their reviews and thoughts (eWOM)* to those published by traditional critics such as IGN or Gamespot. A recent academic study examining the effects of extrinsic and intrinsic cues on daily video game sales found that laudatory eWOM had more than twice the positive effect over the next most consequential cue type.2 Clearly managing player and reviewer critical reception is vital to a game’s market performance. Leveraging a dataset comprised of both critical and user reviews, we examine how various NLP methods can be used to produce accurate predictive models for both positive and negative reviews using specific words. Developers could, in the future, use these models during playtesting to gauge the likely critical reception of their title.\n\n*eWOM – electronic word of mouth\n\n1. Merchand, André, and Thorsten Hennig-Thurau. \"Value Creation in the Video Game Industry: Industry Economics, Consumer Benefits, and Research Opportunities.\" Journal of Interactive Marketing 27 (2013): 142. Accessed April 21, 2021. DOI: 10.1016/j.intmar.2013.05.001.\n2. Choi, Hoon S. et al. \"The effect of intrinsic and extrinsic quality cues of digital video games on sales: An empirical investigation.\" Decision Support Systems 106 (February 2018): 92-93. "
   },

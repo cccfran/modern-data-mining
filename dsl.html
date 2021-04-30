@@ -190,6 +190,15 @@ keywords: helium, jekyll, bootstrap, UI, kit
                             <!-- Team Item Ends -->
                         </div>
                       </div>
+                      <div class="row">
+                        <div class="social-icons">
+                          <a class="social-icons" href="{{ BASE_PATH }}/assets/slides/{{ sp.slides }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
+                          {% if sp.github %}
+                          <a class="social-icons" href="#{{ sp.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+                          {% endif %}
+                      </div>
+                      </div>
+                      <br>
                       {{ sp.abstract | newline_to_br }}
                     </div>
                   </div>
