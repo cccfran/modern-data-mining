@@ -399,6 +399,19 @@ a:focus {
 	margin-bottom: 45px
 }
 
+.hero-content-v2 .social-icons {
+	padding: 10px;
+}
+
+.hero-content-v2 a {
+	font-size: 30px;
+	color: #fff;
+}
+
+.hero-content-v2 a:hover {
+	color: #a90533;
+}
+
 .header-style-3 {
 	/*background: url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;*/
 	background-color: #004785;
