@@ -351,6 +351,14 @@ a:focus {
 	background-position: center
 }
 
+#header-style-1 .header-dsl4 {
+	background-image: url(https://raw.githubusercontent.com/cccfran/modern-data-mining/main/assets/images/bg/dsl4.jpg) !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center
+}
+
 #header-style-1 .header-title {
 	color: #fff
 }
