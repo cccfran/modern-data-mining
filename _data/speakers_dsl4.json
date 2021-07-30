@@ -58,5 +58,65 @@
    "TF": "Jeffrey Cai",
    "Title": "Demographic Effects on Gun Ownership in New York City",
    "Abstract": "Our project focuses on the issue of gun violence that has been growing exponentially over the past couple of years across the United States. The purpose of this project is to identify demographic factors that influence the ownership of guns. We chose to specifically study New York City because of the high concentration of gun-related violence in that region. We collected data from the NYPD about handgun permits as well as data from the CCC New York on demographics. After cleaning and merging the data sets, we used LASSO and backwards selection to create a linear regression model for the number of handgun permits by community district. We found that the demographic factors that most significantly affect gun ownership in New York City boroughs are the number of foreigners, the percentage of homeowners, the median monthly rent, the number of people in poverty, the number of Asian, Black, Latino, and Other people, the number of people between 18 and 24 years old, the number of workers in education, administration, and retail, and the number of children in foster care."
+ },
+ {
+   "Timestamp": "7/29/2021 16:39:44",
+   "Names": "Abhi, Austin, Caeden, Jonah, Mekhi",
+   "Group": 10,
+   "Order": 7,
+   "Time": "11:45 – 12:00",
+   "TF": "David Fan",
+   "Title": "Alzheimer’s Assessment:  Predicting and Diagnosing Alzheimer’s",
+   "Abstract": "Alzheimer’s is a type of dementia that progressively affects memory, thinking, and behavior until patients can no longer carry out even the most basic tasks. In this project, we aim to identify the main factors in an Alzheimer’s diagnosis and predict the probability of whether one is at risk of or has Alzheimer’s given certain factors. We began our Exploratory Analysis Data (EDA) by comparing the demographics of the individuals, namely age, sex, education, and socio-economic status. We found that the ages were approximately distributed between the ages of 60 and 100, and that education was also approximately distributed. However, the strong left skewness of socioeconomic status indicates that the patients were fairly well off, which makes sense because MRI scans are expensive. Next, we compared the distributions of whole brain volume (nWBW) and estimated total intracranial volume (eTIV) between patients with and patients without Alzheimer's. We found that the distributions were relatively similar, indicating that neither nWBW nor eTIV are significant indicators of Alzheimer's. In addition, when we plotted eTIV against Atlas Scaling Factor (ASF), we found that they were inversely proportional, indicating that ASF is also not a significant indicator. Using the same method of comparison, we found that the Mini Mental State Examination (MMSE) is a very good indicator of whether a patient has dementia or not, as there are significantly less high scorers among the patients with dementia. Finally, we compared our two models, the linear model and the logistic model, and found that the logistic model had a smaller testing error than the linear model, indicating that the logistic model is a better predictor of Alzheimer's disease. Between the two models, sex, education, SES, MMSE, eTIV, nWBV, namely SES and MMSE, were the most significant variables. "
+ },
+ {
+   "Timestamp": "7/29/2021 16:39:45",
+   "Names": "Aidan, Annie, Irene, Ishaani, Warren",
+   "Group": 18,
+   "Order": 8,
+   "Time": "12:00 – 12:15",
+   "TF": "Tommy Lin",
+   "Title": "Global Impacts of COVID-19",
+   "Abstract": "We set out to find a significant association between a country’s monthly covid death rate and general quality of life and its pandemic unemployment rates. We started with three data sets: cumulative numbers of COVID by day per country in 2020, unemployment rate per country by month, and quality of life by country, which includes factors such as health index. To find the assocation between quality of life and pre-pandemic unemployment in January 2020, we used backwards selection, which resulted in one significant variable: purchasing power. We then used multiple regression to investigate the association between a country’s purchasing power and its unemployment rate in January 2020. To find the association between COVID-19 deaths, quality of life, and unemployment rate, we used LASSO, which removed all of the quality of life variables. We then used multiple regression, controlling each country, to examine the relationship between unemployment rate and COVID-19 deaths. In the end, our null hypothesis was rejected since we found that overall, higher COVID-19 deaths were associated with higher levels of unemployment. We also found a significant association between each country’s purchasing power index and their pre-COVID unemployment rates. However, there was no apparent relationship between during-pandemic unemployment and the quality of life variables. "
+ },
+ {
+   "Timestamp": "7/29/2021 17:43:17",
+   "Names": "Irene, Isabella, Emily, Marie, Paul",
+   "Group": 8,
+   "Order": 9,
+   "Time": "12:15 – 12:30",
+   "TF": "Shannon Duncan",
+   "Title": "Mine the (Wage) Gap",
+   "Abstract": "Gender disparities have been an issue especially in STEM fields such as engineering, influencing the gender wage gap in this male-dominated field. To understand factors behind this wage gap, we investigated a Kaggle dataset of recently graduated Indian engineers and observed the disproportionate representation of female engineers. We examined potentially relevant variables both graphically and numerically and ultimately found that the gender wage gap did indeed exist. Using the statistical machine learning methods Anova and backward selection, we identified which variables influence engineers’ pay; then, we subsetted the data into male and female to compare the resulting significant variables. Based on gender, date of birth, high school exam scores, college information (tier, location, graduation year, GPA), and AMCAT exam results (which measure academic ability in English, logical and quantitative ability, as well as the personality traits of conscientiousness, agreeableness, extraversion, neuroticism, openness to experience). From there, we determined that college graduation year was the most significant variable overall, along with other factors such as gender. For men, college tier and agreeableness scores were also significant, while high school exam scores and logical scores were the most important for women’s salaries. We also predicted the salaries of a man and a woman with the same statistics and found that in general, a man makes 10% more than a woman when controlling for all other variables. The results of these prediction methods shed light on the nuances of the gender wage gap and can provide valuable guidance on combating gender discrimination in the future, particularly in the field of engineering but applicable to other STEM fields as well.  "
+ },
+ {
+   "Timestamp": "",
+   "Names": "Colin, Lilly, Lauren, Nathan, Haroon",
+   "Group": 4,
+   "Order": 10,
+   "Time": "12:30 – 12:45",
+   "TF": "",
+   "Title": "Intro to Neural Networks & Comparison of Feed Forward Neural Networks vs. Convolutional Neural Networks",
+   "Abstract": "Neural networks, often referred to as deep learning, have been a field of research and development that has emerged in recent years as one of the next major steps towards creating the best artificial intelligence (AI) systems.  In short, neural networks simulate and imitate the behavior of human brains which allows programs and models to be made to recognize patterns and ultimately solve tasks and problems.  They are made of layers of interconnected neurons (often called nodes) and these models often have many layers which is called deep learning.  Two common types of neural networks are feed forward neural networks and convolutional neural networks.  In this research paper, we explore and analyze the effects of these two types of neural networks and compare the efficiency and accuracy of the models, and offer insight as to why we are seeing what we see in the output data and accuracy."
+ },
+ {
+   "Timestamp": "7/29/2021 21:59:55",
+   "Names": "Aditi, Avery, Drew, Sophie, Tony",
+   "Group": 12,
+   "Order": 11,
+   "Time": "12:45 – 1:00",
+   "TF": "David Fan",
+   "Title": "Reading Between the Lines of the New York Times",
+   "Abstract": "Today, the media is more prevalent than ever. With the advent of the internet and social media, more and more people are becoming involved in the media, a fascinating trend that has yet to be fully explored. In this study, we sought to gain some insights into the media and people's participation in it by running a sentiment and word frequency analysis on a dataset of comment on New York Times online articles. We used the packages 'tm' and 'tidytext' for word frequency analysis and sentiment analysis, respectfully, and we ran LASSO regressions to come up with final linear models for both cases. In the end, our models were far less than we had hoped they would be in terms of value, but they still shed some light on this fascinating topic."
+ },
+ {
+   "Timestamp": "7/29/2021 22:29:18",
+   "Names": "Isabella, Joanna, Sydney, Emily, Morgan",
+   "Group": 9,
+   "Order": 12,
+   "Time": "3:00 – 3: 15 ",
+   "TF": "Shannon Duncan",
+   "Title": "Carbon, Cancer, and Contamination: The Relationships Between Pollution, Temperature, and Disease",
+   "Abstract": "There has been a recent increase in sustainability and awareness about global warming. Especially during the COVID-19 pandemic, we were curious about the impact of deaths by certain diseases on global temperatures, and how air pollution plays a role. Ultimately, our goals of the study were to explore the relationships between these factors and predict how these connections might affect future deaths by disease. In conducting our analysis, we used a collection of regression models, heatmaps, scatterplots, barplots, and Anova, among others. Our final model showed how average temperature, the percentage of males,  the smoking rate,  and carbon emissions affect the rate of cancer cases per 100,000 people. Because of factors not incorporated into our final model, we did not come to a definitive conclusion, but we did learn about individual variables. For instance, how certain gases like carbon dioxide have a downward trend over time, while other gases do not."
  }
 ]
