@@ -1,0 +1,62 @@
+[
+ {
+   "Timestamp": "7/29/2021 18:00:32",
+   "Names": "Kevin, Medha, Larry, Erika",
+   "Group": 6,
+   "Order": 1,
+   "Time": "10:00 – 10:15",
+   "TF": "Norman Chen",
+   "Title": "Towards a Cleaner Planet: An Analysis of International Air Pollution and its Factors",
+   "Abstract": "Air is free, but should not be taken for granted. An estimated 91% of people do not have access to clean air and are not meeting the World Health Organization’s (WHO) air quality guidelines. This is a warning of what is to come if humans continue to rely on hydrocarbon fuels and unsustainable production methods. Poor air quality is leaving a gash on society, causing 8 million people to prematurely succumb to heart disease, pneumonia, diabetes, and cancer each year. Governments and regulatory bodies must find what causes significant air pollution across society in order to take appropriate action to combat this issue. Without a more insightful understanding of the factors affecting air pollution, these organizations cannot take the most effective action to improve air quality. The goal of our study is to use various statistical analyses and computational techniques to investigate which factors have the most profound impact on air pollution. We will use Exploratory Data Analysis, LASSO, Multiple Linear Regression, and Backwards Selection to find a model for air pollution. We hope that our findings can aid leaders in making a renewed battle plan against pollution. Our inspiration for this study came from our passion for the issue of environmental destruction and degradation, as air pollution has a large role to play in this issue."
+ },
+ {
+   "Timestamp": "7/29/2021 21:02:07",
+   "Names": "Elly, Michelle, Linda, Jonah, Garvit",
+   "Group": 14,
+   "Order": 2,
+   "Time": "10:15 – 10:30",
+   "TF": "Shannon Laub",
+   "Title": "Analyzing Potential Predictors of a Country's Happiness",
+   "Abstract": "The goal of this project is to utilize measurements from several socioeconomic, political, and health factors to illustrate the correlation between each one and the happiness score while also studying the distribution of these numbers between nations. These factors include GDP per capita, life expectancy, COVID-19 cases, the Global Peace Index, etc. Using these variables, we created a variety of graphs - box plots and histograms displayed distributions of certain pieces of data among the countries, scatter plots demonstrated the correlation between happiness and a few of the obtained statistics, and a heat map illustrated the happiness ratings across the world. We also used the LASSO, backwards selection, and random forest models to find the factors with the most significant relationship to happiness. Based on the most accurate ones (LASSO and backwards selection with a mean squared error of 1.80038), we found that GNI per capita (Gross National Income averaged out to find the salary of each citizen), life expectancy, freedom, and social support were the most impactful. As a result of these strong correlations, we can predict the happiness and thus the need for expanded mental health services in each country using any of these statistics."
+ },
+ {
+   "Timestamp": "",
+   "Names": "",
+   "Group": 7,
+   "Order": 3,
+   "Time": "10:30 – 10:45 ",
+   "TF": "",
+   "Title": "",
+   "Abstract": ""
+ },
+ {
+   "Timestamp": "7/29/2021 21:04:44",
+   "Names": "Anoushka, Christine, Cynthia, Michael",
+   "Group": 5,
+   "Order": 4,
+   "Time": "10:45 – 11:00",
+   "TF": "Norman Chen",
+   "Title": "County-Level Analysis of Suicide Rate",
+   "Abstract": "The goal of our project is to determine whether there is a correlation between a county’s suicide rate and various geographic, environmental, political, and socioeconomic indicators. Through our analysis, we hope to promote greater awareness for mental health and especially suicide. As students, we have noticed the consistently rising suicide rates and prevalence of mental health issues among high schoolers—both of which have been accentuated by the COVID-19 pandemic. In fact, the city of Palo Alto—which neighbors Stanford University and is home to numerous nationally ranking high schools—sees a teen suicide rate that is more than four times the national average (Chawla). Just this past May, a student in the Mountain View–Los Altos Union High School District took their own life, marking the third consecutive year a student has done so. Ultimately, we want to provide better insight to local and state governments along with non-profit organizations so that they can properly allocate mental health resources. We collected data from several credible sites such as the Centers for Disease Control and Protection (CDC), the United States Department of Agriculture (USDA), and the United States Environmental Protection Agency (EPA). After the data cleaning process, we were left with 459 of the original 991 counties from the CDC dataset because many counties whose death count was less than 20 were marked as “unreliable.” In our analysis, we used various data analysis methods such as Trees, Random Forest, and LASSO in order to determine which variables are significant in determining suicide rates. Finally, we evaluated and compared the various models we created as a means to decide which model performed the best. \n\nWorks Cited: \nChawla, Ishika. “CDC Releases Preliminary Findings on Palo Alto Suicide Clusters.” The Stanford Daily, 21 July 2016, www.stanforddaily.com/2016/07/21/cdc-releases-preliminary-findings-on-palo-alto-suicide-clusters/."
+ },
+ {
+   "Timestamp": "7/29/2021 20:43:03",
+   "Names": "Jingjie, Xiaohu, Rishab, Yena, Sohum",
+   "Group": 11,
+   "Order": 5,
+   "Time": "11:00 – 11:15",
+   "TF": "David Fan",
+   "Title": "Can Money Really Buy Happiness?",
+   "Abstract": "“Money can’t buy happiness” is an adage we all have heard at some point in our lifetime. As the U.S. has grown more and more capitalistic, its suicide rates have steadily increased as well. We wanted to see how the growing gap in salary within the population correlates to the growing suicide rate, a significant indicator of happiness. We gathered the average salary for each state from the U.S. Bureau of Economic Analyses, the average suicide rate from the American Health Ranking, and other socioeconomic conditions from various organizations with data ranging from 2010-2019. We used R (a statistical programming language) to analyze the effects of salary on suicide rate. In particular, we utilized backwards selection, and then ran multiple modelling techniques like multiple linear regression, decision tree, and random forest on our data. By plotting salary against suicide rate, we discovered several outliers, and researched potential causes for their irregularity. After that, we focus on our multiple linear regression model, where there exists a definite negative correlation between salary and suicide rate significant at the 0.001 level while considering other variables. Additionally, after comparing the multiple linear regression model, decision tree model, and random forest model, we discover that the mean squared error for random forest is the lowest, thus the best prediction model. Its correlation rate with the actual data is very high at 98%!  After looking at our results from the models and looking closer at the outlying states, we conclude that there are many ways for states to lower suicide rate. The most effective solutions include raising the minimum wage, and implementing social welfare programs like funding for public health resources, providing unemployment support, and pushing for mental health awareness."
+ },
+ {
+   "Timestamp": "7/29/2021 16:45:48",
+   "Names": "Anushka, Gracia, Joy, Miran, Sidarth, Yulan",
+   "Group": 1,
+   "Order": 6,
+   "Time": "11:15 – 11:30",
+   "TF": "Jeffrey Cai",
+   "Title": "Demographic Effects on Gun Ownership in New York City",
+   "Abstract": "Our project focuses on the issue of gun violence that has been growing exponentially over the past couple of years across the United States. The purpose of this project is to identify demographic factors that influence the ownership of guns. We chose to specifically study New York City because of the high concentration of gun-related violence in that region. We collected data from the NYPD about handgun permits as well as data from the CCC New York on demographics. After cleaning and merging the data sets, we used LASSO and backwards selection to create a linear regression model for the number of handgun permits by community district. We found that the demographic factors that most significantly affect gun ownership in New York City boroughs are the number of foreigners, the percentage of homeowners, the median monthly rent, the number of people in poverty, the number of Asian, Black, Latino, and Other people, the number of people between 18 and 24 years old, the number of workers in education, administration, and retail, and the number of children in foster care."
+ }
+]
