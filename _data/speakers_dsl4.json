@@ -118,5 +118,65 @@
    "TF": "Shannon Duncan",
    "Title": "Carbon, Cancer, and Contamination: The Relationships Between Pollution, Temperature, and Disease",
    "Abstract": "There has been a recent increase in sustainability and awareness about global warming. Especially during the COVID-19 pandemic, we were curious about the impact of deaths by certain diseases on global temperatures, and how air pollution plays a role. Ultimately, our goals of the study were to explore the relationships between these factors and predict how these connections might affect future deaths by disease. In conducting our analysis, we used a collection of regression models, heatmaps, scatterplots, barplots, and Anova, among others. Our final model showed how average temperature, the percentage of males,  the smoking rate,  and carbon emissions affect the rate of cancer cases per 100,000 people. Because of factors not incorporated into our final model, we did not come to a definitive conclusion, but we did learn about individual variables. For instance, how certain gases like carbon dioxide have a downward trend over time, while other gases do not."
+ },
+ {
+   "Timestamp": "",
+   "Names": "Adithya, Raymond, Sahej, Andrew, Kameron, Alexander",
+   "Group": 2,
+   "Order": 13,
+   "Time": "2:30 – 2:45",
+   "TF": "",
+   "Title": "Air Quality in the Continental US",
+   "Abstract": "Throughout the 20th and 21st centuries, many pieces of legislation have been introduced to combat climate change, however, there is no easy metric to show just how effective this legislation has been. This is because environmental data generally changes very slowly, however, air quality data has been shown to change relatively quickly. As such, this project aims to identify general trends in air quality, and cross-reference these changes with contemporary legislation in order to identify which pieces of legislation were the most effective inimproving air quality."
+ },
+ {
+   "Timestamp": "7/29/2021 22:38:14",
+   "Names": "Aaron, Neil, Luke, Tanvi, Benjamin",
+   "Group": 3,
+   "Order": 14,
+   "Time": "2:45 – 3:00",
+   "TF": "Jeffrey Cai",
+   "Title": "A COVID Global Economy: The Effect of COVID-19 Policy on the Economy",
+   "Abstract": "We all know that COVID-19 has drastically changed our lives, and there’s no doubt that it has affected the economy as well on a global scale. How much is that you may wonder, and what’ll it look like in the future? Well, we’re here to answer that. The goal of our study is to examine the effect that COVID-19 has had on the global economy, and to be able to predict economic data for each of the countries in our data set through COVID policy. The three economic variables we chose to examine the economy from were consumer confidence index, inflation rate index (CPI), and unemployment rate. We used our data to create a double prediction layer model. We then used 4 different types of models to determine the best model for our data, we also separated data into training and testing data for the model. We then used the model to predict future economic data. Overall there is a positive correlation for consumer confidence, negative correlation for unemployment, and mostly positive correlation for inflation, over the period of July 2021-December 2021."
+ },
+ {
+   "Timestamp": "7/29/2021 22:00:42",
+   "Names": "Jonathan, Ankita, Aahaan, Tony, Garrett",
+   "Group": 15,
+   "Order": 15,
+   "Time": "3:00 – 3:15",
+   "TF": "Shannon Laub",
+   "Title": "Police Fatalities: A State by State Analysis",
+   "Abstract": "The varying police forces and laws surrounding the police tend to vary per region. Public outcry revolves around racism against minorities, stop and frisk practices, and a lack of mental health awareness in our law enforcement system. The majority of our data is from 2015-2016 though it ranges from 2000-2020. The goal of our project is to quantify the number of police shootings resulting in civilian deaths by state and compare it to demographic factors based on census data. However, our study relies on the major assumption that police force is the only variable that changes other than the measurable population differences. \n"
+ },
+ {
+   "Timestamp": "7/29/2021 16:49:53",
+   "Names": "Abhinav, Ariston, Aurora, Rosemary, Shaurya",
+   "Group": 16,
+   "Order": 16,
+   "Time": "3:15 – 3:30",
+   "TF": "Tommy Lin",
+   "Title": "Analyzing the Bitcoin Phenomenon",
+   "Abstract": "Since 2017, Bitcoin has become one of the most popular cryptocurrencies in the world. It has significantly increased in value along with its influence over popular media, where the increased demand further increased Bitcoin’s value. As Bitcoin becomes a staple in our daily lives, we explore how Bitcoin’s influence on the stock market changes, specifically looking at the correlation between the market and Bitcoin’s value. We compare Bitcoin’s stock market value to various benchmark indexes in U.S. stocks, such as the Dow-Jones Industrial Average (DJIA), the Nasdaq Stock Market, the Standard and Poor (S&P) 500, and the New York Stock Exchange (NYSE). Additionally, we center on comparisons between Bitcoin and various companies related to the cryptocurrency industry, cybersecurity industry, and IT industry, among others to determine whether any specific index has an impact on the stock of Bitcoin and whether we can determine if there is any relationship between these indices."
+ },
+ {
+   "Timestamp": "7/29/2021 21:56:48",
+   "Names": "Nathan, Jad, Andrew, Brandon",
+   "Group": 17,
+   "Order": 18,
+   "Time": "3:30 – 3:45",
+   "TF": "Tommy Lin",
+   "Title": "Is COVID-19 Data Reliable? - Testing For Inaccuracy in COVID-19 Data",
+   "Abstract": "The purpose of the study was to investigate if states were inaccurately reporting data regarding COVID-19 deaths and cases. To test this, we used a chi-squared test to analyze how well data from the New York Times resembled the curve give by Benford's Law. We then plotted the p-values on a heatmap to see if states were inaccurately reporting data. We also conducted a linear regression to see if there was a correlation between lying about cases and deaths. We found that there were indeed some inaccurate reportings of data across the states. However, they don't seem to form a clear pattern and the inaccuracies don't appear to be purposeful."
+ },
+ {
+   "Timestamp": "",
+   "Names": "Josiah, Sally, Shivam, Ethan, Roshan",
+   "Group": 13,
+   "Order": 17,
+   "Time": "3:45 – 4:00",
+   "TF": "",
+   "Title": "Attempting LASSO Model Generation to Determine Wildfire Recurrence Probability",
+   "Abstract": "Wildfire prediction has proved a challenge due to the ever-changing variables of climate, geographical area, and human interaction. We propose a LASSO model to show whether or not there are variables that can help us predict the likelihood of a wildfire in a certain area. By using wildfire data from two data sets: one consisting of nearly two million wildfires in the United States over the past 24 years, and another consisting of 517 wildfires from Montesinho Park in Portugal. This approach is different to existing models, as we attempted to predict recurrence of wildfires rather than their occurrence. However, through our analyses, we found no correlations that could predict wildfire recurrence. This suggests that wildfires do not recur in predictable patterns, and may depend on a myriad of variables that drastically vary from place to place."
  }
 ]
