@@ -21,13 +21,13 @@
  },
  {
    "Timestamp": "",
-   "Names": "",
+   "Names": "Nathan, Christiana, Ella, Abhay, Ramya, Felix",
    "Group": 7,
    "Order": 3,
    "Time": "10:30 – 10:45 ",
    "TF": "",
-   "Title": "",
-   "Abstract": ""
+   "Title": "pH Analysis: Delaware River",
+   "Abstract": "Recent yet continuous pollution has contributed to a multitude of toxic effects to bodies of water around the globe, with acidity being one of the most prevalent factors to be affected. In the past, research has shown that highly acidic water can cause plenty of fatal health issues to humans, especially children. Furthermore, this very water is also capable of corroding pipes, due to its low pH, causing them to dissolve over time, which in turn causes leaks and more metal in our drinking supply. In an attempt to associate such detrimental water levels with the persistent looming of destructive climate change, we explore their relationship through this research. With the obvious main variable being pH to accurately measure the acidic levels in the water, we also observe temperature, gage height, conductance, discharge, dissolved oxygen, and finally time. Using the methods of backwards selection and ANOVA to narrow down and deduce the most significant variables for observation, and linear regression to predict potential pH levels in the future, we find that the majority of variables have a positive linear correlation with pH values and predict their continuous increase. To evaluate the accuracy of our model to describe the actual pH level of the Delaware River as a whole, we used river data from another site (Montague New Jersey) and created a confidence interval that corroborated our original model. These results can produce insight for subsequent measures to take for preserving our environment, perhaps assisting the protection agencies and the common man in our strive to preserve the Earth."
  },
  {
    "Timestamp": "7/29/2021 21:04:44",
