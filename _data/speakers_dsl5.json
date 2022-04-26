@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "speakers": [
+      {
+        "name": "Adiwid (Boom) Devahastin Na Ayudhya",
+        "class": "MSE23",
+        "pic": "Boom.jpg",
+        "linkedin" : "https://www.linkedin.com/in/boom-devahastin/"
+      },
+      {
+        "name": "Muaaz Noor",
+        "class": "MSE23",
+        "pic": "Muaaz_Noor.jpg",
+        "linkedin" : "https://www.linkedin.com/in/muaazahmednoor/"
+      },
+      {
+        "name": "Conor Gibbons",
+        "class": "MSE23",
+        "pic": "Conor_Gibbons.jpg",
+        "linkedin": "https://www.linkedin.com/in/conor-gibbons-4b1089195"
+      }
+    ],
+    "time": "",
+    "slides": "",
+    "title": "The Data Scientist's Choice: Python vs. R",
+    "abstract": "Both Python and R are easily the top two most popular languages that are used by the data science community. While our Modern Data Mining course has historically been taught in R, our Pythonization Special Project Group has spearheaded the initiative to transition our material over to Python. This presentation not only outlines the fundamental differences of R vs. Python, but will also demonstrate live the Google Colaboratory (Colab) interface to write .ipynb files in an effort to showcase both the comparative advantages and disadvantages that Python has over R. This will also include a brief run through of one of our lecture modules as a case study. For those interested in seeing the Crash Course on Basic and Advanced Python our team has developed for future semesters, please feel free to ask questions after the presentation."
+  }
+]
