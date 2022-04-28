@@ -124,7 +124,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "20_Stroke.pptx",
      "title": "Stroke Prediction and Prevention",
      "abstract": "We found this project interesting since as a disease affecting the arteries leading to and within the brain, stroke is the No.5 cause of death and a leading cause of disability in the US. Also, stroke is not only affecting seniors - there is a trend of having strokes at a younger age. In fact, an estimated 10% of strokes occur in people under age 50. We believe strokes should be considered as medical emergencies that require urgent medical attention. Early detection and appropriate management are required to prevent further damage to the affected area of the brain. Therefore, models with reliable stroke prediction based on people's medical history and demographic features can be greatly helpful on early prevention. "
  },
@@ -229,13 +229,13 @@
      "name": "Yaoyu Wang",
      "pic": "Yaoyu_Wang.jpg",
      "class": "MS",
-     "linkedin": "https://www.linkedin.com/in/yuxuan-zhang-1726771bb"
+     "linkedin": "https://www.linkedin.com/in/yaoyu-wang-940100210/"
      },
      {
      "name": "Yuxuan Zhang",
      "pic": "Yuxuan_Zhang.jpg",
      "class": "MS",
-     "linkedin": "https://www.linkedin.com/in/yaoyu-wang-940100210/"
+     "linkedin": "https://www.linkedin.com/in/yuxuan-zhang-1726771bb"
      },
      {
      "name": "Hexiang Liu",
