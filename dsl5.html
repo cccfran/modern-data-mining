@@ -135,6 +135,7 @@ keywords: helium, jekyll, bootstrap, UI, kit
         <div class="page-header-title">
           <h2 class="heading-title text-center">Schedule</h2>
         </div>
+        <h4 class="heading-title text-center">15-minute keynote + 5-minute Q&A<br> 10-minute talk<br>15-minute Python crash course</h4>
         <div class="row justify-content-center">
           <div class="col-sm-12 col-md-10">
               <h4 class="title">&nbsp;</h4>
@@ -183,14 +184,16 @@ keywords: helium, jekyll, bootstrap, UI, kit
                             <!-- Team Item Ends -->
                         </div>
                       </div>
+                      {% if ppl.pic != null %}
                       <div class="row">
                         <div class="social-icons">
                           <a class="social-icons" href="{{ BASE_PATH }}/assets/slides/dsl5/{{ sp.slides }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
                           {% if sp.github %}
                           <!-- <a class="social-icons" href="{{ sp.github }}"><i class="fa fa-github" aria-hidden="true"></i></a> -->
                           {% endif %}
+                        </div>
                       </div>
-                      </div>
+                      {% endif %}
                       <br>
                       {{ sp.abstract | newline_to_br }}
                     </div>
