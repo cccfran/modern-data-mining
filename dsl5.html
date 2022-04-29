@@ -186,16 +186,19 @@ keywords: helium, jekyll, bootstrap, UI, kit
                             <!-- Team Item Ends -->
                         </div>
                       </div>
-                      {% if ppl.slides != "" %}
                       <div class="row">
                         <div class="social-icons">
+                          {% if sp.slides != null %}
                           <a class="social-icons" href="{{ BASE_PATH }}/assets/slides/dsl5/{{ sp.slides }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
+                          {% endif %}
+                          {% if sp.googleslides != null %}
+                          <a class="social-icons" href="{{ sp.googleslides }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
+                          {% endif %}
                           {% if sp.github %}
                           <!-- <a class="social-icons" href="{{ sp.github }}"><i class="fa fa-github" aria-hidden="true"></i></a> -->
                           {% endif %}
                         </div>
                       </div>
-                      {% endif %}
                       <br>
                       {{ sp.abstract | newline_to_br }}
                     </div>

@@ -22,7 +22,7 @@
       }
     ],
     "time": "",
-    "slides": "",
+    "googleslides": "https://docs.google.com/presentation/d/14zTipQCxWLROEc8IHJm6lcs_IGtZ7ssF/edit?usp=sharing&ouid=110829418030473568440&rtpof=true&sd=true",
     "title": "The Data Scientist's Choice: Python vs. R",
     "abstract": "Both Python and R are easily the top two most popular languages that are used by the data science community. While our Modern Data Mining course has historically been taught in R, our Pythonization Special Project Group has spearheaded the initiative to transition our material over to Python. This presentation not only outlines the fundamental differences of R vs. Python, but will also demonstrate live the Google Colaboratory (Colab) interface to write .ipynb files in an effort to showcase both the comparative advantages and disadvantages that Python has over R. This will also include a brief run through of one of our lecture modules as a case study. For those interested in seeing the Crash Course on Basic and Advanced Python our team has developed for future semesters, please feel free to ask questions after the presentation."
   },
@@ -198,7 +198,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "10_classify_paper.pptx",
      "title": "Classifying Scientific Paper by Text Mining & Clustering",
      "abstract": "The goal of our study is to cluster academic papers using unsupervised machine learning techniques based on the abstract of these scientific papers.  We are trying to test the impact of different data preprocessing steps on the quality of clusters and find the meaning of each cluster.  It's meaningful since we can apply what we have learned in class to the real-word cases and classify the paper without knowing its category if it works."
  },
