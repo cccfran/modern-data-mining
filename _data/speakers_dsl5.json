@@ -151,7 +151,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "17_Alzheimer.pdf",
      "title": "Early Alzheimer's Disease Prediction",
      "abstract": "Alzheimer’s disease (AD) is the most common type of dementia which leads to memory loss and decline in thinking. AD is a progressive disease and usually starts slowly, but changes in the brain can begin many years before the appearance of first symptoms. \n\nIn this study, we aim to use Magnetic Resonance Imaging (MRI) data for both demented and nondemented adults to build classifiers that predict whether a subject will be diagnosed to develop dementia. Two datasets will be used: one deals with cross-sectional MRI data for adults aged between 18 to 96, and the other deals with longitudinal MRI data for older adults between 60 to 96. \n\nThe data was collected and released by the Alzheimer's Disease Research Center at Washington University and Open Access Series of Imaging Studies (OASIS)."
  },
@@ -245,7 +245,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "Adolscent_wellbeing.pdf",
      "title": "Early social determinants of adolescent wellbeing",
      "abstract": "In late 2021, the US Surgeon General’s Advisory released a public health statement about the alarming decreases in youth wellbeing. Even before the COVID pandemic, 20% of US youth reported a mental health disorder, and only half received appropriate treatment. Insight into predictors of adolescent wellbeing can advise policy aimed at reducing disease burden. The aims of the study are 1) develop a model of adolescent well-being from early social determinants and 2) between parent, teacher, and self-report, determine which is most predictive in the model.  This study uses the Fragile Family sample, which longitudinally follows child outcomes from birth to age 15. Model strategies included a series of regressions with LASSO, random forest with PCA and bagging. Results indicate that access to social services, sleep practices and neighborhood conditions in childhood are associated with youth wellbeing. Interventions that improve early life conditions may mitigate mental health symptoms in adolescence."
  }
