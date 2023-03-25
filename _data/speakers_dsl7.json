@@ -1,0 +1,252 @@
+[
+  {
+    "id": 11,
+    "speakers": [
+      {
+        "name": "Adiwid (Boom) Devahastin Na Ayudhya",
+        "class": "MSE23",
+        "pic": "Boom.jpg",
+        "linkedin" : "https://www.linkedin.com/in/boom-devahastin/"
+      },
+      {
+        "name": "Muaaz Noor",
+        "class": "MSE23",
+        "pic": "Muaaz_Noor.jpg",
+        "linkedin" : "https://www.linkedin.com/in/muaazahmednoor/"
+      },
+      {
+        "name": "Conor Gibbons",
+        "class": "MSE23",
+        "pic": "Conor_Gibbons.jpg",
+        "linkedin": "https://www.linkedin.com/in/conor-gibbons-4b1089195"
+      }
+    ],
+    "time": "",
+    "googleslides": "https://docs.google.com/presentation/d/14zTipQCxWLROEc8IHJm6lcs_IGtZ7ssF/edit?usp=sharing&ouid=110829418030473568440&rtpof=true&sd=true",
+    "title": "The Data Scientist's Choice: Python vs. R",
+    "abstract": "Both Python and R are easily the top two most popular languages that are used by the data science community. While our Modern Data Mining course has historically been taught in R, our Pythonization Special Project Group has spearheaded the initiative to transition our material over to Python. This presentation not only outlines the fundamental differences of R vs. Python, but will also demonstrate live the Google Colaboratory (Colab) interface to write .ipynb files in an effort to showcase both the comparative advantages and disadvantages that Python has over R. This will also include a brief run through of one of our lecture modules as a case study. For those interested in seeing the Crash Course on Basic and Advanced Python our team has developed for future semesters, please feel free to ask questions after the presentation."
+  },
+  {
+   "id": 3,
+    "speakers": [
+      {
+      "name": "Edward Zhang",
+     "pic": "Edward_Zhang.jpg",
+     "class": "SEAS+W23",
+     "linkedin": "https://www.linkedin.com/in/edwardjczhang/"
+     },
+     {
+     "name": "Aaron Shurberg",
+     "pic": "Aaron_Shurberg.jpg",
+     "class": "SEAS22",
+     "linkedin": "https://www.linkedin.com/in/aaron-shurberg/"
+     },
+     {
+     "name": "Matt Simkus",
+     "pic": "Matt_Simkus.jpg",
+     "class": "MCP22",
+     "linkedin": "https://www.linkedin.com/in/matt-simkus-3b65b760/"
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "Predict Flood Insurance Payouts",
+     "abstract": "Under the Federal Emergency Management Agency (FEMA), the National Flood Insurance Program annually pays out billions of dollars in insurance payouts to people that have suffered flood damage. This study aims to predict how much a victim of flood damage can expect to receive in payouts given where they live, their demographic information, and the flood risk factor of their place of residence according to the First Street Foundation.\n\nUsing datasets acquired from FEMA, the census, and the First Street Foundation, we aim to use the ensemble methods covered over this Modern Data Mining Course to generate predictive models that are able to predict the expected payout of insurance based on these potential predictors. These methods will include linear regression, random forest, and generalized boosting; based on these models, we hope to see if their aggregate results are insightful, and make recommendations based on the results that these models yield.\n"
+ },
+ {
+   "id": 1,
+    "speakers": [
+      {
+      "name": "Tianxiao Zhang",
+     "pic": "Tianxiao_Zhang.jpg",
+     "class": "SEAS22",
+     "linkedin": "https://www.linkedin.com/in/tianxiao-tim-zhang-873964160/"
+     },
+     {
+     "name": "Yanqi Liu",
+     "pic": "Yanqi_Liu.jpg",
+     "class": "SEAS22",
+     "linkedin": "https://www.linkedin.com/in/yanqi-liu98/"
+     },
+     {
+     "name": "Muhua Chen",
+     "pic": "Muhua_Chen.jpg",
+     "class": "SEAS22",
+     "linkedin": "https://www.linkedin.com/in/mu-hua-megan-chen-7a0b67114/"
+     }
+     ],
+     "time": "",
+     "slides": "13_DSL_presentation.pdf",
+     "title": "Life-saving models for potential heart disease patients",
+     "abstract": "Heart disease has always been one of the most difficult diseases to be treated. It usually\ncannot be discovered until the patient reaches a certain age or certain symptoms begin to emerge. However, by that time, treatments are no longer as effective as if it was discovered earlier. Thus, it would be helpful to know whether a person is likely to have heart disease in advance. The goal of this project is to build predictive models that can predict whether a person is likely to have heart disease (binary outcome) given other physical measures of the person that could be tracked earlier.\n"
+ },
+ {
+   "id": 7,
+    "speakers": [
+      {
+      "name": "Ting Sun",
+     "pic": "Ting_Sun.jpg",
+     "class": "C23 GEN23",
+     "linkedin": "https://www.linkedin.com/in/david-ting-sun-5691b1186"
+     },
+     {
+     "name": "Lionel Smoler Schatz",
+     "pic": "Lionel_Smoler_Schatz.jpg",
+     "class": "C23 W23",
+     "linkedin": "https://www.linkedin.com/in/lionelss/"
+     },
+     {
+     "name": "Weiyu Kong",
+     "pic": "Weiyu_Kong.jpg",
+     "class": "W23 GEN23",
+     "linkedin": "https://www.linkedin.com/in/weiyu-vivian-kong-b5b228139/"
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "Airbnb Pricing and Recomendation Prediction Algorithms",
+     "abstract": "Our study is comprised of two parts. The first part investigates which factors matter most in deciding an Airbnb’s market-clearing price (for example, does a good neighborhood, number of bedrooms, description, or good review determines the price)? The second part investigates what features contribute to high reviews? From a consumer perspective, our algorithms can be used to identify over/under valued properties as well as evaluate the quality of newly listed properties with no existing reviews."
+ },
+ {
+   "id": 8,
+    "speakers": [
+      {
+      "name": "Zhuoyun Wang",
+     "class": "",
+     },
+     {
+     "name": "Mudan Chen",
+     "class": "",
+     },
+     {
+     "name": "Jinmeng Liu",
+     "class": "",
+     }
+     ],
+     "time": "",
+     "slides": "20_Stroke.pptx",
+     "title": "Stroke Prediction and Prevention",
+     "abstract": "We found this project interesting since as a disease affecting the arteries leading to and within the brain, stroke is the No.5 cause of death and a leading cause of disability in the US. Also, stroke is not only affecting seniors - there is a trend of having strokes at a younger age. In fact, an estimated 10% of strokes occur in people under age 50. We believe strokes should be considered as medical emergencies that require urgent medical attention. Early detection and appropriate management are required to prevent further damage to the affected area of the brain. Therefore, models with reliable stroke prediction based on people's medical history and demographic features can be greatly helpful on early prevention. "
+ },
+ {
+   "id": 10,
+    "speakers": [
+      {
+      "name": "Jia Xu",
+     "pic": "Jia_Xu.jpg",
+     "class": "MS23",
+     "linkedin": "https://www.linkedin.com/in/jia-xu-patricia"
+     },
+     {
+     "name": "Yuqin Zhang",
+     "pic": "Yuqin_Zhang.jpg",
+     "class": "MSE23",
+     "linkedin": "https://www.linkedin.com/in/yuqin-zhang"
+     },
+     {
+     "name": "Zejia Cai",
+     "pic": "Zejia_Cai.jpg",
+     "class": "MSE22",
+     "linkedin": "https://www.linkedin.com/in/zejiacai"
+     }
+     ],
+     "time": "",
+     "slides": "17_Alzheimer.pdf",
+     "title": "Early Alzheimer's Disease Prediction",
+     "abstract": "Alzheimer’s disease (AD) is the most common type of dementia which leads to memory loss and decline in thinking. AD is a progressive disease and usually starts slowly, but changes in the brain can begin many years before the appearance of first symptoms. \n\nIn this study, we aim to use Magnetic Resonance Imaging (MRI) data for both demented and nondemented adults to build classifiers that predict whether a subject will be diagnosed to develop dementia. Two datasets will be used: one deals with cross-sectional MRI data for adults aged between 18 to 96, and the other deals with longitudinal MRI data for older adults between 60 to 96. \n\nThe data was collected and released by the Alzheimer's Disease Research Center at Washington University and Open Access Series of Imaging Studies (OASIS)."
+ },
+ {
+   "id": 9,
+    "speakers": [
+      {
+      "name": "Jihan Zhang",
+     "pic": "Jihan_Zhang.jpg",
+     "class": "SEAS 23",
+     },
+     {
+     "name": "Chenxi Leng",
+     "pic": "Chenxi_Leng.jpg",
+     "class": "C 24",
+     "linkedin": "https://www.linkedin.com/in/chenxi-leng"
+     },
+     {
+     "name": "Ziyi You",
+     "pic": "Ziyi_You.jpeg",
+     "class": "SEAS 23",
+     "linkedin": "https://www.linkedin.com/in/ziyiyou/"
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "Superstore Marketing Strategies",
+     "abstract": "Motivated by the fact that U.S. supermarket and grocery store sales have increased up to 766 billion U.S. dollars, we aim to provide some marketing insights for a Superstore Giant which aims to enter the market or to increase their sales and profit. We try to understand which products, regions, categories, and customer segments the Superstore Giant should target or avoid.  In this presentation, we will start by giving you a short summary of the background and dataset, followed by the steps we took to clean the dataset. Then, we will present interesting visualizations and tables related to the variables in the dataset. After that, we will present the models we used to fit the testing set. Finally, we will conclude with practical insights for the superstore and suggest a best fitting model."
+ },
+ {
+   "id": 4,
+    "speakers": [
+      {
+      "name": "Zihu Xu",
+     "class": "Master(Data Science)",
+     },
+     {
+     "name": "Haimeng Wang",
+     "class": "Master(Data Science)",
+     },
+     {
+     "name": "Jingru Wang",
+     "class": "Master(Data Science)",
+     }
+     ],
+     "time": "",
+     "slides": "10_classify_paper.pptx",
+     "title": "Classifying Scientific Paper by Text Mining & Clustering",
+     "abstract": "The goal of our study is to cluster academic papers using unsupervised machine learning techniques based on the abstract of these scientific papers.  We are trying to test the impact of different data preprocessing steps on the quality of clusters and find the meaning of each cluster.  It's meaningful since we can apply what we have learned in class to the real-word cases and classify the paper without knowing its category if it works."
+ },
+ {
+   "id": 5,
+    "speakers": [
+      {
+      "name": "Ren Zhang",
+     "pic": "ren.jpeg",
+     "class": "Wharton PhD",
+     "linkedin": "https://www.linkedin.com/in/renzhang01"
+     }
+     ],
+     "time": "",
+     "title": "Keynote",
+     "abstract": "Ren is the Data Science Director at Amazon in charge of Personalization. Her team is in charge of developing the products, engineer platform, and applied science algorithm to drive personalized shopping experience at Amazon.com."
+ },
+ {
+   "id": 2,
+    "speakers": [
+      {
+      "name": "Stacey Bevan",
+     "pic": "Stacey_Bevan.jpg",
+     "class": "Nursing PhD",
+     "linkedin": "https://www.linkedin.com/in/stacey-bevan-82a67793/"
+     },
+     {
+     "name": "Yaoyu Wang",
+     "pic": "Yaoyu_Wang.jpg",
+     "class": "MS",
+     "linkedin": "https://www.linkedin.com/in/yaoyu-wang-940100210/"
+     },
+     {
+     "name": "Yuxuan Zhang",
+     "pic": "Yuxuan_Zhang.jpg",
+     "class": "MS",
+     "linkedin": "https://www.linkedin.com/in/yuxuan-zhang-1726771bb"
+     },
+     {
+     "name": "Hexiang Liu",
+     "pic": "Hexiang_Liu.jpg",
+     "class": "MS",
+     "linkedin": "https://www.linkedin.com/in/hexiang-liu-67686a1a0"
+     }
+     ],
+     "time": "",
+     "slides": "Adolscent_wellbeing.pdf",
+     "title": "Early social determinants of adolescent wellbeing",
+     "abstract": "In late 2021, the US Surgeon General’s Advisory released a public health statement about the alarming decreases in youth wellbeing. Even before the COVID pandemic, 20% of US youth reported a mental health disorder, and only half received appropriate treatment. Insight into predictors of adolescent wellbeing can advise policy aimed at reducing disease burden. The aims of the study are 1) develop a model of adolescent well-being from early social determinants and 2) between parent, teacher, and self-report, determine which is most predictive in the model.  This study uses the Fragile Family sample, which longitudinally follows child outcomes from birth to age 15. Model strategies included a series of regressions with LASSO, random forest with PCA and bagging. Results indicate that access to social services, sleep practices and neighborhood conditions in childhood are associated with youth wellbeing. Interventions that improve early life conditions may mitigate mental health symptoms in adolescence."
+ }
+]
