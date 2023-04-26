@@ -206,15 +206,15 @@
    "id": 5,
     "speakers": [
       {
-      "name": "Ren Zhang",
+      "name": "Kinhong Kan",
      "pic": "ren.jpeg",
-     "class": "Wharton PhD",
-     "linkedin": "https://www.linkedin.com/in/renzhang01"
+     "class": "Wharton WEMBA",
+     "linkedin": "https://www.linkedin.com/in/kinhong-kan/"
      }
      ],
      "time": "",
      "title": "Keynote",
-     "abstract": "Ren is the Data Science Director at Amazon in charge of Personalization. Her team is in charge of developing the products, engineer platform, and applied science algorithm to drive personalized shopping experience at Amazon.com."
+     "abstract": "Kinhong Kan graduated WEBMA in 2014 and currently serves as the Head of Engineering at Cartera - a Rakuten Company. His team builds and maintains a shopping rewards platform for airlines and banks in the US, through which over $1B worth of e-commerce sales flow every year. Before joining Cartera, Kinhong led platform engineering for the second largest web hosting company in the world, where he enjoyed working with a handful of WEMBAs, one of which was the co-founder. During his career, Kinhong also co-founded two technology companies. He earned his bachelor's and master's degrees in computer science from MIT."
  },
  {
    "id": 2,
