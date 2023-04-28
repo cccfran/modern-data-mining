@@ -5,12 +5,12 @@
       {
         "name": "Tiffany Tran",
         "class": "MSE23",
-        "pic": "Boom.jpg"
+        "pic": ""
       },
       {
         "name": "Yining Lei",
         "class": "MSE23",
-        "pic": "Muaaz_Noor.jpg",
+        "pic": "",
       }
     ],
     "time": "",
@@ -23,17 +23,17 @@
     "speakers": [
       {
       "name": "Brandon Hayes",
-     "pic": "Edward_Zhang.jpg",
+     "pic": "",
      "class": "SEAS+W23"
      },
      {
      "name": "Steven Phan",
-     "pic": "Aaron_Shurberg.jpg",
+     "pic": "",
      "class": "SEAS22",
      },
      {
      "name": "Vasiliki Tassopoulou",
-     "pic": "Matt_Simkus.jpg",
+     "pic": "",
      "class": "MCP22",
      }
      ],
@@ -47,17 +47,17 @@
     "speakers": [
       {
       "name": "Kate Spencer",
-     "pic": "Tianxiao_Zhang.jpg",
+     "pic": "",
      "class": "SEAS22"
      },
      {
      "name": "Daniel Stonberg",
-     "pic": "Yanqi_Liu.jpg",
+     "pic": "",
      "class": "SEAS22",
      },
      {
      "name": "Hanna Wu",
-     "pic": "Muhua_Chen.jpg",
+     "pic": "",
      "class": "SEAS22"
      }
      ],
@@ -70,7 +70,7 @@
     "speakers": [
       {
       "name": "Sukie Yang",
-     "pic": "Ting_Sun.jpg",
+     "pic": "",
      "class": "C23 GEN23"
      }
      ],
@@ -192,26 +192,123 @@
      "abstract": "Kinhong Kan graduated WEBMA in 2014 and currently serves as the Head of Engineering at Cartera - a Rakuten Company. His team builds and maintains a shopping rewards platform for airlines and banks in the US, through which over $1B worth of e-commerce sales flow every year. Before joining Cartera, Kinhong led platform engineering for the second largest web hosting company in the world, where he enjoyed working with a handful of WEMBAs, one of which was the co-founder. During his career, Kinhong also co-founded two technology companies. He earned his bachelor's and master's degrees in computer science from MIT."
  },
  {
-   "id": 57,
+   "id": 35,
     "speakers": [
       {
-      "name": "Alexander Dong",
+      "name": "Xu Han",
      "pic": "",
      "class": "",
      },
      {
-      "name": "Jessica Liu",
+      "name": "Xueqi Sun",
      "pic": "",
      "class": "",
      },
      {
-      "name": "Hannah Xiao",
+      "name": "Diljeet Kaur",
      "pic": "",
      "class": "",
      }
      ],
      "time": "",
      "slides": "",
-     "title": "TBD",
+     "title": "Predicting Mental Health Based on Social Media Posts",
+     "abstract": "tbd"
+  },
+  {
+   "id": 32,
+    "speakers": [
+      {
+      "name": "Jacob Feigenberg",
+     "class": "",
+     },
+     {
+     "name": "Matthew Friedman",
+     "class": "",
+     },
+     {
+     "name": "Yuting Zhu",
+     "class": "",
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "Is Kiva Creating Efficient Impact Through Microlending?",
+     "abstract": "tbd"},
+  {
+   "id": 23,
+    "speakers": [
+      {
+      "name": "William Lee",
+     "class": "",
+     },
+     {
+     "name": "Harry Li",
+     "class": "",
+     },
+     {
+     "name": "Isabelle Lin",
+     "class": "",
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "Can ChatGPT Outperform De Novo Disease Prediction Models?",
+     "abstract": "tbd"},
+  {
+   "id": 58,
+    "speakers": [
+      {
+      "name": "Eric Wu",
+     "class": "",
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "Predicting Purchase Intent with Clickstream Data",
+     "abstract": "tbd"},
+  {
+   "id": 11,
+    "speakers": [
+      {
+      "name": "Aakash Jajoo",
+     "class": "",
+     },
+     {
+     "name": "Shriya Karam",
+     "class": "",
+     },
+     {
+     "name": "Sindura Mente",
+     "class": "",
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "EVolve: Predicting Electric Vehicle Adoption",
+     "abstract": "tbd"},
+  {
+   "id": 29,
+    "speakers": [
+      {
+      "name": "Gideon Tesfaye",
+     "class": "",
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "Using Deep learning to compose music ",
+     "abstract": "tbd"},
+  {
+   "id": 99,
+    "speakers": [
+      {
+      "name": "Neil Fasching",
+     "class": "",
+     }
+     ],
+     "time": "",
+     "slides": "",
+     "title": "Generative AI",
      "abstract": "tbd"}
 ]
