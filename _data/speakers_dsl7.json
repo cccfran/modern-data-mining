@@ -15,7 +15,7 @@
       }
     ],
     "time": "",
-    "googleslides": "https://docs.google.com/presentation/d/14zTipQCxWLROEc8IHJm6lcs_IGtZ7ssF/edit?usp=sharing&ouid=110829418030473568440&rtpof=true&sd=true",
+    "slides": "1_Group2.pdf",
     "title": "The Recurring American Dream? Understanding the Effect of Remote Work on Suburban Housing Prices",
     "abstract": "The COVID-19 pandemic has ushered in a new era of housing and real estate in the US. Demand for housing shows little sign of slowing, with shelter accounting for over 70% of the monthly increase in inflation (Bureau of Labor Statistics, 2023). The shift to remote work explains over 50% of the national increase in housing prices since 2019 (Mondragon et al., 2022). American housing preferences are clearly changing, with those who have the ability to work from home seeking more space in which to do so. Is work from home—induced by a COVID-19 policy shock—associated with a revival of American suburbanization? To explore this question, we examine the effect of work from home on ZIP code level housing prices in the metropolitan statistical areas of Philadelphia, PA and Atlanta, GA in the periods before and after state-level COVID stay-at-home orders. \n\n We use COVID intervention policy data to define the “before period” from January 1, 2018 through the start date of the stay-at-home order. We define the “after period” beginning with the end date of the stay-at-home order through December 31, 2022. Because some MSAs cross state boundaries, the before and after periods vary by state. Using time series data from the Zillow Home Value Index for single family homes, our dependent variable is median home value by ZIP-code. Our independent variables include: county level percent working from home before and after the stay-at-home order; a binary variable for urban or suburban ZIP codes; and county level demographic variables for annual median household income, percent white population, percent aged 65 and older, and percent college educated. \n\n We run OLS, LASSO, and single tree regression to compare the predictive ability of different methods. For each method, we build a “before” and “after” model, representing the respective periods. We then compare housing prices and percent work from home across space (urban and suburban) and time (“before” and “after”). In the “before” period, we expect to see little to no interaction effect between work from home and urban variables on median home values. However, in the “after” period, we expect to see an interaction effect where the relationship between median home values and work from home depends on a ZIP code’s urban or suburban classification. We thus expect that median home values for single family homes to increase disproportionately in suburban ZIP codes after the COVID policy shock, associated with increased demand for more space to work from home. The study provides quantitative insight into the effects of work from home on the suburban housing market, with implications for city planners and the future of cities."
   },
@@ -40,7 +40,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "2_Group27.pdf",
      "title": "What makes a shelter animal “adoptable”? Helping shelters evaluate pet features to increase rehoming",
      "abstract": "Philadelphia is currently facing an animal sheltering crisis, in which the shelter intake rate of animals exceeds adoption. In 2022, for example, numerous shelters run by the Animal Care and Control Team (ACCT) and the Pennsylvania SPCA had zero available kennels for additional intakes. While there are many confounding factors that ultimately affect adoption (a potential owner’s financial and social constraints, allergies, compatibility with a potential pet), we can begin to narrow down some of the problem to what makes a bet more quickly adoptable. What factors are most likely to increase the speed with which animals get adopted from shelters? To address this question, we will use data compiled from more than 150,000 animals made available by Petfinder.my, Malaysia’s leading animal welfare platform. This pet-specific database is rich in animal characterization, including age estimates, vaccination status, breed, fur color & length, size, worm status, health, among others. We will assume that features in pets found in this database are generally representative across the world. Exploratory data analysis will first be done to get a brief understanding on what qualities seem to favor adoption and if there is any bias in the dataset. Then, we will compare different models to see which best captures adoption speed (and by extension identifying key features that influence adoption). These models include, but are not limited to, LASSO, multinomial logistic regression and neural nets. We will then use our final model to predict how long it will take for some current sheltered animals at PAWS Philadelphia to be adopted. This modelling can ultimately help give shelters estimates on adoption times to better adjust their in-take policies. It can also advise on what different approaches can be taken for animals that tend to have longer waits, such as better advertisement, more social media presence, or more specific out- of-shelter fostering. Lastly, such a model could also help shelters re-adjust their fostering programs to better fit animals that struggle to get adopted quickly into a timeline that will help them be rehomed. "
   },
@@ -65,7 +65,7 @@
      }
      ],
      "time": "",
-     "slides": "13_DSL_presentation.pdf",
+     "slides": "3_Group18.pdf",
      "title": "Kicking it Up a Notch: Predicting the Future Success of Up-and-Coming Soccer Players",
      "abstract": "Predicting player performance in soccer can give coaches and teams a competitive edge by enabling more informed decisions about team selection and tactics. It\"s also thrilling for scouting and talent identification, like finding a diamond in the rough. But it\"s not just about optimizing team performance or identifying talent. Analyzing data and predicting player performance can deepen our understanding of the complexities of the game, from physical fitness to mental toughness.\n\n Our final project will rely on data from the 2022 FIFA World cup. The dataset contains all key attributes of male soccer players, such as position, wage, potential, age, height, weight, league level, mentality and computer, goalkeeping/defense/offensive ability, and more. It has 19,239 rows and 60 columns. The dataset was sourced from Kaggle and is entitled “FIFA 22 Complete Player Dataset.” Initial analysis will consist of EDA and variable analysis such as the distribution of players, countries represented, biological factors, and pay. \n\n More in-depth analysis will include PCA, trees, neural networks, random forest, LASSO linear regression and other methods to identify factors correlated to a soccer player’s likelihood to perform well in the sports field."},
  {
@@ -79,7 +79,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "4_Group13.pdf",
      "title": "Chemical Spills and Environmental Anxiety: Linking Twitter Data with National Survey Data, 2010-2023",
      "abstract": "Since the beginning of 2023, the public has witnessed chemical spills in Ohio, following a train derailment on February 3; less than two months later, another spill occurred at a plant in Bristol, PA, when \"an equipment failure\" dumped a large amount of latex emulsion solution into the river. Both of the accidents were claimed not to have contaminated drinking water, but mistrust of the official claims and subsequent environmental anxieties have been prevalent on social media. Do environmental anxieties on social media result in real population mental health crises? How do the contents of social media influence the mental health of various sociodemographic groups differently? In the face of viral environmental news, the absence of this research hinders our capacity to protect the most vulnerable populations from mental health risks.\n\n This study focuses on mental health consequences of environmental anxieties on social media related to technological accidents in the US. Based on the scraping of over 100,000 original tweets since 2010, and linking them to the annual National Health Interview Survey, this study mainly has these two goals: 1) explore the relationship between social media environmental anxieties and the occurrence of technological accidents, with an investigation of the trend over time; 2) study how environmental anxieties on Twitter impact mental health of the residents in the place of incident and what content significantly predict the decline in mental health."},
  {
@@ -100,7 +100,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "5_Group24.pdf",
      "title": "March Madness Mania: Predicting the Mayhem ",
      "abstract": "Every March, millions of crazed basketball fans and wannabe millionaires fill out brackets for the yearly College Basketball Playoffs, termed \"March Madness.\" They all vye to be the first ever \"perfect\" bracket in March Madness history. With over 25 million brackets on the day the playoffs start, only single digit numbers of them remain perfect by the end of the first week. This project is aimed at creating a predictor/classifier for March Madness games. The predictor/classifier will be built using machine learning techniques and will use historical data such as team statistics, player data, and game results from previous March Madness tournaments as well as Regular Season results.  Furthermore, additional data on the official and expert-predicted rank of teams in March Madness are used to strengthen the predictions. This model is used to predict the results of the 2022 March Madness season based on data from 2003 onwards. The specific methods that will be used for this project include unsupervised learning methods: Principal Component Analysis, Clustering (K-means clustering, Spectrum Analysis), and supervised learning methods: Regression (Simple Linear, Multiple Linear), Model Selection (LASSO), Classification (Logistic Regression, Decision Trees, Deep Learning, and Boosting). Ultimately, the developed predictor/classifier will be tested against the 2022 March Madness games to assess its effectiveness. The success of this project will not only help basketball fans improve their bracket accuracy, but also demonstrate the power of machine learning in predicting complex events."},
  {
@@ -139,7 +139,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "6_Group34_39.pdf",
      "title": "Credit Card Customer Segmentation and Churn Prediction: A Data-driven Analysis",
      "abstract": "Churn prediction is a critical task for businesses to understand and retain customers. In this project, we examined 10127 customers from a credit card issuer in the United States. Our data, \"Credit Card Dataset,\" obtained from Kaggle.com, contains the outcome variable indicating attrition and 20 socio-demographic and spending variables. We first described the characteristics of customers by visualizing different features along with the churn label. This allows us to select four features that are related to the churn label: total revolving balance, total transaction amount, total transaction count, and average utilization ratio. Then we proceeded to predict the outcome using logistic regression models, a least shrinkage and selection operator (Lasso), neural net analysis, and random forest. After comparing the performance of these models, we concluded that while all the models generally align, the random forest yielded the highest prediction rate. The most significant variables that distinguish existing and discontinued customers are the four predictors from our EDA, followed by a user’s total number of financial products in this bank and change in transaction amount from Quarter 4 over Quarter 1. Our findings indicate that all else equal, users’ spending patterns are more effective in predicting attrition than their socio-demographic characteristics, probably because spending behavior absorbs the variance in socio-demographic characteristics."},
  {
@@ -158,7 +158,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "7_Group51.pdf",
      "title": "Gentrification and Health Disparities: An Integrated Analysis of Inequality in Philadelphia",
      "abstract": "Gentrification is a process of affluent residents and businesses displacing existing low-income residents and businesses. Beyond prospects for so-called “urban renewal”, gentrification has real, tangible effects on the landscape and trajectories of existing communities who often don’t benefit from the changes of a neighborhood and are disenfranchised from participating in the growth of their area. Gentrification also has documented health effects on communities, such as shortened life expectancy, higher cancer rates, higher infant mortality, and cardiovascular diseases. Income inequality can be used to estimate gentrification rates. It can be quantified by a Gini index which is a value from 0 to 1 indicating inequality in the dispersion of income in a given unit. This study begins to to investigate a statistical framework for capturing the relationship between income inequality and health effects in Philadelphia from integrated datasets. The goal of the study is to quantify gentrification in Philly’s neighborhoods and understand it’s perceived effect on public health correlates. We will do this through modeling the relationship of Philadelphia health data with dynamic neighborhood demographics and census tract-level Gini index."},
  {
@@ -182,7 +182,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "8_Group5.pdf",
      "title": "What Makes You Happy? Evaluating Life Satisfaction on a Global Scale",
      "abstract": "How would you rank your happiness from 0 - 10? The value of happiness is often overlooked in relation to government policy design and implementation. To remedy this, Sustainable Development Solutions Network has produced the World Happiness Report by surveying overall life satisfaction from individuals around the world. The observed data includes country-wide economic and health information, as well as averaged life evaluations on the individual level from 2005 to 2022. This data serves as an entry point for us to better understand factors that reflect happiness. The goal of our project is to effectively model the relationship between happiness and other observable factors. More importantly, we wish to understand what factors contribute to happiness such that we can make recommendations to inform policy design. \n\n To this end, we will leverage model data mining techniques including linear regression and random forest to assess the associations between observed features and measured happiness. Furthermore, we will perform feature importance analysis on the best predicting model to understand the variables that best inform happiness on an individual and country-wide scale."},
  {
@@ -206,7 +206,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "9_Group57.pdf",
      "title": "Detecting Depression and Suicidal Thoughts in Reddit Comments Using Natural Language Processing",
      "abstract": "Nearly 5% of the world’s population is impacted by depression, and if left untreated, the lifetime risk of suicide is 20%. In the US, suicide is the 12th leading cause of death, taking over 45,000 lives in 2020. However, over 95% of adults surveyed in the US believe that suicide can be prevented. Our project investigates how textual analysis of written posts can help identify people who are at risk for depression and/or suicidal thoughts, which can help the millions of people who may be struggling to reach out for support. \n\nWe compared language used in general Reddit comments scraped from the r/depression and r/suicidewatch subreddits in order to create classifiers that can identify comments likely to be from someone suffering from depression and/or suicidal thoughts. We created models using random forest, XGBoost, and a transformer. We found that the transformer model performed the best with a testing accuracy of 98.3% and an F1 of 91.57%."}
      ,
@@ -246,7 +246,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "11_Group35.pdf",
      "title": "Predicting Mental Health Based on Social Media Posts",
      "abstract": "In 2020, WHO announced that more than 64 million people suffer from depression worldwide. 17.3 million adults in the U.S. have had at least one major depression, and the pandemic also exacerbated mental health crises across the world. While efficient vaccines and medicine are developed to maintain the physical health of human beings in controlling COVID, mental health is equally important in this post-pandemic era. As a common mental disorder, depression affects all aspects of daily life and severe depression will lead to suicide. Psychological and medical therapies are effective in treating depression, but noticing depression symptoms and timely assistance is the key step in preventing this mental illness. Social media, as an indispensable platform, allows people to share information, express thoughts, and communicate with friends and family. In this project, we investigated if a post on social media is an informatic predictor of depression and suicide. With the models generated in this project, we captured the tendency of depression and suicide based on one’s use of words on social media. Furthermore, intervention or treatment can be built on top of this project."
   },
@@ -268,7 +268,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "12_Group32.pdf",
      "title": "Is Kiva Creating Efficient Impact Through Microlending?",
      "abstract": "Over the past few years, innovation in fintech has allowed for creative ways for smaller players to make an impact with their capital: platforms like Kickstarter, GoFundMe, and Indiegogo have allowed individuals to make small contributions to business ideas, fundraisers, and other ventures. In 2005, Kiva was founded, using similar technology to allow people to make microloans to businesses and families in developing areas. This method of lending, called microfinance, has drawn supporters for making social impact more accessible for typical individuals and critics for having minimal impact. This study will investigate how loans are made on Kiva, and if these dollars are truly making a difference for people in developing countries.\n\nThis project will piggyback off of the homework case study on Lending Club, for we may cite some of the findings or intuitions gained from that study in our analysis of Kiva’s business."},
   {
@@ -289,7 +289,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "13_Group23.pdf",
      "title": "Can ChatGPT Outperform De Novo Disease Prediction Models?",
      "abstract": "Physician diagnostic errors are costly and can be fatal. They are commonly caused by 1) a lack of time to accurately assess patients, 2) anchoring bias, which is the overreliance on the first piece of information given, and 3) lack of proper context to patient health data. To mediate and reduce such errors, we are curious as to whether data mining methods can devise a model capable of assisting physicians in pre-diagnosis. In conjunction, in less than six months of its launch, ChatGPT has performed outstandingly on multiple exams and interviews, including the Medical College Admission Test, the standardized test for aspiring doctors and physicians. Can ChatGPT diagnose patients better than our own model? If so, how well? To answer this, we will develop a de novo prediction model that provides accurate disease diagnosis based on patient symptom descriptions using neural net and XGBoost, and evaluate the potential of ChatGPT-like engines for disease diagnosis by comparing to our model and predicting the success rate of ChatGPT diagnosis for a given set of symptoms. We source three datasets from Kaggle, each correlating patient symptoms to their actual disease in text or binary parameters, and apply XGBoost or NLP to produce our de novo models. We will then ask ChatGPT for the diagnosis given each combination of symptoms from the datasets, and record down its answers. Then, we will compare our model and ChatGPT predictions, and explore whether ChatGPT tends to confuse certain symptoms by K-mean clustering its performance in relation to the symptoms present. We hypothesize that the de novo prediction model will outperform ChatGPT but be heavily plagued by overfitting problems, while ChatGPT, though suffering in accuracy, will predict in agreement with the real world. "},
   {
@@ -302,7 +302,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "14_Group58.pdf",
      "title": "Predicting Purchase Intent with Clickstream Data",
      "abstract": "This project applies the transformer neural network architecture to the user intent prediction problem from clickstream data. Specifically, a classifier based on the encoder block on the transformer is used to early predict purchase conversation of browsing sessions from the travel e-commerce website Expedia. Rich clickstream browsing data is first encoded into symbolized sequences and the transformer based classifier is used to predict whether or not a each browsing session will result in a purchase or not by only observing the first T actions of the session. The transformer based classifier is benchmarked against a random forest and managerial implications are discussed. Further discussion on identifying purchase intent from web nagviation patterns is also provided. "},
   {
@@ -323,7 +323,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "15_Group11.pdf",
      "title": "EVolve: Predicting Electric Vehicle Adoption",
      "abstract": "Electric vehicles have the potential to reduce negative environmental externalities such as air pollution and carbon emissions from the transportation industry. However, several factors may prevent individuals from adopting electric vehicles, which may disproportionately affect certain individuals based on pre-existing conditions [1]. Factors that may come into play in electric vehicle adoption include individuals’ socioeconomic background which may affect their ability to afford electric vehicles. Additionally, energy consumption practices, previous familiarity with electric vehicles, and interest in new technology may either inhibit or enhance their likelihood of adopting electric vehicles. In this study, we seek to estimate the extent to which individual-level characteristics impact individuals’ propensities of adopting and not adopting electric vehicles [2]. \n\n To answer this question, we use a comprehensive survey dataset that surveys residents from 8 different states and their attitudes towards zero-emission vehicles, relating to their familiarity with the technology, household attributes, demographic variables, energy considerations, environmental impacts, and purchase costs [3]. To estimate individuals’ likelihood of adopting electric vehicles, we implement a binary logistic regression model as well as lasso regression, classification trees, random forests, and neural networks to predict a binary response variable. Ultimately, we determine key characteristics that relate to individuals' adoption of electric vehicles, which will advise professionals in targeting different audiences towards buying electric vehicles. In the end, strategic enhancements to promote electric vehicle usage among consumers will alleviate negative environmental impacts. \n\n [1] Bauer et al. “When might lower-income drivers benefit from electric vehicles? Quantifying the economic equity implications of electric vehicle adoption,” International Council on Clean Transportation, February 2021. https://theicct.org/sites/default/files/publications/EV-equity-feb2021.pdf. \n\n [2] Lin and Wu. “Why people want to buy electric vehicle: An empirical study in first-tier cities of China,” Energy Policy, January 2018. https://doi.org/10.1016/j.enpol.2017.10.026 \n\n [3] “California Residents' ZEV Attitudes,” Kaggle, https://www.kaggle.com/datasets/thedevastator/california-residents-zev-attitudes "},
   {
@@ -336,7 +336,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": "16_Group29.pdf",
      "title": "Using Deep learning to compose music ",
      "abstract": "Algorithmic music composition is something that has been studied extensively over the last twenty years. In prior works, attempting to model and generate audio proved to be challenging since the number of timesteps in a song far outnumber what any modern deep-learning model could process. This project leverages existing research that has been conducted surrounding algorithmic composition, specifically an open-source music transformer known as the Pop Music Transformer –– a transformer model that understands MIDI events through a representation called REMI (revamped-midi-derived events) –– to generate short sample melodies that can be used as a basis for a song."},
   {
@@ -349,7 +349,7 @@
      }
      ],
      "time": "",
-     "slides": "",
+     "slides": ".pdf",
      "title": "Generative AI",
      "abstract": ""}
 ]
