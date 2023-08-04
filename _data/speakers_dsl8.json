@@ -1,0 +1,114 @@
+[
+ {
+   "Timestamp": "8/3/2023 14:51:58",
+   "Names": "Arnav, Abhinav, Arush, Andrew, Eric",
+   "Group": 13,
+   "TF": "Edward Zhang",
+   "Title": "Red, White, and Hilariously False",
+   "Abstract": "This research employs text mining techniques within the R programming environment to discern predictive patterns between fake and real news articles. By extracting and analyzing textual features from a diverse dataset, the model aims to uncover distinctive characteristics that differentiate misinformation from authentic reporting. The study focuses on pattern recognition and prediction, shedding light on potential indicators that may aid in accurately distinguishing between the two categories. The utilization of text mining in R provides a robust framework for uncovering underlying trends, enhancing our ability to preemptively identify and address the challenges posed by misinformation in today's information landscape."
+ },
+ {
+   "Timestamp": "8/3/2023 15:12:39",
+   "Names": "Vayun, Kedaar, Kevin, Karam, Kenneth",
+   "Group": 10,
+   "TF": "Harry Li",
+   "Title": "Scam Buster: Unraveling the Web of Fake Job Offers",
+   "Abstract": "Every year, millions of people log onto job-recruiting websites and lose their livelihoods when they give up too much personal information to a fraudulent ad. We solved this problem by extracting a balanced dataset from the Employment Scam Aegean Dataset, a “testbed for scientists working on the field”. This sample contained equivalent amounts of “scams” and “non-scams”, making it valuable for training logistic regression, long short-term memory, and bag of words models. The goal was to identify which model produced the highest testing accuracy, and the LSTM combined with a logistic model did so at 82%."
+ },
+ {
+   "Timestamp": "8/3/2023 15:23:34",
+   "Names": "Max, Jacob, Leo, Eric, Nicholas",
+   "Group": 14,
+   "TF": "Edward Zhang",
+   "Title": "Investigating Violent Crimes: a Human Issue",
+   "Abstract": "Violent crimes are a profound human issue that affects millions of Americans daily. Many intertwined factors create a butterfly effect, rippling across racial, economic, and social boundaries and contributing to staggering crime rates. This study collects data on various factors that plausibly affect the violent crime rate and aims to shed light on the significant influences. Through the Least Absolute Shrinkage and Selection Operator (LASSO) to filter significant variables and using backward selection to eliminate insignificant factors, we present three models that started with different variable inclusions. By utilizing testing data to calculate the error of each model, the final LASSO model reveals that the percentage of people owning houses, the black/African American and mixed race population rate, seemingly positively correlate with violent crime rates, although causation cannot be proven with statistical tools. Meanwhile, the percentage of people with college degrees or higher and high-speed Internet access appears to decrease violent crime rates, yet evidence of causation remains lacking."
+ },
+ {
+   "Timestamp": "8/3/2023 15:46:28",
+   "Names": "Liz, Joy, Christine, Harrison, Anthony",
+   "Group": 11,
+   "TF": "Edward Zhang",
+   "Title": "Hearts in Numbers",
+   "Abstract": "Cardiovascular disease affects a significant number of people in the United States, with approximately 82.6 million individuals affected. Despite advances in treatment methods, only 35% of patients can survive for 10 years, and a complete cure remains elusive. Understanding the potential causes of this disease is crucial for promoting healthier communities through early prevention and detection. Additionally, identifying effective treatment methods can significantly enhance survival rates, improve current medical procedures, and save countless lives. This project utilizes two distinct datasets to develop prediction models for an individual's likelihood of acquiring cardiovascular disease and their mortality rate based on hospital, medical procedures, and year of treatment. By leveraging these models, we aim to provide valuable insights that will support early interventions, enhance patient outcomes, and ultimately contribute to a healthier and more resilient population."
+ },
+ {
+   "Timestamp": "8/3/2023 15:48:37",
+   "Names": "Jake, Joe, Andre, Kevin, Michael",
+   "Group": 15,
+   "TF": "Edward Zhang",
+   "Title": "A Little Bird Told Me...",
+   "Abstract": "In recent years, there have been many instances of social media directly impacting stock prices (such as r/wallstreetbets GameStop incident in late 2020). These instances are anomalies, but we wish to investigate the normal impact social media has on stocks; after all, people can be easily influenced by mentalities spread in these circles. By using an altered version of natural language processing involving LASSO and multiple linear regression, we wish to predict movements in the stock market through the mass of stock related social media posts made daily. "
+ },
+ {
+   "Timestamp": "8/3/2023 15:51:30",
+   "Names": "Konstantin Dichev, Nathan Dishon, Alex Han, Elbert Ho, Digonto Chatterjee",
+   "Group": 6,
+   "TF": "Harry Li",
+   "Title": "A Machine Learning Approach to Photovoltaic System Optimization ",
+   "Abstract": "As the world transitions from fossil fuels to renewable energy, it is critical to maximize the efficiency in which we harness this energy. To address this concern, we examined the effect of weather on solar irradiance, with our goal to ultimately predict the energy output of a hypothetical solar farm. In this study, we collected solar irradiance data, and utilized multiple machine learning models to predict photovoltaic power production based on weather. Different models were compared in order to find an ideal model that provides both high accuracy and low computational cost. We found that the XGBoost model provided the lowest RMSE . Using the XGBoost model, a heat map was created to find the most efficient location for solar panel placement in Santa Fe. "
+ },
+ {
+   "Timestamp": "8/3/2023 16:00:37",
+   "Names": "Ritwij, Jeesung, Felix, Dmitri, Steven",
+   "Group": 7,
+   "TF": "Harry Li",
+   "Title": "World Happiness Report Exploratory Data, Regression, Decision Tree Analysis",
+   "Abstract": "Happiness has always been an important factor that has driven human civilization to where it is today. A key goal for most countries today is the well-being of their citizens, which includes the happiness of the individual. This Data Science study aims to present a comprehensive analysis of the World Happiness Report and the Global Country Information datasets. The goal is to understand the relationship between various parameters in order to predict the happiness values of countries. <br><br> In the initial phase of our study, we used the data from the World Happiness Report to understand the relative significance of each factor and applied the model we built to a sample dataset from students at Wharton Global Youth Programs in an attempt to model their Happiness while addressing declining happiness in teens. From there we employed statistical techniques, data visualization methods, regression analysis, LASSO, and Random Forest to model the relationships between the individual parameters in the Global Country Information dataset and happiness score. All of these steps were taken to ensure the integrity and optimization of the data set for modelling.<br><br>Using the methods described above, we concluded that a set number of country variables not included in the World Happiness Report are directly correlated with Happiness Score and are significant to Happiness Level in a country at the 0.05 Significance Level."
+ },
+ {
+   "Timestamp": "8/3/2023 16:03:45",
+   "Names": "Nicolas, Andy, Julia, Tina, Khadim",
+   "Group": 3,
+   "TF": "Neil Fasching",
+   "Title": "Bridging the Gap: Analyzing Predictors of Academic Success in High Schools",
+   "Abstract": "The problem of unequal educational opportunity among students has been an ongoing concern, especially within the United States. With socioeconomic gaps becoming increasingly wide, it is important that students are afforded equal opportunity to succeed academically. In this project, we aim to explore the relationship between academic success in high schools and various demographic and socioeconomic factors. We use data from over 200 high schools in the state of Massachusetts from the 2016-17 school year. In order to better contextualize the data, we merge crime data by city provided by the FBI in 2017. Average SAT score, graduation rate, and percentage of students attending college after graduation were chosen as indicators of student success. We develop models using linear regression, relaxed LASSO with stepwise variable selection, and random forest in order to predict a high school’s academic success. We then compare the methods based on test data prediction accuracy. Overall, we find that gender, economic status, school funding, and demographics have significant impacts on our three response variables."
+ },
+ {
+   "Timestamp": "8/3/2023 17:04:06",
+   "Names": "Justin, Raymond, Mohammed, Alexander, Jacob",
+   "Group": 5,
+   "TF": "Neil Fasching",
+   "Title": "Statistical Analysis of the Fairness of Affirmative Action Based on LSAC Bar Passage Study",
+   "Abstract": "The goal of the study is to study the fairness of Affirmative Action for different groups of students. The LSAC Bar Passage Study data set was used which was a lasting study on law school students initiated in the 1990s. We used multiple regressions, poisson regression, and logistic regression to prove that those who got into law schools likely due to Affirmative Action programs have the same ability as those who did not based on comparison of attempts taken to pass the bar exam and dropout rates. We also used neural networks to find out Affirmative Action status holds no bearing on students’ professional lives in terms of work compensation. Heat maps on the percentage of students who possibly benefited from Affirmative Action among neither-white-nor-asian students were made. It was observed that a bigger portion neither-white-nor-asian admitted students in certain states likely benefited from Affirmative Action. Based on statistical analysis of our study, college admission using Affirmative Action is fair across races while improvements need to be made in order to ensure that ethnic minorities in different geographical regions benefit the same from the policy."
+ },
+ {
+   "Timestamp": "8/3/2023 17:09:40",
+   "Names": "Ben, Coco, Ruby, Michael",
+   "Group": 2,
+   "TF": "Neil Fasching",
+   "Title": "Optimizing Energy Consumption: A data-driven approach to sustainable living ",
+   "Abstract": "Our project goal is to predict energy usage patterns and identify energy-saving opportunities in US residential buildings using a dataset sourced from US Energy Information Administration. By comparing 3 different models for efficient use: multiple regressions, neural networks, boost trees, and logistic models for predicting high-low energy demand, we provide useful insights into American future and present energy consumption. We built models according to the characteristics of our data (housing materials, geographical data, household makeup, etc…) to provide useful, digestible, human-centric insights.  In our training-testing data process we found the most important variables for energy savings in our efficiency models. In our logistic models we accurately and consistently predict housing requiring high energy and low energy needs, providing confusion matrices for each. Through these efforts, we aim to empower homeowners and policymakers with actionable knowledge to make informed decisions for a sustainable energy future."
+ },
+ {
+   "Timestamp": "8/3/2023 17:10:16",
+   "Names": "Margaret, Kaelyn, Chloe, Gloria, Will",
+   "Group": 8,
+   "TF": "Harry Li",
+   "Title": "Beyond the SAT: Analyzing factors influencing scores",
+   "Abstract": "SAT scores have traditionally been considered an important variable in college admissions and a reflection of a student's academic capacity. However, emerging arguments claim that other factors besides a student’s academic intelligence such as socioeconomic background and ethnicity affect students' SAT scores. By collecting SAT scores from numerous high schools in Massachusetts and performing multiple linear regression, relaxed LASSO, and decision trees, this study aims to shed light on the complexities surround SAT scores in order to determine whether or not standardized scores are pure measures of academic merit. This study suggested that schools with certain percentages of race,  percentages of students economically disadvantaged, and quality of education had a significant effect on SAT scores. Understanding the implications of the SAT shall help education stakeholders (i.e. high schools and colleges) to make informed decisions to devise inclusive and effective ways to promote educational equity. "
+ },
+ {
+   "Timestamp": "8/3/2023 19:48:25",
+   "Names": "Jeffrey, Alicia, Melissa, Emily, Anisha",
+   "Group": 4,
+   "TF": "Neil Fasching",
+   "Title": "The Financial Health of Hospitals: Investigating the Metrics Contributing to Hospital Profit Decline",
+   "Abstract": "In the wake of the pandemic, society has relied heavily on hospitals. However, at the same time, hospitals have trended increasingly toward financial loss, despite support from governments. This study investigates the effects of various underlying factors on hospital revenue and expenses to isolate the causes of the financial decline and report any controllable factors. Relaxed LASSO, theoretical linear, and random forest models were used to examine the circumstances. The final model showed that long term debt and accumulated depreciated were non-obvious significant factors affecting hospitals' funds. For all models, the error is very high as the scale of income is large in comparison to the sample size."
+ },
+ {
+   "Timestamp": "8/3/2023 19:53:00",
+   "Names": "Jason, Elton, Kenneth, Vardaan, Basil",
+   "Group": 9,
+   "TF": "Harry Li",
+   "Title": "Modeling Delay Times for Global Flight Departures  ",
+   "Abstract": "The primary objective of our research is to develop a predictive model for flight departure delay times, aiming to assist airlines, airports, and travelers in better understanding and managing potential delays. Flight delays are a prevalent concern in the aviation industry, causing significant economic losses and inconvenience to passengers. To achieve our goal, we analyze an extensive dataset comprising historical flight information and airline-reported weather conditions. Prior to analysis, we apply data preprocessing techniques to ensure data cleanliness and transformation. Exploratory data analysis is then conducted to gain valuable insights into the patterns and relationships among the variables. To construct the predictive model, we evaluate various machine learning algorithms, including linear/multiple regression, logistic regression, and neural networks, to identify the most suitable approach for the task. Model performance is thoroughly assessed using essential metrics such as mean absolute error, root mean squared error, and misclassification error. Our study highlights the critical role of accurate predictive models in addressing flight delays and emphasizes the potential benefits of data-driven strategies for enhancing the overall efficiency and reliability of the aviation industry. By providing actionable insights, our research aims to enable airlines, airports, and travelers to make informed decisions and implement effective measures to minimize the impact of delays."
+ },
+ {
+   "Timestamp": "8/3/2023 20:14:33",
+   "Names": "Sultan, Huey, Cynthia, Stella, Miffy, Tiffany.",
+   "Group": 1,
+   "TF": "Neil Fasching",
+   "Title": "The Gender Wage Gap: Model, Analysis, and Predictions",
+   "Abstract": "The gender wage gap, the average difference between the remuneration for working men and women, has long been a topic of significant concern. Women are generally found to be paid less than men, but the gap can widen or shrink when controlling for factors such as hours worked, education, and job experience. This data science project aims to comprehensively investigate and analyze the wage gap phenomenon, focusing on identifying contributing factors and potential solutions. By employing exploratory data analysis, multiple regression model, relaxed LASSO model, and random forest model, this study delves into extensive datasets sourced from the Panel Study of Income Dynamics (PSID) and Current Population Survey (CPS)."
+ }
+]
