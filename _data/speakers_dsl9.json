@@ -1,0 +1,90 @@
+[
+ {
+  "Timestamp": "7\/31\/2024 18:28:26",
+  "Names": "John, Connie, Smriti, Gwyneth, Alvin",
+  "Group": 3,
+  "TF": "Neil Fasching",
+  "Title": "The Collapse of the American Dream: From Rags to Riches to the Ragged and the Rich",
+  "Abstract": "The American Dream is a key tenet of American pride - our country holds itself high as the land of opportunity to drastically improve one’s financial and social standing in a rags to riches story. In this paper, we investigate the degree to which the American Dream holds true and how its conditions have evolved since 1984, focusing on the degree to which social mobility is available to low-income households. In order to provide insight into how America could improve its vertical mobility, poverty rate, and overall prosperity, we use several models to analyze the effect of several key measures across other high income countries and provide predictions for how key changes in those measures would affect the country. The variables used to characterize social mobility include median income, house price, disposable income, the GINI index, tuition costs, education quality and access, welfare spending as a % of GDP, monthly Medicare premiums, percent of children that earn more than their parents, and the share of wealth by the top 1% compared to the bottom 50%. This study provides linear models, LASSO models, relaxed LASSO models, trees, and random forest models for predicting social mobility, poverty rate, and GDP per capita, but chooses to use linear models for predictions for America for greater explanation of variables, confidence intervals, and lowest error. This study provides a crucial look into the current condition of financial upwards growth for the current and future generations as well as recommendations for where the country should focus on learning from other high income countries for restoring the promise of the American Dream. This paper opens the door for following research to look into how such policies and recommendations could be implemented and their real effects. "
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:30:26",
+  "Names": "Kaya, Tyler, Lilly, Irene, Charles",
+  "Group": 13,
+  "TF": "Richard Patti",
+  "Title": "NYC Citi Bike: Analyzing Bikeshare in Urban Cities",
+  "Abstract": "The need for efficient and readily accessible public transportation is a crucial aspect of life in metropolitan cities. Organizations such as Citi Bike aim to satisfy this need by providing active transportation share systems to urban areas. By analyzing datasets regarding New York City’s Citi Bike program for the years 2013 and 2023, this paper aims to evaluate the effectiveness of the most widely used bikeshare system in one of the largest and most internationally significant cities in the world, as well as interpret its patterns and implications considering urban development and city planning. Utilizing these publicly available data sets, we conduct detailed statistical analyses to assess changes in usage patterns over time, trip duration, distances traveled, and user demographics. For example, we model predictions for the duration of time a bike is used and the distance covered by each customer given various factors. This information will aid city planners in their process of determining whether or not to use shared bike systems in their cities and the optimal number of bikes to implement. Ultimately, our findings highlight the significance of bikeshare programs in the development of urban cities and transportation networks through data analysis and interpretation."
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:30:58",
+  "Names": "Yiran, Xiaofei, Tanvi, Janelle",
+  "Group": 15,
+  "TF": "Richard Patti",
+  "Title": "Analysis of Factors Influencing University Acceptance Rates",
+  "Abstract": "With the selectivity of education increasing significantly along with society’s advancement, admission into tertiary education becomes much more complex. College application is now much more difficult, and access to educational opportunities is closely related to social equality. In this research project, we analyzed datasets with a size of 488 schools, with 168 different variables in which factors related to acceptance such as ethnicity, standardized scores of applicants, and traits of the schools themselves were examined. Through these expansive datasets, we applied linear, tree, and neural network models to grasp an understanding of acceptance rates. By approaching this project from both traits of applicants and schools simultaneously, we were able to build a prediction model applicable to specific applicants and colleges, in turn receiving analytic results to gain insight into the socioeconomic gaps stemming from education inequalities."
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:31:28",
+  "Names": "Richard, Abhi, Jerry, Eric, Alex",
+  "Group": 14,
+  "TF": "Richard Patti",
+  "Title": "Finding Indicator Features Aspirationally in FIFA Data",
+  "Abstract": "Our model aims to determine the most important factor in determining the outcome of an international FIFA game. This research identifies the most crucial factors that can enhance the planning of game strategy, improve team performance, improve training outcome, and optimize resource allocation for better results. We are using the dataset internaitonal_matches.csv which was downloaded from Kaggle. This dataset contains results and statistics of all FIFA matches since 1993, although we will only consider matches after 2012. Considering only matches relevant to our study, there are still thousands of observations, and if the existing data does not suffice, we can append it with extra information about country rankings from FIFA. This data includes data of country, home team, away team, scores, tournament type, shootout, and rating that change with each game. The method we are going to use is logistic regression, by classifying 1 as a big win for the home team and 0 as a big loss for the home team, with the threshold set for a small win, small loss, and draw."
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:32:52",
+  "Names": "Gabriel, Ajay, Nathan, William, Max",
+  "Group": 1,
+  "TF": "Neil Fasching",
+  "Title": "Analyzing the Impact of Socio-Economic Changes on Political Polarization in the United States",
+  "Abstract": "The current socio-economic climate is contributing to the increasing political polarity in the United States. Current explanations for the rapidly rising political polarization of the United States include an increase in foreign-born residents and rising income inequality. We used data from various national surveys and government databases to analyze the correlation between these socio-economic factors and political polarization. Our study focuses on identifying trends and patterns over the past few decades, examining the impact of demographic shifts, economic disparities, and other relevant variables. We aim to predict the future political climate of the United States of America using a linear model with stepwise variable selection, LASSO, relaxed LASSO, Random Forest, Boosting, and neural networks. The results of this study can be used to reduce the effects and intensity of political polarization in the future."
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:34:00",
+  "Names": "Emily, Anisa, Kelis, Michael, Shreshth",
+  "Group": 2,
+  "TF": "Neil Fasching",
+  "Title": "Recidivism Prediction Model",
+  "Abstract": "Recidivism, or the act of a convicted criminal reoffending, remains a significant issue in the criminal justice system as high recidivism rates indicate failures in reintegrating and rehabilitating offenders into society. The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) algorithm, used in states such as Pennsylvania, New York, and California, predicts the likelihood of reoffending and has been a prominent tool in addressing these issues. However, studies have revealed that COMPAS unfairly identifies black defendants as having a higher risk of recidivism than white defendants, raising serious ethical concerns regarding bias and fairness in the application of machine learning in criminal justice. \\n\\n Our objectives in this study are to develop a recidivism prediction model using logistic regression, neural networks, and Random Forest to determine if a defendant is likely to recidivate as well as to evaluate the COMPAS score's accuracy and what factors contribute most to recidivism. We obtained data from the Florida Department of Corrections, which includes detailed information about defendants in Broward County such as sex, age, race, and their COMPAS risk assessments for 2013 and 2014. We will conduct a thorough analysis to compare the performance of our model with COMPAS and address potential biases. The findings will contribute to the ongoing discussion about the use of algorithmic tools in the criminal justice system and the necessity of ensuring fair and just outcomes for all individuals in the system."
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:35:37",
+  "Names": "Erin, Isabella, Michael, Kiela, Ethan",
+  "Group": 8,
+  "TF": "Timothy Dorr",
+  "Title": "Effect of socioeconomic factors on the quality of healthcare",
+  "Abstract": "Characterized by its high costs and stratified nature, the United States healthcare system has long been a topic of discussion. This research aims to identify the socioeconomic factors that contribute to the quality of healthcare. Utilizing data from the American Community Survey and government databases, we examine the correlation between socioeconomic status (SES) indicators–such as income, education, and unemployment rate– and healthcare outcomes. We created various models using linear regression, random forests, and neural nets to predict the quality of healthcare based on our selected socioeconomic factors. Bagging, backward elimination, and LASSO are utilized to enhance prediction accuracy, where we will ultimately determine the best predictive model. Our findings provide policymakers with further insights into the economic factors driving healthcare disparities in the US, aiding in more informed decision-making and more focused areas for future research."
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:36:06",
+  "Names": "Jeffrey, Jake, Jonathan, Adi, Lucas",
+  "Group": 9,
+  "TF": "Timothy Dorr",
+  "Title": "Towards a Safer America: Using Data to Direct Efficient Usage of Resources to Reduce Crime Rates",
+  "Abstract": "Despite having the world’s largest and most developed economy, the United States of America is notorious for having high crime rates. For instance, the US ranked 10th in homicide rates in 2024 with a homicide rate of approximately 6.81 per 100,000 people. Our project tackles this prominent problem; by analyzing crime data on the state and city level, we can assist lawmakers and government officials in keeping America safe. In our project, we utilized three datasets: one with every instance of crime in Philadelphia during 2024, one with law enforcement and infrastructure data for each state in 2022, and one with each state’s laws on gun control from 2022-24. We acquired the first dataset from Kaggle and manually assembled the two later data sets using various sources. Using logistic regression on the Philadelphia crime dataset, we created a model that could predict the severity of a crime at a certain location and time in the city, allowing officials to allocate their law enforcement resources more efficiently. Analyzing the other two datasets, we implemented multilinear regression, Lasso, dimension reduction, and backward selection to find state laws and characteristics that most effectively reduce crime. Finally, we applied random forests and neural networks to make our three models more accurate. Combined, our models have the potential to significantly influence policy-making and resource allocation, leading to a reduction in crime and, as a result, a safer America."
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:36:28",
+  "Names": "Zoe, Kaylee, Kevin, Anvita, Khazar",
+  "Group": 7,
+  "TF": "Timothy Dorr",
+  "Title": "Predicting Voter Turnout Rate for the 2024 US Presidential Election Using Socioeconomic Factors",
+  "Abstract": "Voter turnout rate, a representation of the percentage of actual voters out of the voting-eligible population, is a crucial factor that informs election outcomes, political campaign strategies, and policy matters. While discussion of the demographic factors that influence an individual’s chance of voting is prevalent, quantitative knowledge of the socioeconomic factors that contribute to a given state’s voter turnout would allow presidential campaigns to determine which states are most worth targeting. By analyzing an aggregated dataset that includes violent crime rate, Human Development Index, partisan control of state government, median income, unemployment rate, and Gini coefficient for all fifty states in presidential election years from 2000 to 2020, we hope to determine the magnitude of influence that these factors have on the voter turnout rate in any given state. We employ machine learning techniques such as LASSO, xGBoost, ARIMA, and a relaxed linear regression to develop a model that can predict voter turnout by state for presidential elections using quantitative data on these socioeconomic factors. While our ultimate goal is to predict voter turnout for the 2024 presidential election, this research can also serve as a stepping stone to improving voter turnout rates, a necessary step to ensure a thriving democracy."
+ },
+ {
+  "Timestamp": "7\/31\/2024 18:37:04",
+  "Names": "Joy, Joy, Steven, Annika, Gustave",
+  "Group": 6,
+  "TF": "Timothy Dorr",
+  "Title": "Rhetoric and Reception: Driving Factors of Engagement in Trump and Biden's Tweets",
+  "Abstract": "At its core, American democracy values the voices of the people and encourages civic participation. While previously, politics and presidents specifically felt far removed from citizens’ lives, the internet has made the relationship between presidents and their constituents far closer and more interactive. Now, many presidents frequently and even casually use X (formerly Twitter) to communicate directly with citizens. However, not all interaction is beneficial. Polarization and political violence have skyrocketed, demonstrated by the contentious 2020 elections and the subsequent January 6 riot on the Capitol. Many studies have shown that support of digital content translates to similar behavior offline. Relatedly, regarding the events of January 6, many have speculated that presidential communication through Twitter fueled this violence. Thus, we aim to investigate how Biden and Trump’s tweets from 2020 until the insurrection differ in rhetoric and change over time, and how these characteristics affect user support. We focus on Twitter because it is one of the sole platforms where presidents write original content and frequently communicate with the online community. We retrieve tweets from Biden and Trump with information about the raw text, time published, number of likes, and number of tweets. To identify characteristics, we perform sentiment analysis and mine for emotion type, intensity, positivity, negativity, toxicity, and violence through a variety of models such as BERT, VADER, Detoxify, and Grievance Dictionary. To quantify support, we use likes and retweets, which solely convey support, unlike comments. We use multiple linear regression and LASSO to train and test models. By comparing Tweet characteristics and tracking them over time, we can see what types of tweets garner the most support. Our research will improve the understanding of factors that drive engagement. While Biden and Trump will not both be participating in future elections, the highly charged political environment of 2020 is still present today. As polarization worsens in America and political dialogue grows progressively digital, it is all the more crucial to harness social media usage. Based on conclusions from our research, future candidates can tailor their social media strategies to better connect with voters, and social media platforms can consciously regulate political content to create a healthy environment for democratic discourse."
+ },
+ {
+  "Timestamp": "8\/1\/2024 13:34:26",
+  "Names": "Govind, Jaisimh, Shuwen, Andy, Shujia",
+  "Group": 11,
+  "TF": "Richard Patti",
+  "Title": "Poverty, Pollution, and Lung Cancer",
+  "Abstract": "Lung cancer is one of the most prevalent types of cancer, most commonly associated with smoking. However, we were curious as to other factors which may influence the rates of lung cancer, such as socioeconomic characteristics including poverty rates and environmental pollution levels, particularly ozone pollution. We examined lung cancer rates by counties using data from the INCD and the US Census. In conducting this study, we used linear regression models and logistic regression to conclude the factors with the most significant effect on lung cancer rates. Choosing a suitable dimension for the linear model through backward selection, we then modeled the effect of poverty rates and ozone pollution on the rate of lung cancer. We found that higher poverty rates are associated with lower odds of being in high ozone areas, but this relationship was not statistically significant. Additionally, our analysis indicates that while poverty rate is a predictor of lung cancer incidence, it explains only a small fraction of the variability, suggesting that other factors also play significant roles in determining lung cancer rates."
+ }
+]
