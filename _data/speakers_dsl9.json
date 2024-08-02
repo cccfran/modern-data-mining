@@ -90,9 +90,25 @@
  {
   "Timestamp": "8\/1\/2024 13:34:26",
   "Names": "Govind, Jaisimh, Shuwen, Andy, Shujia",
-  "Group": 11,
+  "Group": 12,
   "TF": "Richard Patti",
   "Title": "Poverty, Pollution, and Lung Cancer",
   "Abstract": "Lung cancer is one of the most prevalent types of cancer, most commonly associated with smoking. However, we were curious as to other factors which may influence the rates of lung cancer, such as socioeconomic characteristics including poverty rates and environmental pollution levels, particularly ozone pollution. We examined lung cancer rates by counties using data from the INCD and the US Census. In conducting this study, we used linear regression models and logistic regression to conclude the factors with the most significant effect on lung cancer rates. Choosing a suitable dimension for the linear model through backward selection, we then modeled the effect of poverty rates and ozone pollution on the rate of lung cancer. We found that higher poverty rates are associated with lower odds of being in high ozone areas, but this relationship was not statistically significant. Additionally, our analysis indicates that while poverty rate is a predictor of lung cancer incidence, it explains only a small fraction of the variability, suggesting that other factors also play significant roles in determining lung cancer rates."
+ },
+ {
+  "Timestamp": "8\/1\/2024 13:34:26",
+  "Names": "Kattie, Junwoo, William, Iris, Saanvi",
+  "Group": 4,
+  "TF": "Neil Fasching",
+  "Title": "Optimization of Total Factor Productivity",
+  "Abstract": "Productivity is a crucial driver of economic growth and is a huge determinant of the strength of a country. Policymakers and economists use output measurements to assess a country’s productivity level and enact structural policies for its economy. For instance, Greece addressed its productivity decline from 2008 to 2009 through labor market reforms, encouraging competition, and investment in various sectors. There is currently no clear consensus on all the factors that are significant to productivity growth. This paper uses total factor productivity (TFP)- a measure of operational efficiency derived from gross output, capital and labor input, and their elasticity- as the criterion for optimal productivity growth. We first model the current state of country-level productivity before utilizing analytical models through regression and machine learning on data from the World Bank Book and The Conference Board to identify significant correlations between TFP growth and variables. We evaluate previously proposed criteria and highlight their prevalence in our findings in contributing to TFP growth. We conclude that imports and exports of goods and services, population distribution, and inflation  have the highest effects on productivity growth. Our findings report the random forest model as the best predictive model due to its lowest mean squared error. The ensemble model reports a lower mean squared error than all individual models except the random forest, suggesting the potential predictive performance of combining all models."
+ },
+ {
+  "Timestamp": "8\/1\/2024 13:34:26",
+  "Names": "Kattie, Junwoo, William, Iris, Saanvi",
+  "Group": 5,
+  "TF": "Neil Fasching",
+  "Title": "Tweeting the Blues",
+  "Abstract": "Depression has increasingly become recognized as a pressing issue in today’s society. Currently, the WHO estimates that 4% of the population suffers from depression, and 700,000 people die each year from suicide. In fact, suicide is the fourth leading cause of death in people aged 15-29. Despite the availability of effective treatments for depression, many individuals suffering from depression often go undiagnosed and untreated due to economic inequality and social stigma. Social media presents a promising solution to this issue. Today, social media use is extremely widespread, and users’ data presents a cheap and accessible source of information that can be used to identify signs of depression. Thus, this study aims to predict and identify signs of depression based on a Twitter user’s activity. The data consists of a user’s tweet history, follower count, friend count, and other information. To analyze the data, logistic regression, LASSO, decision trees, random forest, and neural networks are utilized on the numerical data. For the tweet data, BERT classification, bag-of-words, and other textual analysis techniques are applied to predict depression and identify words and phrases that potentially indicate it. We found that number of followers is a significant negative factor, while the number of favorites was a significant positive factor. While the quantitative models had low accuracies, our best text-mining models were able to achieve close to 93% testing accuracies."
  }
 ]
