@@ -9,7 +9,7 @@
  },
  {
    "Timestamp": "7/30/2025 17:21:49",
-   "Names": "Naina Enock, Cindy Jiang, Justin Yang, Kelvin Jiang, Jay Youm",
+   "Names": "Naina, Cindy, Justin, Kelvin, Jay",
    "Group": 11,
    "TF": "Richard Patti",
    "Title": "The Effect of Temporal and Variable Factors on Car Crashes",
@@ -21,7 +21,7 @@
    "Group": 6,
    "TF": "Donald Moratz",
    "Title": "Breast Cancer Tumor Predictions",
-   "Abstract": "Breast cancer is the second most diagnosed cancer amongst women in the U.S. We decided to combine our learning in data science and interest in the medical field to predict whether a given breast tumor is malignant or benign based on tumor characteristics, as well as predict a patient’s life expectancy based on patient variable data. To achieve these goals, we created neural networks, LASSO linear and logistic regression models, and an XGBoost model. From our EDA of our datasets, we found that the largest average radius, concave points, perimeter, and area were the factors that most affected tumor malignancy. Our final model, XGBoost, highlighted that relapse status, treatment plans, and age were the most highly determinative factors for life expectancy, while chemotherapy, surprisingly, had a negative correlation with life expectancy, though this is likely due to the fact that chemotherapy is needed to treat only the most aggressive, or deadly, cancers. In the future, we could continue our analysis with more recent and populous data. "
+   "Abstract": "Breast cancer is the second most diagnosed cancer amongst women in the U.S. We decided to combine our learning in data science and interest in the medical field to predict whether a given breast tumor is malignant or benign based on tumor characteristics, as well as predict a patient’s life expectancy based on patient variable data. To achieve these goals, we created neural networks, LASSO linear and logistic regression models, and an XGBoost model. From our EDA of our datasets, we found that the largest average radius, concave points, perimeter, and area were the factors that most affected tumor malignancy. Our final model, XGBoost, highlighted that relapse status, treatment plans, and age were the most highly determinative factors for life expectancy, while chemotherapy, surprisingly, had a negative correlation with life expectancy, though this is likely due to the fact that chemotherapy is needed to treat only the most aggressive, or deadly, cancers. In the future, we could continue our analysis with more recent and populous data. \n"
  },
  {
    "Timestamp": "7/31/2025 16:10:44",
@@ -54,5 +54,45 @@
    "TF": "Donald Moratz",
    "Title": "Predicting Rain-Driven Events",
    "Abstract": "Rainfall, a key part of the Earth’s hydrological cycle, plays an indispensable role in human activities and livelihood. Understanding the factors affecting rainfall is conducive to weather forecasting and consequent anticipation of natural disasters relevant to rain. According to NOAA, over the 10-year period of our study, storms make up 90% the natural disasters and caused the most overall deaths. In our study, we built two separate models. First, we built a neural network that predicts precipitation amounts on an hourly basis. Second, we built an XGBoost model that predicts the probability of a storm occurring using precipitation and atmospheric data. Evaluating these models, we found that methods such as Neural Networks and XGBoost are more capable of producing accurate predictions regarding complicated weather events than linear and logistical regressions."
+ },
+ {
+   "Timestamp": "7/31/2025 22:58:07",
+   "Names": "Joonsung, Neil, Andrew, Rashed, SeoJin (Tommy)",
+   "Group": 14,
+   "TF": "Richard Patti",
+   "Title": "Demographic and Socioeconomic Drivers of Female Senator Elections",
+   "Abstract": "This study investigates how demographic and socioeconomic characteristics of state legislative districts influence the likelihood of electing a female senator. We aimed to examine relationships between district-level features and election outcomes, identify the most influential predictors, and evaluate the performance of various predictive models. Our analysis included multiple approaches: a simple logistic regression using glm, a LASSO-penalized logistic regression, random forest, neural network, and a stacked metamodel. Among these, the metamodel achieved the highest predictive accuracy of 0.8889, suggesting that combining multiple models can effectively capture the complex patterns underlying female representation in state senates."
+ },
+ {
+   "Timestamp": "7/31/2025 23:11:59",
+   "Names": "Ethan, Julia, Ryan, Jackson, Hana",
+   "Group": 15,
+   "TF": "Richard Patti",
+   "Title": "Mind in the music",
+   "Abstract": "This study investigates correlations between music genre preferences and self-reported mental health conditions using data from 736 participants aged 18-63. Participants completed surveys measuring music listening patterns across 15+ genres and self-reported anxiety, depression, insomnia, and OCD symptoms on standardized 0-10 scales. Participants scoring ≥8 were classified as likely having the respective condition, aligning with national prevalence rates.\nLogistic regression analysis revealed significant genre-specific associations with mental health conditions. Metal music showed strong positive correlations with depression across all listening frequency levels (β = 1.02-1.08, p < 0.01), while Country music demonstrated protective effects (β = -0.69, p = 0.038). Folk and Video Game music also positively correlated with depression. For anxiety, Rock music showed negative associations (β = -0.754, p = 0.044), while Lofi and Folk genres showed positive correlations.\nNeural network models achieved varying predictive accuracies: depression (80%), insomnia (86%), OCD (90%), and anxiety (63%). Tree-based models provided interpretable cutoff points for genre listening frequencies optimizing mental health predictions.\nResults demonstrate measurable correlations between musical preferences and mental health conditions, with Metal, Folk, Lofi, Rock, and Country showing the strongest associations. While music preference alone cannot reliably diagnose mental health disorders, listening patterns may serve as useful screening indicators complementing traditional assessment methods. These findings support integrating musical preference data into broader mental health evaluation frameworks, though behavioral and demographic variables must be considered alongside musical tastes. Future research should explore causal mechanisms and validate findings across diverse populations."
+ },
+ {
+   "Timestamp": "8/1/2025 7:37:40",
+   "Names": "Noah, Samson, Mabelle, Sean, Carolina",
+   "Group": 2,
+   "TF": "Neil Fasching",
+   "Title": "The Geography of Overdose: Socio-economic and Policy Drivers of America’s Drug Crisis",
+   "Abstract": "The United States is in the midst of a growing overdose epidemic with profound geographic and socio-economic origins. The project examines both the spatial pattern and socio-political determinants of overdose death throughout U.S. counties between 2012 and 2023. We assembled a consolidated dataset by merging CDC Multiple Cause of Death (MCD) data with U.S. Census American Community Survey (ACS) socioeconomic factors, normalizing raw counts into log-scaled overdose death rates. Following thorough preprocessing, we created percentage-based features, cleaned suppressed values, and harmonized county-year records between datasets.\n\nWe conducted exploratory spatial and statistical analyses, including choropleth mapping, linear regression, and faceted scatterplots to identify key correlates such as poverty and income inequality. Feature selection via LASSO regression reduced high-dimensional census data, followed by p-value-based pruning for model interpretability. Predictive modeling included linear regression, decision trees, random forests, and XGBoost, with RMSE used to benchmark model performance.\n\nWe also explored geospatial visualization and the effect of policy on overdose, utilizing large language models and county level prediction to map their effects. This unfortunately reported null results.\n\nOur most accurate models indicate that poverty, commuting time, low earnings-based income, and gendered occupational structure (e.g., female construction work) are all strong predictors of overdose rates. Moreover, examination of policing intensity indicates a weak or non-linear association with overdose prevalence. This study highlights the multi-factorial, layered complexity of America's drug epidemic and offers a replicable, data-driven paradigm to inform policy and public health responses.\n"
+ },
+ {
+   "Timestamp": "8/1/2025 7:40:33",
+   "Names": "Jeremy, Jed, Ryan, Lilian, Wendy",
+   "Group": 3,
+   "TF": "Neil Fasching",
+   "Title": "Predictive Analysis of Stock Growth Using Financial Metrics",
+   "Abstract": "This pilot study develops and evaluates quantitative models to forecast company stock growth during the 2024 fiscal year by leveraging key financial statement metrics alongside sector performance. A stratified sample of 77 U.S. firms—categorized by market-cap size (small: <$1 B; medium: <$5 B; large: >$5 B) across ten sectors—was manually compiled from Stock Analysis, Yahoo Finance, and Robinhood, with all metrics normalized to percentages for comparability . Twenty-one independent variables—including revenue growth, free cash flow per share (FCFPerShare), market-cap growth, and shares change (YoY)—were examined for their predictive power on the dependent variable: stock growth in 2024 . Multiple modeling approaches were employed: ordinary least squares regression demonstrated a strong fit (Multiple R² = 0.914), LASSO regression identified a parsimonious predictive equation: y = 0.01397 + 0.00284(FCFPerShare) + 0.04723(Marketshare) - 0.90072(SharesChangeYoY), and an XGBoost ensemble model further captured 75.1 % of outcome variance, underscoring non-linear relationships among predictors . Across all methods, three metrics—SharesChangeYoY, market-cap growth, and FCFPerShare—emerged as the most significant drivers of stock performance. Key limitations include the pilot’s modest sample size (77 of ~4,300 publicly traded firms), potential confounding between EBITDA and company size, and unmeasured market sentiment effects, offering a foundation for larger-scale studies and the integration of alternative data sources to enhance predictive accuracy. "
+ },
+ {
+   "Timestamp": "8/1/2025 8:20:28",
+   "Names": "Hazel, Kingston, Kevin, Shruthi, Adam, Angela",
+   "Group": 1,
+   "TF": "Neil Fasching",
+   "Title": "Medical Malpractice: The Relationship Between Compensation and Case Circumstances",
+   "Abstract": "Medical malpractice litigation often results in significant financial settlements, yet the factors influencing the payout amounts remain complex and multifaceted. Our study aims to analyze the relationship between the amount awarded in medical malpractice claims and various plaintiff circumstances, including demographic attributes, legal representation, and case-specific factors. Utilizing a comprehensive dataset of malpractice insurance claims, we developed predictive models to estimate settlement amounts based on these variables. We employed multiple machine learning techniques, including linear regression, LASSO regression, decision trees, random forests, neural networks, and XGBoost, to capture both linear and non-linear relationships within the data. Feature selection and regularization techniques were applied to improve model robustness and interpretability. Our analysis highlights key predictors of claim outcomes, such as age, specialty of the physician, and attorney representation, providing insights into systemic biases, empowering plaintiffs with data-driven negotiation leverage during settlements, and offering a quantitative framework to assess whether pursuing legal action is financially justifiable."
  }
 ]
