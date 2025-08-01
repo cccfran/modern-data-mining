@@ -110,5 +110,13 @@
    "TF": "Neil Fasching",
    "Title": "Predicting Post-Disaster Aid Allocation Using Socioeconomic and Demographic Indicators",
    "Abstract": "Natural disasters have long-lasting impacts on socioeconomic conditions and human well-being. We were interested in post-disaster aid allocation in different regions after different disasters. Thus, we set the goals of the study to examine how key socioeconomic variables — including percent unemployment, median household income, type of disaster, population size, and net population growth — influence the amount of federal aid provided following natural disasters. To support our analysis, we used heat maps, scatterplots, histograms, and bar graphs for exploratory data analysis (EDA). Our final model revealed that there was not a direct formula to determine the federal aid warranted for a natural disaster.  Some of the results stood out from others due to their unexpected relationship with federal aid provided. Overall, our project successfully highlights how socioeconomic factors determine the amount of federal aid provided after natural disasters and gives us a way to determine how aid should be distributed in the future."
+ },
+ {
+   "Timestamp": "8/1/2025 8:20:28",
+   "Names": "Haocheng, James, Jolie, Duo, Samy",
+   "Group": 8,
+   "TF": "Donald Moratz",
+   "Title": "Population migration in the US",
+   "Abstract": "In this study, we examined the significant socioeconomic factors that influence population migration between US states. We collected over 20 predictors from all 50 states in the US, spanning from 2011 to 2023, from official government sources. Predictors range from GDP per capita to demographic distributions. We applied four different methods for analysis: OLS (ordinary least squares regression), LASSO, FNN (feedforward neural network), and random forest. We used a variety of techniques to evaluate our models, including computing MSE (mean squared error), residual plots, and partial dependence plots. In the end, we identified a list of significant factors that influence population migration within the US."
  }
 ]
