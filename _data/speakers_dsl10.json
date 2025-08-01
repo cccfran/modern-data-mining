@@ -94,5 +94,13 @@
    "TF": "Neil Fasching",
    "Title": "Medical Malpractice: The Relationship Between Compensation and Case Circumstances",
    "Abstract": "Medical malpractice litigation often results in significant financial settlements, yet the factors influencing the payout amounts remain complex and multifaceted. Our study aims to analyze the relationship between the amount awarded in medical malpractice claims and various plaintiff circumstances, including demographic attributes, legal representation, and case-specific factors. Utilizing a comprehensive dataset of malpractice insurance claims, we developed predictive models to estimate settlement amounts based on these variables. We employed multiple machine learning techniques, including linear regression, LASSO regression, decision trees, random forests, neural networks, and XGBoost, to capture both linear and non-linear relationships within the data. Feature selection and regularization techniques were applied to improve model robustness and interpretability. Our analysis highlights key predictors of claim outcomes, such as age, specialty of the physician, and attorney representation, providing insights into systemic biases, empowering plaintiffs with data-driven negotiation leverage during settlements, and offering a quantitative framework to assess whether pursuing legal action is financially justifiable."
+ },
+ {
+   "Timestamp": "8/1/2025 8:20:28",
+   "Names": "Jasmine, Aarnav, Mike, Helena, Buti",
+   "Group": 3,
+   "TF": "Richard Patti",
+   "Title": "Predicting Generation Z's voting preferences for the 2028 US Presidential Election",
+   "Abstract": "This research aims to predict the political preferences of future voters in Generation Z that are currently in high school when they reach voting age for the 2028 election. Generation Z has been more involved in politics and has high political engagement, even before reaching voting age.They are more vocal about their beliefs and are skilled at spreading information rapidly. A key driver of this is the influence of social media, which plays a central role in how Generation Z consumes and shares political content. Using elastic net regularization, neural networks, and multilevel regression with post-stratification to create a model based on survey data from high school seniors to predict the political preferences of a major voting block, Generation Z, in the 2028 US Presidential Election."
  }
 ]
