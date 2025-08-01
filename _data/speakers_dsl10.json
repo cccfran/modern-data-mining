@@ -102,5 +102,13 @@
    "TF": "Richard Patti",
    "Title": "Predicting Generation Z's voting preferences for the 2028 US Presidential Election",
    "Abstract": "This research aims to predict the political preferences of future voters in Generation Z that are currently in high school when they reach voting age for the 2028 election. Generation Z has been more involved in politics and has high political engagement, even before reaching voting age.They are more vocal about their beliefs and are skilled at spreading information rapidly. A key driver of this is the influence of social media, which plays a central role in how Generation Z consumes and shares political content. Using elastic net regularization, neural networks, and multilevel regression with post-stratification to create a model based on survey data from high school seniors to predict the political preferences of a major voting block, Generation Z, in the 2028 US Presidential Election."
+ },
+ {
+   "Timestamp": "8/1/2025 8:20:28",
+   "Names": "Kaavya, Amanda, Tobin, Eric, Shiv",
+   "Group": 5,
+   "TF": "Neil Fasching",
+   "Title": "Predicting Post-Disaster Aid Allocation Using Socioeconomic and Demographic Indicators",
+   "Abstract": "Natural disasters have long-lasting impacts on socioeconomic conditions and human well-being. We were interested in post-disaster aid allocation in different regions after different disasters. Thus, we set the goals of the study to examine how key socioeconomic variables — including percent unemployment, median household income, type of disaster, population size, and net population growth — influence the amount of federal aid provided following natural disasters. To support our analysis, we used heat maps, scatterplots, histograms, and bar graphs for exploratory data analysis (EDA). Our final model revealed that there was not a direct formula to determine the federal aid warranted for a natural disaster.  Some of the results stood out from others due to their unexpected relationship with federal aid provided. Overall, our project successfully highlights how socioeconomic factors determine the amount of federal aid provided after natural disasters and gives us a way to determine how aid should be distributed in the future."
  }
 ]
