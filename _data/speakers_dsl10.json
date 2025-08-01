@@ -1,0 +1,58 @@
+[
+ {
+   "Timestamp": "7/30/2025 15:30:32",
+   "Names": "Aditya, Andrew, Luca, Zihe, Laura",
+   "Group": 4,
+   "TF": "Neil Fasching",
+   "Title": "Los Angeles Crime Analysis",
+   "Abstract": "The goal of our study is to investigate the major factors influencing crime occurrences in different areas of Los Angeles between 2010 and 2017. We used a dataset containing all recorded incidents of crime in Los Angeles, transcribed from original crime reports. Through our exploratory data analysis (EDA), we identified crime hotspots and patterns in the dataset, including notable spikes on certain days, such as New Year’s Day. We then aggregated the number of crimes by date and area and developed linear regression and neural network models to predict the number of crimes based on selected parameters."
+ },
+ {
+   "Timestamp": "7/30/2025 17:21:49",
+   "Names": "Naina Enock, Cindy Jiang, Justin Yang, Kelvin Jiang, Jay Youm",
+   "Group": 11,
+   "TF": "Richard Patti",
+   "Title": "The Effect of Temporal and Variable Factors on Car Crashes",
+   "Abstract": "Car crashes are a major problem for countries to solve, representing the difference between safe, healthy transportation options and chaotic, dangerous roads. Understanding the nature of car accidents as well as causes of the different severity of accidents may help transportation engineers and urban planners design safer systems for everybody to use. By running machine learning models (RF, XGBoost, ARIMA, MLR) with time series variables, accident counts per day were predicted with a max R^2 of 0.9487. Results show that a rolling lag of three days is the best predictor of accidents per day. Models such as Log. Regression, XGBoost, and Nueral Nets were used to predict and find which contributing factors played the greatest role in individual accident severity. Factors including speed limit, geographical location, and junction control had significant impact on accident severity."
+ },
+ {
+   "Timestamp": "7/31/2025 16:00:32",
+   "Names": "Chloe L, Abhay, Audrey, Alina, Boen",
+   "Group": 6,
+   "TF": "Donald Moratz",
+   "Title": "Breast Cancer Tumor Predictions",
+   "Abstract": "Breast cancer is the second most diagnosed cancer amongst women in the U.S. We decided to combine our learning in data science and interest in the medical field to predict whether a given breast tumor is malignant or benign based on tumor characteristics, as well as predict a patient’s life expectancy based on patient variable data. To achieve these goals, we created neural networks, LASSO linear and logistic regression models, and an XGBoost model. From our EDA of our datasets, we found that the largest average radius, concave points, perimeter, and area were the factors that most affected tumor malignancy. Our final model, XGBoost, highlighted that relapse status, treatment plans, and age were the most highly determinative factors for life expectancy, while chemotherapy, surprisingly, had a negative correlation with life expectancy, though this is likely due to the fact that chemotherapy is needed to treat only the most aggressive, or deadly, cancers. In the future, we could continue our analysis with more recent and populous data. "
+ },
+ {
+   "Timestamp": "7/31/2025 16:10:44",
+   "Names": "Sherlock, Aiden, Jack, Jihan, Andrew",
+   "Group": 12,
+   "TF": "Richard Patti",
+   "Title": "Analyzing House Pricing Bubbles Using Hidden Markov Models",
+   "Abstract": "We apply a three-state Time-Varying Transition Probability (TVTP) Markov-Switching model to predict U.S. house-price bubbles in real time. By extracting smoothed probabilities for the latent regimes—dormant, explosive, and collapsing—our aim is to generate early-warning signals that anticipate bubble formation and bursting. This approach departs from static diagnostic tests by allowing observable economic indicators to drive regime-switch hazards, enabling more timely surveillance of housing-market dynamics. Ultimately, we found that although this three-state model is quite effective at predicting future states, the time lag in publicly-available data is far too large for this model to have a practical purpose. However, a decision tree model we trained was affected less by the time lag, and was able to predict future market states quite accurately, and can likely be useful in a practical setting."
+ },
+ {
+   "Timestamp": "7/31/2025 17:33:40",
+   "Names": "Chloe,  Shanaya, Alan, Jack, Eric",
+   "Group": 7,
+   "TF": "Donald Moratz",
+   "Title": "Health, Wealth, & What’s on Your Plate: Understanding Diet’s Role in Life Expectancy",
+   "Abstract": "In our project, we looked at how diet might affect life expectancy across different countries. We gathered data on food consumption (like meat, eggs, fruits, vegetables, etc.), GDP, and mortality rates, and used graphs and models to see what stood out. We found that countries with higher vegetable, fruit, and egg intake tended to have longer life expectancy. On the other hand, alcohol and meat didn’t show the same positive trend. Using tools like LASSO regression and neural networks, we found which variables mattered most. Our results suggest that what people eat really does play a role in how long they live; especially when taking into account income levels and region. We hope this can help our audience think more about how diet connects to public health around the world. Even small changes in diet could help boost life expectancy, particularly in lower-income countries. This reminds us that nutrition should be a bigger part of the global conversation around public health and development. "
+ },
+ {
+   "Timestamp": "7/31/2025 18:13:44",
+   "Names": "Nidhi, Andrew, Ben, Rayha, Shay",
+   "Group": 10,
+   "TF": "Donald Moratz",
+   "Title": "Chicago Crime: The Relationship Between Arrest Rates, Demographic Factors, and Overall Crime Trends",
+   "Abstract": "Urban crime remains a persistent issue, especially in large cities like Chicago. With increasing access to open data, our group aimed to explore how demographic, socioeconomic, and crime-type variables influence the likelihood of arrest. Our primary goal was to predict arrest rates based on race, income, education, time, police, and other related crime characteristics. We used a collection of tools, including histograms, heatmaps, and scatter plots, to conduct our EDA. We then established 3 final models: a logistic regression, a neural net, and an XGBoost for predicting arrest. We conclude that the most important feature that influences arrest is crime type, along with some other factors like domestic, age, and race. The study demonstrates strong timeliness, and future investigations are meaningful with better datasets.\n"
+ },
+ {
+   "Timestamp": "7/31/2025 20:45:23",
+   "Names": "Jayden, Xiuwen, Steve, Brian, Harry",
+   "Group": 9,
+   "TF": "Donald Moratz",
+   "Title": "Predicting Rain-Driven Events",
+   "Abstract": "Rainfall, a key part of the Earth’s hydrological cycle, plays an indispensable role in human activities and livelihood. Understanding the factors affecting rainfall is conducive to weather forecasting and consequent anticipation of natural disasters relevant to rain. According to NOAA, over the 10-year period of our study, storms make up 90% the natural disasters and caused the most overall deaths. In our study, we built two separate models. First, we built a neural network that predicts precipitation amounts on an hourly basis. Second, we built an XGBoost model that predicts the probability of a storm occurring using precipitation and atmospheric data. Evaluating these models, we found that methods such as Neural Networks and XGBoost are more capable of producing accurate predictions regarding complicated weather events than linear and logistical regressions."
+ }
+]
