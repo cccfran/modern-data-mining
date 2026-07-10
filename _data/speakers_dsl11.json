@@ -62,5 +62,45 @@
   "TF": "Max Gebauer",
   "Title": "Predicting Small Business Survival",
   "Abstract": "Small businesses are a cornerstone of the U.S. economy, yet many fail within their first few years of operation. Business owners and policymakers currently lack reliable, data-driven tools to assess long-term survival risk. This study develops a Landmark Cox Proportional Hazards model to predict the survival of small businesses using data from the Kauffman Firm Survey (KFS), a longitudinal study tracking 4,928 firms founded in 2004 across eight survey waves.\nVariable selection was performed using LASSO with 10-fold cross-validation and bootstrap stability selection across 50 resamples, reducing 208 candidate predictors to 19 stable variables. A landmark at Wave 2 was established to ensure all predictions were based on contemporaneous firm characteristics, preventing data leakage and providing a consistent evaluation point across firms. Missing financial data was handled through training-set median imputation combined with explicit missingness indicator flags, which themselves proved informative predictors of exit risk.\nThe model achieved a Concordance Index of 0.672 on the training set and 0.661 on the held-out test set, with the minimal gap confirming no meaningful overfitting. Restricted Mean Survival Time analysis revealed a 1.3-wave difference between low and high risk firms, demonstrating that the model's risk stratification translates into a meaningful, measurable difference in expected survival. Key predictors of exit included cash asset holdings (protective), retail industry classification, acquisition-based business starts, and missingness of equity data. Alternative models including Random Survival Forest, DeepSurv, and discrete-time neural networks were tested and all underperformed, suggesting the signal in this dataset is predominantly linear."
+ },
+ {
+  "Timestamp": "7/9/2026 23:26:07",
+  "Names": "Carlos, Nick, Lucy, Eli, Brianna",
+  "Group": 13,
+  "TF": "Gayoung Jeon",
+  "Title": "Tuberculosis: Curing the white Death with the power of r ",
+  "Abstract": "Tuberculosis is still diagnosed in much of the world by a technician scanning a stained sputum smear under a microscope — a manual approach that misses an estimated 40–70% of true cases, especially at low bacterial loads. We tested whether a lightweight convolutional neural network could narrow this gap by scanning slides more exhaustively. Our goal being to be able to create a model capable of matching or overcoming a doctors accuracy using this method, while staying within the same time constrain a doctor has when conducting this test. Whole slide images were cut into thousands of overlapping tiles, and a MobileNetV2-based CNN was fine-tuned in two stages to distinguish bacilli-positive tiles from clean ones. On tiles it reached 87% accuracy. As for the patient to patient level, we found that the robot should have relatively high accuracy, 90% + or even more, as long as the the bacteria count in the whole slide is more than 450, passing doctors, who usually need the slides to contain at least 650 bacteria. Since there is overlap between the tiles, each bacteria is usually in 7 different slides, therefore the total amount of slides in which the bacteria should appear, and therefore should be marked positive is ~3,125. "
+ },
+ {
+  "Timestamp": "7/9/2026 23:50:11",
+  "Names": "Jason, Luna, Larissa, Joel, Esther",
+  "Group": 12,
+  "TF": "Gayoung Jeon",
+  "Title": "CROP GUARD: A Four-Model Comparative Benchmark for Leaf Disease Diagnosis",
+  "Abstract": "To protect crop yields and reduce manual diagnostic costs, we present Crop Guard, an empirical benchmarking study comparing the accuracy and practicality of four distinct models: Traditional Dense Neural Networks, Convolutional Neural Networks, Random Forests, and pre-trained Large Vision Models. Using the 30-class Multi-Crop Disease Dataset, we mapped raw YOLO coordinates into single-class labels and applied hybrid resampling to establish a balanced training set of 500 images per class. Our evaluation on an independent test set showed that while Dense NN and CNN struggled with spatial feature loss, and Random Forest memorized data-padding artifacts, our DINOv2 model with data augmentation achieved the best performance with high accuracy and a high Macro-F1 score. This outstanding accuracy is driven by DINOv2’s self-supervised, patch-level features that successfully capture micro-level leaf lesions. Ultimately, these findings lay the foundation for future developments, where our diagnostic pipeline can be integrated into autonomous drones and smart agricultural robots for real-time, low-cost field diagnostics."
+ },
+ {
+  "Timestamp": "7/10/2026 2:37:39",
+  "Names": "Veer, Jet",
+  "Group": 6,
+  "TF": "Max Gebauer",
+  "Title": "Predicting SBA 7(a) Loan Charge-Off Risk",
+  "Abstract": "Can a loan's eventual default be predicted on the day it's approved? Using 267,467 real SBA 7(a) loans (2012–2017, 6.9% charged off) and only approval-day information, we compared logistic regression, a neural network, and a random forest after LASSO feature selection. The random forest performed best (AUC 0.97) and held up under a stricter out-of-time test. Variable-rate loans carried ~3.4× the charge-off odds of fixed-rate loans. We present the model as a risk-flagging tool to support lending decisions."
+ },
+ {
+  "Timestamp": "7/10/2026 8:35:55",
+  "Names": "Arjun, Julica, Simren, Justin, Jiajing",
+  "Group": 2,
+  "TF": "Donald Moratz",
+  "Title": "Reading Between the Lines: Predicting Political Bias from News Articles",
+  "Abstract": "This study investigated whether text mining, deep learning, and machine learning techniques can accurately classify the political bias of news articles into five categories: left, leaning left, center, leaning right, and right. Using a Kaggle dataset of 10,832 articles from 297 news sources, we first performed exploratory data analysis to examine patterns in topic distribution, article characteristics, and bias labels. We then compared several modeling approaches, including Bag-of-Words with LASSO, Random Forest, BERT embeddings with LASSO, BERT embeddings with a neural network, and fine-tuned BERT. Model performance was evaluated using accuracy, mean absolute error (MAE), mean squared error (MSE), and F1 score. We found that, even without context, Random Forest worked extremely well; however, the article’s source site was heavily correlated with the bias, and once we took the site variable out of the Random Forest model, its performance dropped. The fine-tuned BERT model produced the best performance excluding site, but it was computationally expensive. Ultimately, we concluded that when comparing models for text bias classification, one must consider the balance between accuracy and efficiency.\n"
+ },
+ {
+  "Timestamp": "7/10/2026 8:52:59",
+  "Names": "Yejun, Mourya, Kalash, Hailey",
+  "Group": 4,
+  "TF": "Donald Moratz",
+  "Title": "Disability, Hardship,  & Wealth in the United States",
+  "Abstract": "One in four U.S. adults reports a disability, yet Supplemental Security Income (SSI), the federal cash program for low-income disabled adults, still imposes a $2,000 asset limit unchanged since 1989, a cap critics argue penalizes saving and traps recipients in poverty. This study asks whether disability worsens financial well-being and, if so, whether the disadvantage reflects lower income or a deeper structural gap. Using the 2024 Survey of Income and Program Participation, the Census Bureau's nationally representative longitudinal panel of roughly 37,000 individuals, we address three questions: how well disability predicts material hardship, whether disabled households hold less net worth, and whether the SSI asset limit discourages saving. We build a binary material-hardship outcome from survey-reported inability to afford food, utilities, rent, or medical bills and train a lineup of classifiers: logistic regression, penalized logistic, random forest, and gradient boosting, tuned by cross-validation, using feature importance to locate disability among the predictors. Complementary models examine the disability, wealth gap and saving behaviour around the SSI limit, and we consider what these patterns imply for SSI and ABLE reform."
  }
 ]
