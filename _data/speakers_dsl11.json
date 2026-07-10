@@ -82,7 +82,7 @@
  {
   "Timestamp": "7/10/2026 2:37:39",
   "Names": "Veer, Jet",
-  "Group": 6,
+  "Group": 16,
   "TF": "Max Gebauer",
   "Title": "Predicting SBA 7(a) Loan Charge-Off Risk",
   "Abstract": "Can a loan's eventual default be predicted on the day it's approved? Using 267,467 real SBA 7(a) loans (2012–2017, 6.9% charged off) and only approval-day information, we compared logistic regression, a neural network, and a random forest after LASSO feature selection. The random forest performed best (AUC 0.97) and held up under a stricter out-of-time test. Variable-rate loans carried ~3.4× the charge-off odds of fixed-rate loans. We present the model as a risk-flagging tool to support lending decisions."
@@ -102,5 +102,21 @@
   "TF": "Donald Moratz",
   "Title": "Disability, Hardship,  & Wealth in the United States",
   "Abstract": "One in four U.S. adults reports a disability, yet Supplemental Security Income (SSI), the federal cash program for low-income disabled adults, still imposes a $2,000 asset limit unchanged since 1989, a cap critics argue penalizes saving and traps recipients in poverty. This study asks whether disability worsens financial well-being and, if so, whether the disadvantage reflects lower income or a deeper structural gap. Using the 2024 Survey of Income and Program Participation, the Census Bureau's nationally representative longitudinal panel of roughly 37,000 individuals, we address three questions: how well disability predicts material hardship, whether disabled households hold less net worth, and whether the SSI asset limit discourages saving. We build a binary material-hardship outcome from survey-reported inability to afford food, utilities, rent, or medical bills and train a lineup of classifiers: logistic regression, penalized logistic, random forest, and gradient boosting, tuned by cross-validation, using feature importance to locate disability among the predictors. Complementary models examine the disability, wealth gap and saving behaviour around the SSI limit, and we consider what these patterns imply for SSI and ABLE reform."
+ },
+ {
+  "Timestamp": "7/10/2026 9:09:08",
+  "Names": "Ansh Jalan, Sophie Lu, Chloe Feng, Cici Sheng, Justin Tang",
+  "Group": 8,
+  "TF": "Max Gebauer",
+  "Title": "Forecasting the CME",
+  "Abstract": "The purpose of this study is to investigate the impact of agricultural commodity returns, volatility, and macroeconomic drivers across CME grain futures and agribusiness equities over 3 sub periods: pre-COVID, COVID, and post-COVID. This study uses SARIMAX to map linear trends and intense seasonality, a Random Forest engine to capture complex non-linear regimes and feature importance, and a Multivariate DCC-GARCH model to track dynamic asset correlations. Finally, these outputs feed a Monte Carlo engine to simulate portfolio paths and calculate Value-at-Risk (VaR).\nEmpirical results indicate that agricultural volatility and cross-asset correlations intensify during market stress, supporting the contagion hypothesis across the energy-to-agriculture nexus. Non-linear models reveal that the US Dollar Index (DXY) and energy inputs function as critical barometers of risk transmission. This evidence helps policymakers stabilize macro properties, assists agribusinesses in understanding cost structures, protects farmers from catastrophic downside risk, and enables market participants to develop optimized hedging strategies. "
+ },
+ {
+  "Timestamp": "7/10/2026 9:15:19",
+  "Names": "Aarin, Anna L, Anna X, Jason, Jonathan",
+  "Group": 7,
+  "TF": "Max Gebauer",
+  "Title": "What Drives Movie Revenue?",
+  "Abstract": "Budget and audience engagement (vote count) are the strongest predictors of box office revenue, each showing large, statistically significant effects after controlling for all other factors in the model. The model explains two-thirds of worldwide revenue variation, with an R-squared of 0.664 across 2,949 films — a strong result for an observational study of this complexity. Economic conditions at release still matter. Higher unemployment in the release year is associated with meaningfully lower box office revenue, independent of budget or genre. Genre and production structure shape outcomes beyond spend alone. Horror and Comedy outperform the Action baseline, and US-produced films earn a premium even after controlling for budget and scale."
  }
 ]
