@@ -5,6 +5,7 @@
   "Group": 14,
   "TF": "Gayoung Jeon",
   "Title": "Measuring the Margin: Finding Predictors for Poverty Rates",
+  "slides": "group14.pdf",
   "Abstract": "Our project focuses on finding the predictors of poverty. Using datasets from the United States Government, we collected variables such as Education, Tax, Median wage, Household structure, Immigration, and homeless rate. From there, we cleaned and compiled our data in order to adapt six different models to come up with a conclusion. Using Lasso, Random Forest, Neural Network, and Decision tree, we concluded High school graduation was the #1 bivariate predictor \n"
  },
  {
@@ -13,6 +14,7 @@
   "Group": 15,
   "TF": "Gayoung Jeon",
   "Title": "Bridging the Gap: Predicting College Access and Bound Rates",
+  "slides": "group15.pdf",
   "Abstract": "This project investigates how district-level demographic factors are associated with college-bound rates across Pennsylvania school districts. Using 2018 data from the National Center for Education Statistics, we analyzed demographic characteristics such as race, gender, and age distribution, and applied predictive models including relaxed LASSO and random forest. Our exploratory analysis shows that college-bound rates vary across districts, with some counties and school districts showing much higher or lower rates than others. The model results suggest that racial composition and age distribution are among the strongest demographic predictors correlated with college-bound rates. These findings indicate that demographic patterns may help identify districts where students could benefit from additional college preparation support. However, the results should be interpreted as correlations rather than causal relationships. Overall, this study provides a data-driven approach for understanding variation in college access and supporting more targeted educational resource allocation."
  },
  {
@@ -21,6 +23,7 @@
   "Group": 10,
   "TF": "Max Gebauer",
   "Title": "predicting hit songs from Spotify audio features",
+  "slides": "group10.pdf",
   "Abstract": "We asked whether Spotify's audio features, genre, song age, and mode can predict which songs become hits, defined as popularity 70 or higher. Starting from 30,000 tracks in the TidyTuesday dataset, we cleaned down to 25,736 unique tracks with a 10.2% hit rate, then split train and test by artist, so every model gets evaluated on musicians it never saw during training. We compared four nested logistic regressions, a LASSO model tuned on artist-grouped folds, a random forest, and a small neural network, using AUC and precision-recall instead of raw accuracy, since accuracy is meaningless at this level of class imbalance: guessing \"not hit\" every time already scores 89%.\n\n\nGenre mattered most, and its granularity mattered more than which model we used. Six broad genres lifted the audio-only model from AUC 0.651 to 0.681. Twenty-four subgenres lifted it to 0.744, a gain confirmed by likelihood ratio tests and by artist-grouped cross-validation (0.77 ± 0.03). Our best model is the backward-eliminated logistic regression, M4. It nearly matches the full model (AUC 0.743 vs 0.744) while dropping five predictors — acousticness, speechiness, valence, duration, and mode — which a likelihood ratio test confirmed carried no significant joint signal (p = 0.11). LASSO tied the full model at 0.744. The random forest (0.747) and the neural network (0.751) barely improved on it, and those differences sit well within cross-validation noise. Loudness was the strongest single predictor. Energy's large conditional effect has to be read alongside its 0.69 correlation with loudness, or it's misleading. The error analysis showed the model's mistakes are mostly near-misses: songs it failed to flag as hits sit just above the popularity cutoff (median 75), and its false alarms are far more popular (median 50) than typical non-hits (40). The model ranks songs roughly correctly and mostly errs at the arbitrary sharp threshold we imposed.\n\n\nFour unrelated model families converging at AUC around 0.75 tells you the ceiling belongs to the features, not the models. How a song sounds carries real but limited information about whether it becomes a hit. The leakage demonstration in Section 12 shows the other side of that coin: a two-variable model using artist popularity alone dramatically outperforms every audio-based model here. That's exactly why we excluded it, since it's measured concurrently with the outcome, and it's strong evidence that whether a song becomes a hit is driven more by artist reputation, marketing, and playlist placement than by how the song actually sounds. A few limitations worth naming directly: popularity was measured at a single point in time, the sample comes from curated playlists rather than a random draw of songs, genre labels are inherited from playlists with an arbitrary tiebreak for multi-genre tracks, and songs cluster within artists, so the coefficient standard errors are somewhat optimistic even though the evaluation design accounts for that clustering."
  },
  {
@@ -29,6 +32,7 @@
   "Group": 9,
   "TF": "Max Gebauer",
   "Title": "Readmission Rates:  Predictive Modeling in Diabetic Care",
+  "slides": "group9.pdf",
   "Abstract": "Our project examines 30-day hospital readmission risk among patients with diabetes using a dataset of 101,766 encounters from 130 U.S. hospitals. We converted the original readmission outcome into a binary target indicating whether a patient was readmitted within 30 days and addressed the severe class imbalance, where only 11.2% of encounters were positive cases. After data cleaning, missing-value handling, ICD-9 diagnosis grouping, and LASSO-based feature selection, we compared multiple predictive models, including logistic regression, random forest, XGBoost, neural network, stacking, and a two-stage screening model. Model performance was evaluated using AUC, sensitivity, specificity, F1 score, and balanced accuracy rather than accuracy alone. XGBoost and stacking achieved the strongest overall performance, while the two-stage model provided the highest sensitivity for identifying high-risk patients. For interpretation, we used relaxed LASSO coefficients, odds ratios, XGBoost feature importance, and SHAP plots to identify major risk signals, including prior inpatient visits, discharge disposition, and clinical complexity. "
  },
  {
@@ -37,6 +41,7 @@
   "Group": 11,
   "TF": "Gayoung Jeon",
   "Title": "Regional and Dog-Level Factors in Shelter Stay Length and Time to Adoption",
+  "slides": "group11.pptx",
   "Abstract": "Some shelter dogs go home in a week; others wait months for the same outcome. We ask what separates the two groups, using public records on dogs from municipal shelters in Austin, Texas; Norfolk, Virginia; and Sonoma County, California. To make three very different record systems comparable, we define every stay the same way — outcome date minus intake date — compare the regions over one shared calendar window, and restrict the timing analysis to dogs actually adopted by new households, setting aside owner reunifications, transfers, and other exits that adoption models should not absorb. We then work through three questions: how adoption timing differs by region, how a dog's age, sex, breed family, and color family relate to its days to adoption once region, intake month, and spay/neuter status are accounted for, and how well those same characteristics predict whether an adopted dog leaves within 30, 60, 90, or 180 days. Three patterns stand out. Waiting times are heavily right-skewed everywhere, with a long tail of slow adoptions. Age matters, but not as a single rule — which age groups wait longest depends on the region. And breed family still carries information after every other control, while color earns only a cautious supporting role. The administrative fields cannot pin down an individual dog's exact stay, so we frame prediction as within-window probabilities instead, a target the long tail cannot break. Because the data are observational, we read every result as association, not cause."
  },
  {
@@ -45,6 +50,7 @@
   "Group": 1,
   "TF": "Donald Moratz",
   "Title": "How accurate can we predict a soccer player’s market value?",
+  "slides": "group1.pdf",
   "Abstract": "In professional soccer often times, players market value is influenced by a variety of factors, which creates a problem in accurate valuation. Through this project, we aim to predict soccer players market valuation based on performance, demographic, career and competition related features. After cleaning and transforming a dataset from Transfermarkt, we performed exploratory data analysis to find trends and patterns, explaining different non-linear relationship. To capture this trend, we introduced Linear Regression, Random Forest, and XGBoost. The results helped show that advanced machine learning methods were better to capture complex relationships within player valuation. These findings have demonstrated data driven models and provide valuable insights to support smarter decision making in professional soccer transfers. "
  },
  {
@@ -53,6 +59,7 @@
   "Group": 5,
   "TF": "Donald Moratz",
   "Title": "Do Professional Sports Teams Explain Deviations in City Murder Rates?",
+  "slides": "group5.pdf",
   "Abstract": "Professional sports often generate strong emotional responses and large public gatherings, motivating the question of whether team performance is associated with broader social outcomes. This study investigates whether professional sports team performance can explain city level murder rates across U.S. metropolitan areas. Our dataset consisted of 72 US metropolitan areas with at least one professional team from NFL, NBA, MLB, NHL and the power 4 between 2012 and 2023. The response variable was the standardized (z-scored) city-level murder rate, while sports performance was measured using season win percentage, playoff appearances, and championship achievements.\nAll continuous predictor variables were standardized prior to model fitting to improve comparability across variables measured on different scales. We first conducted exploratory data analysis to examine geographic, temporal patterns in murder rates and payoff apperances by metro areas. We then compared three models (linear regression, random forest and XGBost), while controlling the socioeconomic, demographic, housing and environmental variables. \n"
  },
  {
@@ -61,6 +68,7 @@
   "Group": 6,
   "TF": "Max Gebauer",
   "Title": "Predicting Small Business Survival",
+  "slides": "group6.pdf",
   "Abstract": "Small businesses are a cornerstone of the U.S. economy, yet many fail within their first few years of operation. Business owners and policymakers currently lack reliable, data-driven tools to assess long-term survival risk. This study develops a Landmark Cox Proportional Hazards model to predict the survival of small businesses using data from the Kauffman Firm Survey (KFS), a longitudinal study tracking 4,928 firms founded in 2004 across eight survey waves.\nVariable selection was performed using LASSO with 10-fold cross-validation and bootstrap stability selection across 50 resamples, reducing 208 candidate predictors to 19 stable variables. A landmark at Wave 2 was established to ensure all predictions were based on contemporaneous firm characteristics, preventing data leakage and providing a consistent evaluation point across firms. Missing financial data was handled through training-set median imputation combined with explicit missingness indicator flags, which themselves proved informative predictors of exit risk.\nThe model achieved a Concordance Index of 0.672 on the training set and 0.661 on the held-out test set, with the minimal gap confirming no meaningful overfitting. Restricted Mean Survival Time analysis revealed a 1.3-wave difference between low and high risk firms, demonstrating that the model's risk stratification translates into a meaningful, measurable difference in expected survival. Key predictors of exit included cash asset holdings (protective), retail industry classification, acquisition-based business starts, and missingness of equity data. Alternative models including Random Survival Forest, DeepSurv, and discrete-time neural networks were tested and all underperformed, suggesting the signal in this dataset is predominantly linear."
  },
  {
@@ -69,6 +77,7 @@
   "Group": 13,
   "TF": "Gayoung Jeon",
   "Title": "Tuberculosis: Curing the white Death with the power of r ",
+  "slides": "group13.pdf",
   "Abstract": "Tuberculosis is still diagnosed in much of the world by a technician scanning a stained sputum smear under a microscope — a manual approach that misses an estimated 40–70% of true cases, especially at low bacterial loads. We tested whether a lightweight convolutional neural network could narrow this gap by scanning slides more exhaustively. Our goal being to be able to create a model capable of matching or overcoming a doctors accuracy using this method, while staying within the same time constrain a doctor has when conducting this test. Whole slide images were cut into thousands of overlapping tiles, and a MobileNetV2-based CNN was fine-tuned in two stages to distinguish bacilli-positive tiles from clean ones. On tiles it reached 87% accuracy. As for the patient to patient level, we found that the robot should have relatively high accuracy, 90% + or even more, as long as the the bacteria count in the whole slide is more than 450, passing doctors, who usually need the slides to contain at least 650 bacteria. Since there is overlap between the tiles, each bacteria is usually in 7 different slides, therefore the total amount of slides in which the bacteria should appear, and therefore should be marked positive is ~3,125. "
  },
  {
@@ -77,6 +86,7 @@
   "Group": 12,
   "TF": "Gayoung Jeon",
   "Title": "CROP GUARD: A Four-Model Comparative Benchmark for Leaf Disease Diagnosis",
+  "slides": "group12.pptx",
   "Abstract": "To protect crop yields and reduce manual diagnostic costs, we present Crop Guard, an empirical benchmarking study comparing the accuracy and practicality of four distinct models: Traditional Dense Neural Networks, Convolutional Neural Networks, Random Forests, and pre-trained Large Vision Models. Using the 30-class Multi-Crop Disease Dataset, we mapped raw YOLO coordinates into single-class labels and applied hybrid resampling to establish a balanced training set of 500 images per class. Our evaluation on an independent test set showed that while Dense NN and CNN struggled with spatial feature loss, and Random Forest memorized data-padding artifacts, our DINOv2 model with data augmentation achieved the best performance with high accuracy and a high Macro-F1 score. This outstanding accuracy is driven by DINOv2’s self-supervised, patch-level features that successfully capture micro-level leaf lesions. Ultimately, these findings lay the foundation for future developments, where our diagnostic pipeline can be integrated into autonomous drones and smart agricultural robots for real-time, low-cost field diagnostics."
  },
  {
@@ -93,6 +103,7 @@
   "Group": 2,
   "TF": "Donald Moratz",
   "Title": "Reading Between the Lines: Predicting Political Bias from News Articles",
+  "slides": "group2.pdf",
   "Abstract": "This study investigated whether text mining, deep learning, and machine learning techniques can accurately classify the political bias of news articles into five categories: left, leaning left, center, leaning right, and right. Using a Kaggle dataset of 10,832 articles from 297 news sources, we first performed exploratory data analysis to examine patterns in topic distribution, article characteristics, and bias labels. We then compared several modeling approaches, including Bag-of-Words with LASSO, Random Forest, BERT embeddings with LASSO, BERT embeddings with a neural network, and fine-tuned BERT. Model performance was evaluated using accuracy, mean absolute error (MAE), mean squared error (MSE), and F1 score. We found that, even without context, Random Forest worked extremely well; however, the article’s source site was heavily correlated with the bias, and once we took the site variable out of the Random Forest model, its performance dropped. The fine-tuned BERT model produced the best performance excluding site, but it was computationally expensive. Ultimately, we concluded that when comparing models for text bias classification, one must consider the balance between accuracy and efficiency.\n"
  },
  {
@@ -101,6 +112,7 @@
   "Group": 4,
   "TF": "Donald Moratz",
   "Title": "Disability, Hardship,  & Wealth in the United States",
+  "slides": "group4.pptx",
   "Abstract": "One in four U.S. adults reports a disability, yet Supplemental Security Income (SSI), the federal cash program for low-income disabled adults, still imposes a $2,000 asset limit unchanged since 1989, a cap critics argue penalizes saving and traps recipients in poverty. This study asks whether disability worsens financial well-being and, if so, whether the disadvantage reflects lower income or a deeper structural gap. Using the 2024 Survey of Income and Program Participation, the Census Bureau's nationally representative longitudinal panel of roughly 37,000 individuals, we address three questions: how well disability predicts material hardship, whether disabled households hold less net worth, and whether the SSI asset limit discourages saving. We build a binary material-hardship outcome from survey-reported inability to afford food, utilities, rent, or medical bills and train a lineup of classifiers: logistic regression, penalized logistic, random forest, and gradient boosting, tuned by cross-validation, using feature importance to locate disability among the predictors. Complementary models examine the disability, wealth gap and saving behaviour around the SSI limit, and we consider what these patterns imply for SSI and ABLE reform."
  },
  {
@@ -109,6 +121,7 @@
   "Group": 8,
   "TF": "Max Gebauer",
   "Title": "Forecasting the CME",
+  "slides": "group8.pptx",
   "Abstract": "The purpose of this study is to investigate the impact of agricultural commodity returns, volatility, and macroeconomic drivers across CME grain futures and agribusiness equities over 3 sub periods: pre-COVID, COVID, and post-COVID. This study uses SARIMAX to map linear trends and intense seasonality, a Random Forest engine to capture complex non-linear regimes and feature importance, and a Multivariate DCC-GARCH model to track dynamic asset correlations. Finally, these outputs feed a Monte Carlo engine to simulate portfolio paths and calculate Value-at-Risk (VaR).\nEmpirical results indicate that agricultural volatility and cross-asset correlations intensify during market stress, supporting the contagion hypothesis across the energy-to-agriculture nexus. Non-linear models reveal that the US Dollar Index (DXY) and energy inputs function as critical barometers of risk transmission. This evidence helps policymakers stabilize macro properties, assists agribusinesses in understanding cost structures, protects farmers from catastrophic downside risk, and enables market participants to develop optimized hedging strategies. "
  },
  {
@@ -117,6 +130,7 @@
   "Group": 7,
   "TF": "Max Gebauer",
   "Title": "What Drives Movie Revenue?",
+  "slides": "group7.pdf",
   "Abstract": "Budget and audience engagement (vote count) are the strongest predictors of box office revenue, each showing large, statistically significant effects after controlling for all other factors in the model. The model explains two-thirds of worldwide revenue variation, with an R-squared of 0.664 across 2,949 films — a strong result for an observational study of this complexity. Economic conditions at release still matter. Higher unemployment in the release year is associated with meaningfully lower box office revenue, independent of budget or genre. Genre and production structure shape outcomes beyond spend alone. Horror and Comedy outperform the Action baseline, and US-produced films earn a premium even after controlling for budget and scale."
  }
 ]

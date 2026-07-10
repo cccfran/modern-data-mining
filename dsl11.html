@@ -180,11 +180,13 @@ keywords: helium, jekyll, bootstrap, UI, kit
                   </div>
                   <div id="panel{{ forloop.index }}" class="panel-collapse collapse">
                     <div class="panel-body text-gray">
-                      <!-- <div class="row">
+                      <div class="row">
                         <div class="social-icons">
-                          <a class="social-icons" href="{{ BASE_PATH }}/assets/slides/{{ sp.slides }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>
+                          {% if sp.slides != null %}
+                          <a class="social-icons" href="{{ BASE_PATH }}/assets/slides/dsl11/{{ sp.slides }}"><img src="{{ BASE_PATH }}/assets/images/slides.png" alt="Slides" style="width:32px;height:32px"></a>
+                          {% endif %}
                         </div>
-                      </div> -->
+                      </div>
                       <br>
                       <p align="justify"> {{ sp.Abstract | newline_to_br }}</p>
 
