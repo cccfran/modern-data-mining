@@ -132,5 +132,14 @@
   "Title": "What Drives Movie Revenue?",
   "slides": "group7.pdf",
   "Abstract": "Budget and audience engagement (vote count) are the strongest predictors of box office revenue, each showing large, statistically significant effects after controlling for all other factors in the model. The model explains two-thirds of worldwide revenue variation, with an R-squared of 0.664 across 2,949 films — a strong result for an observational study of this complexity. Economic conditions at release still matter. Higher unemployment in the release year is associated with meaningfully lower box office revenue, independent of budget or genre. Genre and production structure shape outcomes beyond spend alone. Horror and Comedy outperform the Action baseline, and US-produced films earn a premium even after controlling for budget and scale."
+ },
+ {
+  "Timestamp": "7/10/2026 10:39:03",
+  "Names": "Faisal, Yichen, Cami, Dongchan, Sophia",
+  "Group": 3,
+  "TF": "Donald Moratz",
+  "Title": "What predicts U.S. naturalization?",
+  "slides": "group3.pptx",
+  "Abstract": "We looked at factors across a data set of over 1.77 million people in the USA and narrowed it down to a subset in order to be able to predict the particular factors that have the most influence on whether or not immigrants get the US citizenship. We did this using various different models, and compared them, and each model gave us similar results on the most prominent factors-- allowing us to come to a final conclusion."
  }
 ]
