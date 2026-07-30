@@ -1,0 +1,42 @@
+[
+  {
+    "Timestamp": "7/30/2026 9:54:37",
+    "Names": "Alya, Piyush, Aiden, Audrey, Frank",
+    "Group": 2,
+    "TF": "Donald Moratz",
+    "Title": "Can we Predict Dementia?",
+    "Abstract": "For our final presentation we decided to do Dementia. The reason why we picked this topic is because this neurodegenerative condition is becoming more prevalent in society every year. In fact, researchers have predicted approximately 10 million new cases every single year, with around 190 million cases in 2070. \n\tThe very first component of our EDA is our “variable heatmap correlation”. In this chart, the relationship between variables is established, on a scale of 1 to -1. Through this it becomes apparent that the MMSE exam, education, and nWBV (whole brain volume) have the most direct correlation to dementia. The next section of our EDA is the Dementia vs MMSE score chart. This graph showcased that regardless of there not being a complete “cutoff” between the scores of dementia patients and healthy patients, dementia patients tend to score a 26, while healthy patients score a median of 29. We also used a logistic regression to create our own version of the MMSE test using 16 regressions, with the content originating from our data set (this would be considered one of our models). Next, on our slides there is a chart showcasing the differences between the genders, showing that 58 percent of males have dementia, while only 33 percent of women in our data set tested positive for dementia. Additionally, we have a chart showcasing the MMSE vs. nWBV in patients, which brought the results that MMSE scores separate more than nWBV, but there is still heavy overlap where dementia patients still score high on the MMSE. Furthermore, our next graph demonstrates a correlation between education levels versus dementia. This graph creates overlap between the two box plots, with non-dementia patients having around 16 years of education, and dementia patients having a median of 14 years of education. Lastly for our EDA, we did a chart of Age Vs. nWBV, which displays that the age of dementia patients varies, and that the nWBV. Also from this graph, a trend was noticed that each of these variables impact the probability of getting dementia independently, even after accounting for the overlap in the graph.\n\tFor our created models, we did two logistic regressions (accounting for the model discussed in the previous paragraph), one confusion matrix/neural network, and one random forest. The second logistic regression was made to showcase how each variable impacts the odds of an individual getting dementia. The most significant predictor found was the MMSE test. The confusion matrix was created to identify the number of false positives. The random forest ranks the predictors based on their importance.  \n\tAs for our limitations, we had a lot of data that had to be cleaned, we had a small sample, and we only had a limited number of variables that we could use."
+  },
+  {
+    "Timestamp": "7/30/2026 15:56:20",
+    "Names": "Giray Yıldız, Hyunmo Ku",
+    "Group": 3,
+    "TF": "Donald Moratz",
+    "Title": "Predicting the Philadelphia 76ers' Regular Season Ranking Using Predictive Models",
+    "Abstract": "Our goal for this project is to predict 76ers' next year in season ranking, using 30 years of historical data and using models (Linear Regression, Random Forest, XGBoost). The most important variables for a better ranking are offensive rating, defensive rating, and effective field goal percentage, according to our findings and trends."
+  },
+  {
+    "Timestamp": "7/29/2026 23:21:26",
+    "Names": "Katherine, Jacob, Roberto, Thomas, Ali",
+    "Group": 11,
+    "TF": "Gayoung Jeon",
+    "Title": "Classifying Cancer Using Gene Expression",
+    "Abstract": "Our group’s study focuses on finding the minimum number of genes that need to be tested for there to be an accurate enough prediction of a patient’s cancer type. Because more genes means more money and time, by cutting the number of genes we can make testing more affordable and fast.\nOur first method uses a data split to narrow the amount of relevant genes from over 58,000 to less than 10. We also created a PCA plot to see whether our data naturally clusters, which it does. Then, we created a few box plots relating genes to cancer type, which tell us that certain genes correlate with certain types. After this, we ran a LASSO model to shrink the amount of relevant genes from over 58,000 to 7. We did multinomial logistic regression to find that 9 genes is the ideal number to test. We created a neural network and a Random Forest, and we found that there was little improvement compared to using the simpler multinomial logistic regression.\nUltimately, we concluded that only 9 genes need to be tested rather than 92 to get a high enough accuracy (~91% compared to ~95%). By testing a significantly less amount of genes, the cost of testing can be reduced as well as the time it takes to hear back the results."
+  },
+  {
+    "Timestamp": "7/30/2026 16:58:19",
+    "Names": "Achintya, Ryan, Hanna, Audrey",
+    "Group": 15,
+    "TF": "Gayoung Jeon",
+    "Title": "A Roof over Every Head: Can We Build Our Way Out",
+    "Abstract": "Every night, approximately 750000 people are forced to sleep on the streets, at the same time, millions of acres of public land remain undeveloped. This raises the question, could strategic use of land and lower cost housing feasibly reduce homelessness? Using data from national censuses, government reports, and several charities, our aim was to predict the cost of putting a roof over every homeless person in the United States. Through tree based modelling, Exploratory Data Analysis, Regression Techniques, and LASSO, we were able to develop a model that does just that."
+  },
+  {
+    "Timestamp": "7/30/2026 15:32:14",
+    "Names": "Andrew, Daniel, Javier, Xiaohan",
+    "Group": 16,
+    "TF": "Gayoung Jeon",
+    "Title": "Identifying Natural Environmental Factors That Predict Harmful Algal Bloom Development in Western Lake Erie",
+    "Abstract": "Harmful algae blooms are becoming an increasingly concerning problem in aquatic environments around the world due to their effects on water quality and wildlife. We are interested in determining what natural environmental factors help identify when harmful algal bloom conditions are developing, specifically in western Lake Erie, and whether they could be used to predict future blooms as well. In order to conduct our research, we utilized a number of descriptive statistics and classification models such as neural networks, random forests, and logistic regression with LASSO and ANOVA. Our final model shows that water temperature, baseline particulate and dissolved microcystin concentrations, extracted chlorophyll-a, station depth, and sampling interval are the most critical predictors for forecasting upcoming high-toxin events. By excluding seasonal proxies like month, the LASSO-regularized logistic regression effectively eliminated severe multicollinearity and avoided overfitting, yielding strong out-of-time test performance with an accuracy of 83.98% (77.47% training), a specificity of 92.73%, and an F1 score of 0.6282. These findings confirm that key physical and biochemical parameters, particularly water temperature and dissolved microcystin, serve as robust, interpretable early warning indicators, providing quantitative decision-support for proactive water quality governance in Lake Erie. Thus, we would conduct this research again."
+  }
+]
